@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>林克技能调用关系图</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f1419;
+      --bg-secondary: #1a2332;
+      --bg-tertiary: #243042;
+      --text-primary: #e7edf4;
+      --text-secondary: #8b9eb0;
+      --text-muted: #5c6f82;
+      --accent-gold: #fbbf24;
+      --accent-cyan: #22d3ee;
+      --accent-purple: #a78bfa;
+      --accent-green: #4ade80;
+      --accent-rose: #fb7185;
+      --accent-orange: #fb923c;
+      --accent-blue: #60a5fa;
+      --border-subtle: rgba(139, 158, 176, 0.15);
+      --glow-gold: rgba(251, 191, 36, 0.3);
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Noto Sans SC', sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+    
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    
+    .header h1 {
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-orange) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 12px;
+    }
+    
+    .header p {
+      color: var(--text-secondary);
+      font-size: 16px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
+    
+    .stat-item {
+      text-align: center;
+    }
+    
+    .stat-value {
+      font-size: 32px;
+      font-weight: 700;
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--accent-cyan);
+    }
+    
+    .stat-label {
+      font-size: 13px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    
+    /* Tabs */
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+    
+    .tab {
+      padding: 10px 20px;
+      border: 1px solid var(--border-subtle);
+      background: transparent;
+      color: var(--text-secondary);
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+    
+    .tab:hover {
+      background: var(--bg-secondary);
+      border-color: var(--text-muted);
+    }
+    
+    .tab.active {
+      background: var(--accent-gold);
+      color: var(--bg-primary);
+      border-color: var(--accent-gold);
+    }
+    
+    /* Graph Container */
+    .graph-container {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 32px;
+      overflow-x: auto;
+    }
+    
+    /* Architecture Diagram */
+    .architecture {
+      min-width: 1200px;
+    }
+    
+    .layer {
+      margin-bottom: 24px;
+    }
+    
+    .layer-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    
+    .layer-badge {
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    .layer-badge.gold { background: var(--accent-gold); color: var(--bg-primary); }
+    .layer-badge.cyan { background: var(--accent-cyan); color: var(--bg-primary); }
+    .layer-badge.purple { background: var(--accent-purple); color: var(--bg-primary); }
+    .layer-badge.green { background: var(--accent-green); color: var(--bg-primary); }
+    .layer-badge.rose { background: var(--accent-rose); color: var(--bg-primary); }
+    .layer-badge.orange { background: var(--accent-orange); color: var(--bg-primary); }
+    .layer-badge.blue { background: var(--accent-blue); color: var(--bg-primary); }
+    
+    .layer-title {
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+    
+    .layer-content {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    
+    /* Skill Node */
+    .skill-node {
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 16px 20px;
+      min-width: 180px;
+      position: relative;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    
+    .skill-node:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent-gold);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+    
+    .skill-node.core {
+      border-color: var(--accent-gold);
+      background: linear-gradient(135deg, rgba(251, 191, 36, 0.1) 0%, var(--bg-tertiary) 100%);
+    }
+    
+    .skill-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .skill-desc {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    
+    .skill-calls {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border-subtle);
+    }
+    
+    .call-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      background: var(--bg-secondary);
+      border-radius: 4px;
+      font-size: 11px;
+      color: var(--accent-cyan);
+      margin: 2px 4px 2px 0;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    
+    /* Connection Lines */
+    .connections {
+      position: relative;
+      height: 60px;
+      margin: 16px 0;
+    }
+    
+    .connection-line {
+      position: absolute;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent-gold), var(--accent-cyan));
+      opacity: 0.4;
+    }
+    
+    .connection-arrow {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 8px solid var(--accent-cyan);
+    }
+    
+    /* Dependency Matrix */
+    .matrix-container {
+      overflow-x: auto;
+    }
+    
+    .matrix {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 12px;
+    }
+    
+    .matrix th, .matrix td {
+      padding: 8px 12px;
+      border: 1px solid var(--border-subtle);
+      text-align: left;
+    }
+    
+    .matrix th {
+      background: var(--bg-tertiary);
+      color: var(--text-secondary);
+      font-weight: 500;
+      position: sticky;
+      top: 0;
+    }
+    
+    .matrix td:first-child {
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--accent-gold);
+      font-weight: 500;
+      position: sticky;
+      left: 0;
+      background: var(--bg-secondary);
+    }
+    
+    .matrix td {
+      vertical-align: top;
+    }
+    
+    .dep-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    
+    .dep-item {
+      padding: 2px 8px;
+      background: var(--bg-tertiary);
+      border-radius: 4px;
+      font-size: 11px;
+      color: var(--accent-cyan);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    
+    .dep-item.mandatory {
+      background: rgba(251, 191, 36, 0.2);
+      color: var(--accent-gold);
+    }
+    
+    /* Key Legend */
+    .legend {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
+    
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+    
+    .legend-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+    
+    .legend-dot.gold { background: var(--accent-gold); }
+    .legend-dot.cyan { background: var(--accent-cyan); }
+    .legend-dot.purple { background: var(--accent-purple); }
+    .legend-dot.green { background: var(--accent-green); }
+    
+    /* Section */
+    .section {
+      display: none;
+    }
+    
+    .section.active {
+      display: block;
+    }
+    
+    /* Flow Diagram */
+    .flow-diagram {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      padding: 20px;
+    }
+    
+    .flow-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    
+    .flow-arrow {
+      color: var(--accent-gold);
+      font-size: 24px;
+    }
+    
+    .flow-node {
+      background: var(--bg-tertiary);
+      border: 2px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 16px 24px;
+      text-align: center;
+      transition: all 0.2s ease;
+    }
+    
+    .flow-node:hover {
+      border-color: var(--accent-gold);
+      transform: scale(1.02);
+    }
+    
+    .flow-node.primary {
+      border-color: var(--accent-gold);
+      background: linear-gradient(135deg, rgba(251, 191, 36, 0.15) 0%, var(--bg-tertiary) 100%);
+    }
+    
+    .flow-node.secondary {
+      border-color: var(--accent-cyan);
+      background: linear-gradient(135deg, rgba(34, 211, 238, 0.1) 0%, var(--bg-tertiary) 100%);
+    }
+    
+    .flow-node.tertiary {
+      border-color: var(--accent-purple);
+      background: linear-gradient(135deg, rgba(167, 139, 250, 0.1) 0%, var(--bg-tertiary) 100%);
+    }
+    
+    .flow-name {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+    
+    .flow-desc {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    
+    .flow-subtitle {
+      font-size: 14px;
+      color: var(--text-secondary);
+      text-align: center;
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+    
+    .flow-section {
+      background: var(--bg-tertiary);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 24px;
+    }
+    
+    .flow-section-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--accent-gold);
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        padding: 24px 16px;
+      }
+      
+      .stats-row {
+        gap: 16px;
+      }
+      
+      .stat-value {
+        font-size: 24px;
+      }
+      
+      .graph-container {
+        padding: 16px;
+      }
+      
+      .skill-node {
+        min-width: 140px;
+        padding: 12px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>🗡️ 林克技能调用关系图</h1>
+      <p>自进化引擎的技能体系全景，展示84个技能之间的调用依赖关系</p>
+      <div class="stats-row">
+        <div class="stat-item">
+          <div class="stat-value">84</div>
+          <div class="stat-label">总技能数</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">37</div>
+          <div class="stat-label">有调用关系</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">25</div>
+          <div class="stat-label">强制绑定 meta-execution</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">6</div>
+          <div class="stat-label">核心体系层</div>
+        </div>
+      </div>
+    </header>
+    
+    <div class="tabs">
+      <button class="tab active" data-tab="overview">体系全景</button>
+      <button class="tab" data-tab="evolution">自进化引擎</button>
+      <button class="tab" data-tab="lifecycle">技能生命周期</button>
+      <button class="tab" data-tab="matrix">调用矩阵</button>
+    </div>
+    
+    <!-- 体系全景 -->
+    <section class="section active" id="overview">
+      <div class="graph-container">
+        <div class="architecture">
+          <!-- 第一层：质量保障 -->
+          <div class="layer">
+            <div class="layer-header">
+              <span class="layer-badge gold">横切层</span>
+              <span class="layer-title">质量保障 — 被25个技能强制调用</span>
+            </div>
+            <div class="layer-content">
+              <div class="skill-node core">
+                <div class="skill-name">meta-execution</div>
+                <div class="skill-desc">一次做对 v2.5</div>
+                <div class="skill-calls">
+                  <span class="call-tag">P1 启动前检查</span>
+                  <span class="call-tag">P0 交付前自审</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 第二层：进化方向 -->
+          <div class="layer">
+            <div class="layer-header">
+              <span class="layer-badge cyan">第一层</span>
+              <span class="layer-title">进化方向控制 — 三大功法</span>
+            </div>
+            <div class="layer-content">
+              <div class="skill-node">
+                <div class="skill-name">xixingdafa</div>
+                <div class="skill-desc">吸星大法 · 外部吸收</div>
+                <div class="skill-calls">
+                  <span class="call-tag">→ find-skills</span>
+                  <span class="call-tag">→ meta-execution</span>
+                </div>
+              </div>
+              <div class="skill-node">
+                <div class="skill-name">xiaowuxianggong</div>
+                <div class="skill-desc">小无相功 · 进化导航</div>
+                <div class="skill-calls">
+                  <span class="call-tag">导航全体系</span>
+                </div>
+              </div>
+              <div class="skill-node">
+                <div class="skill-name">beiming-shengong</div>
+                <div class="skill-desc">北冥神功 · 能力导出</div>
+                <div class="skill-calls">
+                  <span class="call-tag">→ meta-execution</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 第三层：引擎驱动 -->
+          <div class="layer">
+            <div class="layer-header">
+              <span class="layer-badge purple">第二层</span>
+              <span class="layer-title">引擎驱动 — 核心能力</span>
+            </div>
+            <div class="layer-content">
+              <div class="skill-node core">
+                <div class="skill-name">daily-reflection-evolution</div>
+                <div class="skill-desc">闭关修炼 · 每日进化</div>
+                <div class="skill-calls">
+                  <span class="call-tag">→ neigong-cultivation</span>
+                  <span class="call-tag">→ learn-from-mistakes</span>
+                </div>
+              </div>
+              <div class="skill-node">
+                <div class="skill-name">proactive-agent</div>
+                <div class="skill-desc">主动自驱 · 定时调度</div>
+                <div class="skill-calls">
+                  <span class="call-tag">SSP协议</span>
+                  <span class="call-tag">watchdog</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 第四层：双轮驱动 -->
+          <div class="layer">
+            <div class="layer-header">
+              <span class="layer-badge green">第三层</span>
+              <span class="layer-title">双轮驱动 — 修炼执行</span>
+            </div>
+            <div class="layer-content">
+              <div class="skill-node">
+                <div class="skill-name">learn-from-mistakes</div>
+                <div class="skill-desc">举一反三 · 即时复盘</div>
+                <div class="skill-calls">
+                  <span class="call-tag">→ meta-execution</span>
+                </div>
+              </div>
+              <div class="skill-node core">
+                <div class="skill-name">neigong-cultivation</div>
+                <div class="skill-desc">内功修炼 · 深度优化</div>
+                <div class="skill-calls">
+                  <span class="call-tag">→ memory-hygiene</span>
+                  <span class="call-tag">→ skill-management</span>
+                  <span class="call-tag">→ knowledge-curator</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 第五层：系统优化 -->
+          <div class="layer">
+            <div class="layer-header">
+              <span class="layer-badge rose">第四层</span>
+              <span class="layer-title">系统优化工具 — 三剑客</span>
+            </div>
+            <div class="layer-content">
+              <div class="skill-node">
+                <div class="skill-name">memory-hygiene</div>
+                <div class="skill-desc">记忆优化</div>
+              </div>
+              <div class="skill-node">
+                <div class="skill-name">skill-management</div>
+                <div class="skill-desc">技能优化</div>
+              </div>
+              <div class="skill-node">
+                <div class="skill-name">knowledge-curator</div>
+                <div class="skill-desc">知识优化</div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 第六层：技能生命周期 -->
+          <div class="layer">
+            <div class="layer-header">
+              <span class="layer-badge orange">第五层</span>
+              <span class="layer-title">技能生命周期</span>
+            </div>
+            <div class="layer-content">
+              <div class="skill-node">
+                <div class="skill-name">find-skills</div>
+                <div class="skill-desc">技能发现</div>
+                <div class="skill-calls">
+                  <span class="call-tag">skills.sh</span>
+                  <span class="call-tag">ClawHub</span>
+                </div>
+              </div>
+              <div class="skill-node">
+                <div class="skill-name">skill-creator</div>
+                <div class="skill-desc">技能创建</div>
+              </div>
+              <div class="skill-node">
+                <div class="skill-name">skill-evaluator</div>
+                <div class="skill-desc">技能评估</div>
+              </div>
+              <div class="skill-node">
+                <div class="skill-name">skill-dojo</div>
+                <div class="skill-desc">技能修炼</div>
+                <div class="skill-calls">
+                  <span class="call-tag">→ find-skills</span>
+                  <span class="call-tag">→ clawbook</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 第七层：调研体系 -->
+          <div class="layer">
+            <div class="layer-header">
+              <span class="layer-badge blue">第六层</span>
+              <span class="layer-title">调研与洞察体系</span>
+            </div>
+            <div class="layer-content">
+              <div class="skill-node">
+                <div class="skill-name">ai-insight</div>
+                <div class="skill-desc">AI行业洞察</div>
+                <div class="skill-calls">
+                  <span class="call-tag">→ CF-internet-content-research</span>
+                </div>
+              </div>
+              <div class="skill-node">
+                <div class="skill-name">rd-efficiency-insight</div>
+                <div class="skill-desc">研发效能洞察</div>
+                <div class="skill-calls">
+                  <span class="call-tag">→ CF-internet-content-research</span>
+                </div>
+              </div>
+              <div class="skill-node">
+                <div class="skill-name">industry-research</div>
+                <div class="skill-desc">行业调研</div>
+                <div class="skill-calls">
+                  <span class="call-tag">→ CF-internet-content-research</span>
+                  <span class="call-tag">→ qingshuang-research-style</span>
+                </div>
+              </div>
+              <div class="skill-node">
+                <div class="skill-name">CF-internet-content-research</div>
+                <div class="skill-desc">互联网内容调研</div>
+                <div class="skill-calls">
+                  <span class="call-tag">微信</span>
+                  <span class="call-tag">小红书</span>
+                  <span class="call-tag">Web</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="legend">
+        <div class="legend-item">
+          <div class="legend-dot gold"></div>
+          <span>核心技能（高调用频次）</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot cyan"></div>
+          <span>被调用技能</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot purple"></div>
+          <span>双向调用</span>
+        </div>
+      </div>
+    </section>
+    
+    <!-- 自进化引擎 -->
+    <section class="section" id="evolution">
+      <div class="graph-container">
+        <div class="flow-diagram">
+          <div class="flow-section">
+            <div class="flow-section-title">三大功法（进化方向）</div>
+            <div class="flow-row">
+              <div class="flow-node primary">
+                <div class="flow-name">吸星大法</div>
+                <div class="flow-desc">外→内 吸收</div>
+              </div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-node secondary">
+                <div class="flow-name">小无相功</div>
+                <div class="flow-desc">导航全局</div>
+              </div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-node tertiary">
+                <div class="flow-name">北冥神功</div>
+                <div class="flow-desc">内→外 导出</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flow-section">
+            <div class="flow-section-title">每日修炼调用链</div>
+            <div class="flow-row">
+              <div class="flow-node primary">
+                <div class="flow-name">daily-reflection-evolution</div>
+                <div class="flow-desc">每日进化流水线</div>
+              </div>
+            </div>
+            <div class="flow-subtitle">↓ Step 3</div>
+            <div class="flow-row">
+              <div class="flow-node secondary">
+                <div class="flow-name">learn-from-mistakes</div>
+                <div class="flow-desc">即时复盘 · 生成洞察</div>
+              </div>
+            </div>
+            <div class="flow-subtitle">↓ Step 4</div>
+            <div class="flow-row">
+              <div class="flow-node secondary">
+                <div class="flow-name">neigong-cultivation</div>
+                <div class="flow-desc">深度修炼 · 三位一体</div>
+              </div>
+            </div>
+            <div class="flow-subtitle">↓ Phase 1</div>
+            <div class="flow-row">
+              <div class="flow-node tertiary">
+                <div class="flow-name">memory-hygiene</div>
+                <div class="flow-desc">记忆优化</div>
+              </div>
+              <div class="flow-node tertiary">
+                <div class="flow-name">skill-management</div>
+                <div class="flow-desc">技能优化</div>
+              </div>
+              <div class="flow-node tertiary">
+                <div class="flow-name">knowledge-curator</div>
+                <div class="flow-desc">知识优化</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flow-section">
+            <div class="flow-section-title">主动性保障</div>
+            <div class="flow-row">
+              <div class="flow-node primary">
+                <div class="flow-name">proactive-agent</div>
+                <div class="flow-desc">主动自驱引擎</div>
+              </div>
+            </div>
+            <div class="flow-subtitle">提供三大机制</div>
+            <div class="flow-row">
+              <div class="flow-node tertiary">
+                <div class="flow-name">SSP</div>
+                <div class="flow-desc">对话启动协议</div>
+              </div>
+              <div class="flow-node tertiary">
+                <div class="flow-name">watchdog</div>
+                <div class="flow-desc">每日巡检</div>
+              </div>
+              <div class="flow-node tertiary">
+                <div class="flow-name">agenda</div>
+                <div class="flow-desc">周级规划</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- 技能生命周期 -->
+    <section class="section" id="lifecycle">
+      <div class="graph-container">
+        <div class="flow-diagram">
+          <div class="flow-section">
+            <div class="flow-section-title">技能生命周期（闭环）</div>
+            <div class="flow-row">
+              <div class="flow-node primary">
+                <div class="flow-name">find-skills</div>
+                <div class="flow-desc">发现 · 双源搜索</div>
+              </div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-node secondary">
+                <div class="flow-name">skill-creator</div>
+                <div class="flow-desc">创建 · 编写测试</div>
+              </div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-node tertiary">
+                <div class="flow-name">skill-evaluator</div>
+                <div class="flow-desc">评估 · 健康扫描</div>
+              </div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-node primary">
+                <div class="flow-name">skill-dojo</div>
+                <div class="flow-desc">修炼 · 持续精进</div>
+              </div>
+            </div>
+            <div class="flow-subtitle">↻ 社区对标发现新版本时回到发现阶段</div>
+          </div>
+          
+          <div class="flow-section">
+            <div class="flow-section-title">吸星大法调用链</div>
+            <div class="flow-row">
+              <div class="flow-node primary">
+                <div class="flow-name">xixingdafa</div>
+                <div class="flow-desc">外部技能吸收</div>
+              </div>
+            </div>
+            <div class="flow-subtitle">↓ Phase 1</div>
+            <div class="flow-row">
+              <div class="flow-node secondary">
+                <div class="flow-name">find-skills</div>
+                <div class="flow-desc">模式A · 双源搜索</div>
+              </div>
+            </div>
+            <div class="flow-subtitle">↓ 独有阶段</div>
+            <div class="flow-row">
+              <div class="flow-node tertiary">
+                <div class="flow-name">评估</div>
+                <div class="flow-desc">第一/二/三梯队</div>
+              </div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-node tertiary">
+                <div class="flow-name">研读</div>
+                <div class="flow-desc">精华卡片</div>
+              </div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-node tertiary">
+                <div class="flow-name">融入</div>
+                <div class="flow-desc">更新目标技能</div>
+              </div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-node tertiary">
+                <div class="flow-name">清理</div>
+                <div class="flow-desc">删除临时安装</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flow-section">
+            <div class="flow-section-title">skill-dojo 社区对标</div>
+            <div class="flow-row">
+              <div class="flow-node primary">
+                <div class="flow-name">skill-dojo</div>
+                <div class="flow-desc">能力6 · 社区对标</div>
+              </div>
+            </div>
+            <div class="flow-subtitle">↓ 调用</div>
+            <div class="flow-row">
+              <div class="flow-node secondary">
+                <div class="flow-name">find-skills</div>
+                <div class="flow-desc">模式B · 主动巡检</div>
+              </div>
+              <div class="flow-node secondary">
+                <div class="flow-name">clawbook</div>
+                <div class="flow-desc">浏览社区讨论</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- 调用矩阵 -->
+    <section class="section" id="matrix">
+      <div class="graph-container">
+        <div class="matrix-container">
+          <table class="matrix">
+            <thead>
+              <tr>
+                <th>调用方技能</th>
+                <th>调用的技能（强制）</th>
+                <th>调用的技能（业务逻辑）</th>
+                <th>调用场景</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>daily-reflection-evolution</td>
+                <td><div class="dep-list"><span class="dep-item mandatory">meta-execution</span></div></td>
+                <td><div class="dep-list"><span class="dep-item">neigong-cultivation</span><span class="dep-item">learn-from-mistakes</span></div></td>
+                <td>Step 3 对话复盘、Step 4 内功修炼</td>
+              </tr>
+              <tr>
+                <td>neigong-cultivation</td>
+                <td><div class="dep-list"><span class="dep-item mandatory">meta-execution</span></div></td>
+                <td><div class="dep-list"><span class="dep-item">memory-hygiene</span><span class="dep-item">skill-management</span><span class="dep-item">knowledge-curator</span></div></td>
+                <td>Phase 1 三位一体优化</td>
+              </tr>
+              <tr>
+                <td>xixingdafa</td>
+                <td><div class="dep-list"><span class="dep-item mandatory">meta-execution</span></div></td>
+                <td><div class="dep-list"><span class="dep-item">find-skills</span></div></td>
+                <td>Phase 1 搜索与发现</td>
+              </tr>
+              <tr>
+                <td>skill-dojo</td>
+                <td><div class="dep-list"><span class="dep-item mandatory">meta-execution</span></div></td>
+                <td><div class="dep-list"><span class="dep-item">find-skills</span><span class="dep-item">clawbook</span></div></td>
+                <td>能力6 社区对标</td>
+              </tr>
+              <tr>
+                <td>ai-insight</td>
+                <td><div class="dep-list"><span class="dep-item mandatory">meta-execution</span></div></td>
+                <td><div class="dep-list"><span class="dep-item">CF-internet-content-research</span></div></td>
+                <td>国内信源搜索</td>
+              </tr>
+              <tr>
+                <td>rd-efficiency-insight</td>
+                <td><div class="dep-list"><span class="dep-item mandatory">meta-execution</span></div></td>
+                <td><div class="dep-list"><span class="dep-item">CF-internet-content-research</span></div></td>
+                <td>效能领域信源搜索</td>
+              </tr>
+              <tr>
+                <td>industry-research</td>
+                <td><div class="dep-list"><span class="dep-item mandatory">meta-execution</span></div></td>
+                <td><div class="dep-list"><span class="dep-item">CF-internet-content-research</span><span class="dep-item">qingshuang-research-style</span></div></td>
+                <td>调研数据收集、输出样式</td>
+              </tr>
+              <tr>
+                <td>ks-kim-docs-shuttle</td>
+                <td><div class="dep-list"><span class="dep-item mandatory">meta-execution</span></div></td>
+                <td><div class="dep-list"><span class="dep-item">html-screenshot</span><span class="dep-item">ai-image-generator</span></div></td>
+                <td>截图生成、AI生图</td>
+              </tr>
+              <tr>
+                <td>ai-column-writer</td>
+                <td><div class="dep-list"><span class="dep-item mandatory">meta-execution</span></div></td>
+                <td><div class="dep-list"><span class="dep-item">html-screenshot</span></div></td>
+                <td>章节配图生成</td>
+              </tr>
+              <tr>
+                <td>web-dev-workflow</td>
+                <td><div class="dep-list"><span class="dep-item mandatory">meta-execution</span></div></td>
+                <td><div class="dep-list"><span class="dep-item">html-screenshot</span></div></td>
+                <td>HTML转PNG截图</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div class="graph-container">
+        <h3 style="color: var(--accent-gold); margin-bottom: 16px; font-size: 16px;">被调用最多的技能 TOP 5</h3>
+        <div class="layer-content">
+          <div class="skill-node core">
+            <div class="skill-name">meta-execution</div>
+            <div class="skill-desc">被 25 个技能强制调用</div>
+          </div>
+          <div class="skill-node">
+            <div class="skill-name">CF-internet-content-research</div>
+            <div class="skill-desc">被 3 个调研技能调用</div>
+          </div>
+          <div class="skill-node">
+            <div class="skill-name">html-screenshot</div>
+            <div class="skill-desc">被 3 个技能作为原子技能调用</div>
+          </div>
+          <div class="skill-node">
+            <div class="skill-name">find-skills</div>
+            <div class="skill-desc">被 xixingdafa、skill-dojo 调用</div>
+          </div>
+          <div class="skill-node">
+            <div class="skill-name">neigong-cultivation</div>
+            <div class="skill-desc">被 daily-reflection-evolution 调用</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  <script>
+    // Tab switching
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+        
+        tab.classList.add('active');
+        document.getElementById(tab.dataset.tab).classList.add('active');
+      });
+    });
+    
+    // Skill node hover effects
+    document.querySelectorAll('.skill-node').forEach(node => {
+      node.addEventListener('mouseenter', () => {
+        const callTags = node.querySelectorAll('.call-tag');
+        callTags.forEach(tag => {
+          const targetName = tag.textContent.replace('→ ', '');
+          document.querySelectorAll('.skill-node').forEach(n => {
+            if (n.querySelector('.skill-name')?.textContent === targetName) {
+              n.style.borderColor = 'var(--accent-cyan)';
+              n.style.boxShadow = '0 0 20px rgba(34, 211, 238, 0.3)';
+            }
+          });
+        });
+      });
+      
+      node.addEventListener('mouseleave', () => {
+        document.querySelectorAll('.skill-node').forEach(n => {
+          if (!n.classList.contains('core')) {
+            n.style.borderColor = '';
+            n.style.boxShadow = '';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
