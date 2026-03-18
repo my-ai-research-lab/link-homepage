@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T20:30:52.324011",
+  "generatedAt": "2026-03-18T21:08:01.111429",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -15,8 +15,8 @@
       "icon": "👑",
       "description": "炉火纯青，宗师风范"
     },
-    "totalExp": 402440,
-    "expProgress": 52.8,
+    "totalExp": 399360,
+    "expProgress": 44.5,
     "currentThreshold": 382801,
     "nextThreshold": 420009,
     "stats": {
@@ -24,7 +24,7 @@
       "execution": 84.0,
       "skillDepth": 83.1,
       "thinkingDepth": 61.8,
-      "knowledgeBreadth": 76.5
+      "knowledgeBreadth": 72.1
     },
     "debug": {
       "metrics": {
@@ -38,13 +38,13 @@
       "highLevelSkills": 57,
       "skillTotalValue": 590.3,
       "cultivationExp": 0,
-      "baseExp": 402440,
+      "baseExp": 399360,
       "expBreakdown": {
         "understanding": 90799,
         "execution": 84000,
         "skill": 124650,
         "thinking": 49440,
-        "knowledge": 53550,
+        "knowledge": 50470,
         "cultivation": 0
       }
     }
@@ -224,8 +224,8 @@
             "frequency": "2次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 354504,
-            "skillSizeLabel": "354K字 · 巨型",
+            "skillSize": 357813,
+            "skillSizeLabel": "357K字 · 巨型",
             "ksInternal": false,
             "cfProject": false
           },
@@ -1728,8 +1728,8 @@
                 "frequency": "2次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 354504,
-                "skillSizeLabel": "354K字 · 巨型",
+                "skillSize": 357813,
+                "skillSizeLabel": "357K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false
               },
@@ -3297,8 +3297,8 @@
         "relatedMemories": [],
         "fileCount": 9,
         "sizeKB": 53.9,
-        "heatLevel": 4,
-        "recentCount": 9
+        "heatLevel": 3,
+        "recentCount": 0
       },
       "images": {
         "name": "images",
@@ -3445,8 +3445,8 @@
             "relatedMemories": [],
             "fileCount": 9,
             "sizeKB": 53.9,
-            "heatLevel": 4,
-            "recentCount": 9
+            "heatLevel": 3,
+            "recentCount": 0
           },
           "images": {
             "name": "images",
@@ -4062,6 +4062,25 @@
         "source": "项目记忆"
       },
       {
+        "title": "write_todo 必须提供 todos 参数（防遗漏）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "脚本自动化",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚡",
+        "color": "#64748b",
+        "description": "write_todo 工具调用必须包含 todos 参数 错误模式（已多次发生）： ```xml <!-- ❌ 错误：漏掉必需参数 todo...",
+        "keywords": [
+          "write_todo",
+          "工具调用",
+          "必需参数",
+          "todos",
+          "merge"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-03-18",
+        "source": "项目记忆"
+      },
+      {
         "title": "三层归因法：触发-执行-闭环的诊断框架",
         "category": "task_flow_experience",
         "categoryLabel": "通用踩坑",
@@ -4081,13 +4100,13 @@
         "source": "用户显式记录"
       },
       {
-        "title": "个人助理目录结构与项目索引 (v5.0 - 2026-03-18 大整合)",
+        "title": "个人助理目录结构与项目索引 (v5.1 - 2026-03-18 新增rd-efficiency-Insight)",
         "category": "project_configuration",
         "categoryLabel": "项目配置",
         "layer": null,
         "icon": "🔧",
         "color": "#f97316",
-        "description": "核心目录（2026-03-18 大整合后） ``` 个人助理_V1/ ├── AI-Insight/ AI洞察平台（活跃运行项目，独立 git）...",
+        "description": "核心目录（2026-03-18 大整合后 + rd-efficiency-Insight 独立） ``` 个人助理_V1/ ├── AI-Insig...",
         "keywords": [
           "项目索引",
           "目录结构",
@@ -4592,13 +4611,13 @@
         "source": "用户显式记录"
       },
       {
-        "title": "知识库路径映射 + 北冥神功输出目录（工作区内 2026-03-12）",
+        "title": "知识库路径映射 + 北冥神功脚本路径配置（2026-03-18 更新）",
         "category": "project_configuration",
         "categoryLabel": "项目配置",
         "layer": null,
         "icon": "🔧",
         "color": "#f97316",
-        "description": "知识库路径映射（2026-03-09 迁移完成） 工作区根目录：`/Users/shenlang/Documents/Codeflicker/个人助...",
+        "description": "知识库路径映射（2026-03-18 更新） 工作区根目录：`/Users/shenlang/Documents/Codeflicker/个人助理_...",
         "keywords": [
           "Knowledge",
           "路径",
@@ -4607,7 +4626,7 @@
           "工作区"
         ],
         "importance": 5,
-        "updatedAt": "2026-03-12",
+        "updatedAt": "2026-03-18",
         "source": "项目记忆"
       },
       {
@@ -6181,7 +6200,7 @@
         "source": "用户显式记录"
       }
     ],
-    "total": 133,
+    "total": 134,
     "byCategory": {
       "development_code_specification": {
         "count": 5,
@@ -6219,7 +6238,7 @@
         "description": "保密规则、禁止事项、必须遵守的约束"
       },
       "common_pitfalls_experience": {
-        "count": 75,
+        "count": 76,
         "label": "内容创作",
         "icon": "✍️",
         "color": "#f59e0b",
@@ -8378,6 +8397,25 @@
                 "source": "项目记忆"
               },
               {
+                "title": "write_todo 必须提供 todos 参数（防遗漏）",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "脚本自动化",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "⚡",
+                "color": "#64748b",
+                "description": "write_todo 工具调用必须包含 todos 参数 错误模式（已多次发生）： ```xml <!-- ❌ 错误：漏掉必需参数 todo...",
+                "keywords": [
+                  "write_todo",
+                  "工具调用",
+                  "必需参数",
+                  "todos",
+                  "merge"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-03-18",
+                "source": "项目记忆"
+              },
+              {
                 "title": "链接时效性陷阱v2：含领域知识过期+修正流程偷懒双重问题",
                 "category": "common_pitfalls_experience",
                 "categoryLabel": "脚本自动化",
@@ -8492,7 +8530,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 10
+            "count": 11
           },
           "通用踩坑": {
             "icon": "⚠️",
@@ -8910,7 +8948,7 @@
             "count": 2
           }
         },
-        "count": 97
+        "count": 98
       }
     }
   },
@@ -8925,7 +8963,7 @@
       297
     ],
     "memories": [
-      143
+      144
     ]
   },
   "achievements": [
