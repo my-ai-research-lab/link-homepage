@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T22:51:29.751255",
+  "generatedAt": "2026-03-19T05:32:11.357976",
   "lastManualUpdate": "2026-03-04",
   "updateTrigger": "每日任务自动检查 / 能力解锁时手动更新",
   "evolution": {
@@ -751,6 +751,12 @@
         "type": "skill_unlock",
         "name": "网页开发工作流",
         "description": "标准化网页开发部署流程"
+      },
+      {
+        "date": "2026-03-19",
+        "type": "meta_skill",
+        "name": "每日修炼",
+        "description": "每日自我反思与进化能力"
       }
     ]
   },
@@ -760,6 +766,6 @@
       "重大版本变化时需要更新 stages 中的当前阶段",
       "每日任务检查时自动对比是否有新的里程碑事件"
     ],
-    "lastAutoCheck": "2026-03-18"
+    "lastAutoCheck": "2026-03-19"
   }
 }
