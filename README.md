@@ -22,7 +22,6 @@ codeflicker-homepage/
 ├── styles/                 # 样式文件
 ├── scripts/                # 数据生成脚本
 ├── screenshots/            # 截图
-├── rd-efficiency/          # 研发效能子站
 └── .github/                # GitHub Actions 部署
 ```
 
