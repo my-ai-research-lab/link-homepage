@@ -122,7 +122,8 @@ function renderSkillTechTree(container, skills) {
         var cfTag = skill.cfProject ? '<span class="skill-chip-cf">CF</span>' : '';
         var ksTag = (skill.ksInternal && !skill.cfProject) ? '<span class="skill-chip-ks">KS</span>' : '';
         var sizeTag = skill.skillSizeLabel ? '<span class="skill-chip-size">' + (skill.skillSize > 10000 ? Math.round(skill.skillSize / 1000) + 'K' : Math.round(skill.skillSize / 1000) + 'K') + '</span>' : '';
-        return '<div class="skill-chip" style="--chip-color:' + color + ';--chip-source-color:' + sourceColor + ';" onmouseenter="showTreeTooltip(event, \'' + id + '\', \'skill\')" onmouseleave="hideTooltip()"><span class="skill-chip-level">' + level + '</span><span class="skill-chip-name">' + name + '</span>' + cfTag + ksTag + sizeTag + '</div>';
+        // 添加 data-skill-name 属性以支持调用关系连线
+        return '<div class="skill-chip" data-skill-name="' + skill.name + '" style="--chip-color:' + color + ';--chip-source-color:' + sourceColor + ';" onmouseenter="showTreeTooltip(event, \'' + id + '\', \'skill\')" onmouseleave="hideTooltip()"><span class="skill-chip-level">' + level + '</span><span class="skill-chip-name">' + name + '</span>' + cfTag + ksTag + sizeTag + '</div>';
     }
     
     // ========== 渲染 ==========
@@ -965,18 +966,210 @@ function drawLifecycleLoop() {
     }
 }
 
+// ==================== 领域/执行层技能调用关系连线 ====================
+// 非元技能层的调用关系（从之前的分析得出）
+var DOMAIN_SKILL_CALLS = [
+    // 调研技能调用链
+    { from: 'ai-insight', to: 'CF-internet-content-research', label: '调用', color: '#8b5cf6' },
+    { from: 'rd-efficiency-insight', to: 'CF-internet-content-research', label: '调用', color: '#8b5cf6' },
+    { from: 'industry-research', to: 'CF-internet-content-research', label: '调用', color: '#8b5cf6' },
+    { from: 'industry-research', to: 'qingshuang-research-style', label: '样式', color: '#38bdf8' },
+    // 原子技能调用
+    { from: 'ks-kim-docs-shuttle', to: 'html-screenshot', label: '截图', color: '#4ade80' },
+    { from: 'ai-column-writer', to: 'html-screenshot', label: '截图', color: '#4ade80' },
+    { from: 'web-dev-workflow', to: 'html-screenshot', label: '截图', color: '#4ade80' },
+    { from: 'ks-kim-docs-shuttle', to: 'ai-image-generator', label: 'AI生图', color: '#fb923c' }
+];
+
+function drawSkillCallConnectors() {
+    // 获取领域层和执行层容器
+    var domainLayer = document.querySelector('.domain-layer');
+    var execLayer = document.querySelector('.exec-layer');
+    if (!domainLayer && !execLayer) return;
+    
+    // 移除旧的 SVG overlay
+    var oldSvg = document.querySelector('.skill-call-svg-overlay');
+    if (oldSvg) oldSvg.remove();
+    
+    // 找到技能架构容器作为 SVG 的父元素
+    var skillArch = document.querySelector('.skill-architecture');
+    if (!skillArch) return;
+    
+    var archRect = skillArch.getBoundingClientRect();
+    
+    // 创建 SVG overlay
+    var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.classList.add('skill-call-svg-overlay');
+    svg.style.position = 'absolute';
+    svg.style.top = '0';
+    svg.style.left = '0';
+    svg.style.width = '100%';
+    svg.style.height = '100%';
+    svg.style.pointerEvents = 'none';
+    svg.style.zIndex = '10';
+    svg.setAttribute('width', archRect.width);
+    svg.setAttribute('height', archRect.height);
+    svg.setAttribute('viewBox', '0 0 ' + archRect.width + ' ' + archRect.height);
+    
+    // 定义箭头标记
+    var defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+    var colors = ['#8b5cf6', '#38bdf8', '#4ade80', '#fb923c', '#a78bfa'];
+    colors.forEach(function(color) {
+        var marker = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
+        marker.setAttribute('id', 'arrow-' + color.replace('#', ''));
+        marker.setAttribute('markerWidth', '8');
+        marker.setAttribute('markerHeight', '8');
+        marker.setAttribute('refX', '7');
+        marker.setAttribute('refY', '3');
+        marker.setAttribute('orient', 'auto');
+        marker.setAttribute('markerUnits', 'strokeWidth');
+        var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', 'M0,0 L0,6 L6,3 z');
+        path.setAttribute('fill', color);
+        marker.appendChild(path);
+        defs.appendChild(marker);
+    });
+    svg.appendChild(defs);
+    
+    // 坐标转换函数
+    function getRelPos(el) {
+        var r = el.getBoundingClientRect();
+        return {
+            left: r.left - archRect.left,
+            right: r.right - archRect.left,
+            top: r.top - archRect.top,
+            bottom: r.bottom - archRect.top,
+            cx: (r.left + r.right) / 2 - archRect.left,
+            cy: (r.top + r.bottom) / 2 - archRect.top,
+            width: r.width,
+            height: r.height
+        };
+    }
+    
+    // 绘制每条调用关系连线
+    var drawnPairs = {};
+    DOMAIN_SKILL_CALLS.forEach(function(call) {
+        var fromEl = skillArch.querySelector('[data-skill-name="' + call.from + '"]');
+        var toEl = skillArch.querySelector('[data-skill-name="' + call.to + '"]');
+        
+        if (!fromEl || !toEl) return;
+        
+        // 防止重复绘制同一对连线
+        var pairKey = call.from + '->' + call.to;
+        if (drawnPairs[pairKey]) return;
+        drawnPairs[pairKey] = true;
+        
+        var fromPos = getRelPos(fromEl);
+        var toPos = getRelPos(toEl);
+        
+        // 确定连线起点和终点
+        var startX, startY, endX, endY;
+        var verticalDist = Math.abs(fromPos.cy - toPos.cy);
+        var horizontalDist = Math.abs(fromPos.cx - toPos.cx);
+        
+        // 根据相对位置决定连线方向
+        if (verticalDist > horizontalDist) {
+            // 垂直方向为主
+            if (fromPos.cy < toPos.cy) {
+                // 从上到下
+                startX = fromPos.cx;
+                startY = fromPos.bottom;
+                endX = toPos.cx;
+                endY = toPos.top - 4;
+            } else {
+                // 从下到上
+                startX = fromPos.cx;
+                startY = fromPos.top;
+                endX = toPos.cx;
+                endY = toPos.bottom + 4;
+            }
+        } else {
+            // 水平方向为主
+            if (fromPos.cx < toPos.cx) {
+                // 从左到右
+                startX = fromPos.right;
+                startY = fromPos.cy;
+                endX = toPos.left - 4;
+                endY = toPos.cy;
+            } else {
+                // 从右到左
+                startX = fromPos.left;
+                startY = fromPos.cy;
+                endX = toPos.right + 4;
+                endY = toPos.cy;
+            }
+        }
+        
+        // 创建曲线路径
+        var midX = (startX + endX) / 2;
+        var midY = (startY + endY) / 2;
+        var pathD;
+        
+        if (verticalDist > horizontalDist * 1.5) {
+            // 主要是垂直方向，使用 S 形曲线
+            var ctrlY = startY + (endY - startY) * 0.5;
+            pathD = 'M ' + startX + ' ' + startY + 
+                    ' Q ' + startX + ' ' + ctrlY + ' ' + midX + ' ' + midY +
+                    ' Q ' + endX + ' ' + ctrlY + ' ' + endX + ' ' + endY;
+        } else if (horizontalDist > verticalDist * 1.5) {
+            // 主要是水平方向，使用 S 形曲线
+            var ctrlX = startX + (endX - startX) * 0.5;
+            pathD = 'M ' + startX + ' ' + startY + 
+                    ' Q ' + ctrlX + ' ' + startY + ' ' + midX + ' ' + midY +
+                    ' Q ' + ctrlX + ' ' + endY + ' ' + endX + ' ' + endY;
+        } else {
+            // 对角线方向，使用二次贝塞尔曲线
+            pathD = 'M ' + startX + ' ' + startY + 
+                    ' Q ' + startX + ' ' + endY + ' ' + endX + ' ' + endY;
+        }
+        
+        // 绘制路径
+        var pathEl = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        pathEl.setAttribute('d', pathD);
+        pathEl.setAttribute('fill', 'none');
+        pathEl.setAttribute('stroke', call.color);
+        pathEl.setAttribute('stroke-width', '1.5');
+        pathEl.setAttribute('stroke-opacity', '0.6');
+        pathEl.setAttribute('stroke-dasharray', '4,2');
+        pathEl.setAttribute('marker-end', 'url(#arrow-' + call.color.replace('#', '') + ')');
+        svg.appendChild(pathEl);
+        
+        // 添加标签（可选，只在足够长的线上显示）
+        var lineLength = Math.sqrt(Math.pow(endX - startX, 2) + Math.pow(endY - startY, 2));
+        if (lineLength > 80 && call.label) {
+            var labelEl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            labelEl.setAttribute('x', midX);
+            labelEl.setAttribute('y', midY - 4);
+            labelEl.setAttribute('text-anchor', 'middle');
+            labelEl.setAttribute('fill', call.color);
+            labelEl.setAttribute('font-size', '10');
+            labelEl.setAttribute('opacity', '0.7');
+            labelEl.textContent = call.label;
+            svg.appendChild(labelEl);
+        }
+    });
+    
+    // 添加到技能架构容器（需要设置 position: relative）
+    skillArch.style.position = 'relative';
+    skillArch.appendChild(svg);
+}
+
+window.drawSkillCallConnectors = drawSkillCallConnectors;
+
 // 首页加载完成后绘制所有动态连线
 window.addEventListener('load', function() {
     setTimeout(function() {
         drawElbowConnectors();
         drawLifecycleLoop();
-    }, 500);
+        drawSkillCallConnectors();
+    }, 600);
 });
 window.addEventListener('resize', function() {
     clearTimeout(window.svgResizeTimer);
     window.svgResizeTimer = setTimeout(function() {
         drawElbowConnectors();
         drawLifecycleLoop();
+        drawSkillCallConnectors();
     }, 150);
 });
 window.drawLifecycleLoop = drawLifecycleLoop;
