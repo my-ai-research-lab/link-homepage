@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T15:00:43.207381",
+  "generatedAt": "2026-03-19T15:09:59.737440",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -61,7 +61,7 @@
         "skills": [
           {
             "name": "link-homepage",
-            "displayName": "林克-首页",
+            "displayName": "林克首页",
             "displayRole": "对外门面",
             "source": "林克核心能力",
             "level": 3,
@@ -75,11 +75,12 @@
             "skillSize": 29201,
             "skillSizeLabel": "29K字 · 大型",
             "ksInternal": false,
-            "cfProject": true
+            "cfProject": true,
+            "tag": "Link"
           },
           {
             "name": "link-skill-dojo",
-            "displayName": "林克-技能修炼",
+            "displayName": "技能修炼",
             "displayRole": "修炼",
             "source": "林克核心能力",
             "level": 3,
@@ -93,11 +94,12 @@
             "skillSize": 214246,
             "skillSizeLabel": "214K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-skill-management",
-            "displayName": "林克-技能体系优化",
+            "displayName": "技能体系优化",
             "displayRole": "技能树",
             "source": "林克核心能力",
             "level": 3,
@@ -111,11 +113,12 @@
             "skillSize": 31754,
             "skillSizeLabel": "31K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-find-skills",
-            "displayName": "林克-技能发现",
+            "displayName": "技能发现",
             "displayRole": "发现",
             "source": "林克核心能力",
             "level": 3,
@@ -129,11 +132,12 @@
             "skillSize": 16494,
             "skillSizeLabel": "16K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-learn-from-mistakes",
-            "displayName": "林克-举一反三",
+            "displayName": "举一反三",
             "displayRole": "复盘并举一反三",
             "source": "林克核心能力",
             "level": 3,
@@ -147,11 +151,12 @@
             "skillSize": 11480,
             "skillSizeLabel": "11K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-xixingdafa",
-            "displayName": "林克-吸星大法",
+            "displayName": "吸星大法",
             "displayRole": "外部吸收",
             "source": "林克核心能力",
             "level": 1,
@@ -165,11 +170,12 @@
             "skillSize": 30731,
             "skillSizeLabel": "30K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-xiaowuxianggong",
-            "displayName": "林克-小无相功",
+            "displayName": "小无相功",
             "displayRole": "进化导航",
             "source": "林克核心能力",
             "level": 1,
@@ -183,11 +189,12 @@
             "skillSize": 23954,
             "skillSizeLabel": "23K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-beiming-shengong",
-            "displayName": "林克-北冥神功",
+            "displayName": "北冥神功",
             "displayRole": "能力导出",
             "source": "林克核心能力",
             "level": 1,
@@ -201,11 +208,12 @@
             "skillSize": 357833,
             "skillSizeLabel": "357K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-proactive-agent",
-            "displayName": "林克-主动自驱",
+            "displayName": "主动自驱",
             "displayRole": "让引擎自己动",
             "source": "林克核心能力",
             "level": 1,
@@ -219,11 +227,12 @@
             "skillSize": 57148,
             "skillSizeLabel": "57K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-daily-reflection-evolution",
-            "displayName": "林克-闭关修炼",
+            "displayName": "闭关修炼",
             "displayRole": "每日流水线",
             "source": "林克核心能力",
             "level": 1,
@@ -237,11 +246,12 @@
             "skillSize": 75673,
             "skillSizeLabel": "75K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-neigong-cultivation",
-            "displayName": "林克-内功修炼",
+            "displayName": "内功修炼",
             "displayRole": "深度修炼",
             "source": "林克核心能力",
             "level": 1,
@@ -255,11 +265,12 @@
             "skillSize": 32032,
             "skillSizeLabel": "32K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-memory-hygiene",
-            "displayName": "林克-记忆体系优化",
+            "displayName": "记忆体系优化",
             "displayRole": "记忆树",
             "source": "林克核心能力",
             "level": 1,
@@ -273,11 +284,12 @@
             "skillSize": 14718,
             "skillSizeLabel": "14K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-knowledge-curator",
-            "displayName": "林克-知识体系优化",
+            "displayName": "知识体系优化",
             "displayRole": "知识树",
             "source": "林克核心能力",
             "level": 1,
@@ -291,11 +303,12 @@
             "skillSize": 14449,
             "skillSizeLabel": "14K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-skill-creator",
-            "displayName": "林克-技能创建",
+            "displayName": "技能创建",
             "displayRole": "创建",
             "source": "林克核心能力",
             "level": 1,
@@ -309,11 +322,12 @@
             "skillSize": 191334,
             "skillSizeLabel": "191K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-skill-evaluator",
-            "displayName": "林克-技能评估",
+            "displayName": "技能评估",
             "displayRole": "评估",
             "source": "林克核心能力",
             "level": 1,
@@ -327,7 +341,8 @@
             "skillSize": 62309,
             "skillSizeLabel": "62K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           }
         ],
         "count": 15,
@@ -342,7 +357,7 @@
         "skills": [
           {
             "name": "ks-clawbook",
-            "displayName": "快手-ClawBook",
+            "displayName": "ClawBook",
             "displayRole": "社区学习",
             "source": "林克核心能力",
             "level": 1,
@@ -356,7 +371,8 @@
             "skillSize": 53338,
             "skillSizeLabel": "53K字 · 巨型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           }
         ],
         "count": 1,
@@ -371,7 +387,7 @@
         "skills": [
           {
             "name": "link-product-thinking",
-            "displayName": "林克-产品思维",
+            "displayName": "产品思维",
             "displayRole": "用户视角",
             "source": "林克核心能力",
             "level": 1,
@@ -385,11 +401,12 @@
             "skillSize": 15367,
             "skillSizeLabel": "15K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-essence-insight",
-            "displayName": "林克-本质洞察",
+            "displayName": "本质洞察",
             "displayRole": "透视规律",
             "source": "林克核心能力",
             "level": 1,
@@ -403,11 +420,12 @@
             "skillSize": 28376,
             "skillSizeLabel": "28K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-knowledge-acquisition-meta",
-            "displayName": "林克-知识习得",
+            "displayName": "知识习得",
             "displayRole": "新领域",
             "source": "林克核心能力",
             "level": 1,
@@ -421,7 +439,8 @@
             "skillSize": 18917,
             "skillSizeLabel": "18K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "critical-thinking-logical-reasoning",
@@ -439,7 +458,8 @@
             "skillSize": 3567,
             "skillSizeLabel": "3K字 · 小型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           }
         ],
         "count": 4,
@@ -454,7 +474,7 @@
         "skills": [
           {
             "name": "link-meta-execution",
-            "displayName": "林克-元执行",
+            "displayName": "元执行",
             "displayRole": "一次做对",
             "source": "林克核心能力",
             "level": 3,
@@ -468,11 +488,12 @@
             "skillSize": 42681,
             "skillSizeLabel": "42K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-knowledge-base",
-            "displayName": "林克-知识库",
+            "displayName": "知识库",
             "displayRole": "检索入口",
             "source": "林克核心能力",
             "level": 3,
@@ -486,11 +507,12 @@
             "skillSize": 7017,
             "skillSizeLabel": "7K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-night-task-runner",
-            "displayName": "林克-夜间任务",
+            "displayName": "夜间任务",
             "displayRole": "长任务",
             "source": "林克核心能力",
             "level": 1,
@@ -504,11 +526,12 @@
             "skillSize": 22217,
             "skillSizeLabel": "22K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "link-debug-pro",
-            "displayName": "林克-调试专家",
+            "displayName": "调试专家",
             "displayRole": "问题定位",
             "source": "林克核心能力",
             "level": 1,
@@ -522,7 +545,8 @@
             "skillSize": 5123,
             "skillSizeLabel": "5K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           }
         ],
         "count": 4,
@@ -537,7 +561,7 @@
         "skills": [
           {
             "name": "sl-ai-insight",
-            "displayName": "沈浪-AI洞察",
+            "displayName": "AI洞察",
             "displayRole": "AI行业追踪",
             "source": "林克核心能力",
             "level": 3,
@@ -551,7 +575,8 @@
             "skillSize": 182770,
             "skillSizeLabel": "182K字 · 巨型",
             "ksInternal": false,
-            "cfProject": true
+            "cfProject": true,
+            "tag": "SL"
           }
         ],
         "count": 1,
@@ -566,7 +591,7 @@
         "skills": [
           {
             "name": "sl-rd-efficiency-insight",
-            "displayName": "沈浪-研效洞察",
+            "displayName": "研效洞察",
             "displayRole": "研效追踪",
             "source": "林克核心能力",
             "level": 1,
@@ -580,7 +605,8 @@
             "skillSize": 19141,
             "skillSizeLabel": "19K字 · 大型",
             "ksInternal": true,
-            "cfProject": true
+            "cfProject": true,
+            "tag": "SL"
           }
         ],
         "count": 1,
@@ -609,7 +635,8 @@
             "skillSize": 143853,
             "skillSizeLabel": "143K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "investment-tracker",
@@ -627,7 +654,8 @@
             "skillSize": 7336,
             "skillSizeLabel": "7K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "investment-analyzer",
@@ -645,7 +673,8 @@
             "skillSize": 14591,
             "skillSizeLabel": "14K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           }
         ],
         "count": 3,
@@ -674,11 +703,12 @@
             "skillSize": 47279,
             "skillSizeLabel": "47K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "sl-ai-column-writer",
-            "displayName": "沈浪-专栏写作",
+            "displayName": "专栏写作",
             "displayRole": "内容创作",
             "source": "林克核心能力",
             "level": 1,
@@ -692,7 +722,8 @@
             "skillSize": 24436,
             "skillSizeLabel": "24K字 · 大型",
             "ksInternal": false,
-            "cfProject": true
+            "cfProject": true,
+            "tag": "SL"
           },
           {
             "name": "copywriting",
@@ -710,7 +741,8 @@
             "skillSize": 5139,
             "skillSizeLabel": "5K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "humanize-writing",
@@ -728,7 +760,8 @@
             "skillSize": 11997,
             "skillSizeLabel": "11K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-translate",
@@ -746,7 +779,8 @@
             "skillSize": 55208,
             "skillSizeLabel": "55K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-format-markdown",
@@ -764,7 +798,8 @@
             "skillSize": 55074,
             "skillSizeLabel": "55K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-markdown-to-html",
@@ -782,7 +817,8 @@
             "skillSize": 136023,
             "skillSizeLabel": "136K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "ks-promotion-coaching",
@@ -800,7 +836,8 @@
             "skillSize": 11424,
             "skillSizeLabel": "11K字 · 中型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-promotion-review-sabcd",
@@ -818,7 +855,8 @@
             "skillSize": 66420,
             "skillSizeLabel": "66K字 · 巨型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "executive-report-writing",
@@ -836,7 +874,8 @@
             "skillSize": 3491,
             "skillSizeLabel": "3K字 · 小型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           }
         ],
         "count": 10,
@@ -865,7 +904,8 @@
             "skillSize": 88069,
             "skillSizeLabel": "88K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "html-screenshot",
@@ -883,7 +923,8 @@
             "skillSize": 28434944,
             "skillSizeLabel": "28434K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-image-gen",
@@ -901,7 +942,8 @@
             "skillSize": 157500,
             "skillSizeLabel": "157K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-danger-gemini-web",
@@ -919,7 +961,8 @@
             "skillSize": 122124,
             "skillSizeLabel": "122K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-cover-image",
@@ -937,7 +980,8 @@
             "skillSize": 90234,
             "skillSizeLabel": "90K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-article-illustrator",
@@ -955,7 +999,8 @@
             "skillSize": 96458,
             "skillSizeLabel": "96K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-infographic",
@@ -973,7 +1018,8 @@
             "skillSize": 67549,
             "skillSizeLabel": "67K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-xhs-images",
@@ -991,7 +1037,8 @@
             "skillSize": 86278,
             "skillSizeLabel": "86K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-comic",
@@ -1009,7 +1056,8 @@
             "skillSize": 110045,
             "skillSizeLabel": "110K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-compress-image",
@@ -1027,7 +1075,8 @@
             "skillSize": 13957,
             "skillSizeLabel": "13K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           }
         ],
         "count": 10,
@@ -1056,7 +1105,8 @@
             "skillSize": 29842,
             "skillSizeLabel": "29K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "web-dev-workflow",
@@ -1074,7 +1124,8 @@
             "skillSize": 29219,
             "skillSizeLabel": "29K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "frontend-design",
@@ -1092,7 +1143,8 @@
             "skillSize": 45188,
             "skillSizeLabel": "45K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "ui-ux-pro-max",
@@ -1110,7 +1162,8 @@
             "skillSize": 123560,
             "skillSizeLabel": "123K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "zelda-style",
@@ -1128,7 +1181,8 @@
             "skillSize": 69724,
             "skillSizeLabel": "69K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "canvas-design",
@@ -1146,7 +1200,8 @@
             "skillSize": 141923,
             "skillSizeLabel": "141K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "pixel-action-game",
@@ -1164,11 +1219,12 @@
             "skillSize": 93142,
             "skillSizeLabel": "93K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "link-personal-homepage-template",
-            "displayName": "林克-首页模板",
+            "displayName": "首页模板",
             "displayRole": "角色面板",
             "source": "林克核心能力",
             "level": 1,
@@ -1182,7 +1238,8 @@
             "skillSize": 182907,
             "skillSizeLabel": "182K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "theme-factory",
@@ -1200,7 +1257,8 @@
             "skillSize": 19813,
             "skillSizeLabel": "19K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           }
         ],
         "count": 9,
@@ -1229,7 +1287,8 @@
             "skillSize": 164908,
             "skillSizeLabel": "164K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-slide-deck",
@@ -1247,11 +1306,12 @@
             "skillSize": 121139,
             "skillSizeLabel": "121K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "ks-work-report-ppt",
-            "displayName": "快手-汇报PPT",
+            "displayName": "工作汇报PPT",
             "displayRole": "汇报风格",
             "source": "林克核心能力",
             "level": 1,
@@ -1265,7 +1325,8 @@
             "skillSize": 29093,
             "skillSizeLabel": "29K字 · 大型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "artistic-ppt",
@@ -1283,7 +1344,8 @@
             "skillSize": 22735,
             "skillSizeLabel": "22K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           }
         ],
         "count": 4,
@@ -1312,7 +1374,8 @@
             "skillSize": 56471,
             "skillSizeLabel": "56K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "industry-research",
@@ -1330,7 +1393,8 @@
             "skillSize": 14814,
             "skillSizeLabel": "14K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "summarize",
@@ -1348,7 +1412,8 @@
             "skillSize": 3271,
             "skillSizeLabel": "3K字 · 小型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "apify-competitor-intelligence",
@@ -1366,7 +1431,8 @@
             "skillSize": 17058,
             "skillSizeLabel": "17K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "apify-market-research",
@@ -1384,7 +1450,8 @@
             "skillSize": 15821,
             "skillSizeLabel": "15K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "apify-trend-analysis",
@@ -1402,7 +1469,8 @@
             "skillSize": 16009,
             "skillSizeLabel": "16K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-url-to-markdown",
@@ -1420,7 +1488,8 @@
             "skillSize": 105668,
             "skillSizeLabel": "105K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-danger-x-to-markdown",
@@ -1438,7 +1507,8 @@
             "skillSize": 154697,
             "skillSizeLabel": "154K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "internet-content-research",
@@ -1456,11 +1526,12 @@
             "skillSize": 15115,
             "skillSizeLabel": "15K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "ks-kstack",
-            "displayName": "快手-KStack文章",
+            "displayName": "KStack文章",
             "displayRole": "内部文章",
             "source": "林克核心能力",
             "level": 1,
@@ -1474,7 +1545,8 @@
             "skillSize": 13741,
             "skillSizeLabel": "13K字 · 中型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           }
         ],
         "count": 10,
@@ -1503,7 +1575,8 @@
             "skillSize": 1423,
             "skillSizeLabel": "1K字 · 小型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "feishu-assistant",
@@ -1521,7 +1594,8 @@
             "skillSize": 2477,
             "skillSizeLabel": "2K字 · 小型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-post-to-wechat",
@@ -1539,7 +1613,8 @@
             "skillSize": 317884,
             "skillSizeLabel": "317K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-post-to-weibo",
@@ -1557,7 +1632,8 @@
             "skillSize": 237299,
             "skillSizeLabel": "237K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "baoyu-post-to-x",
@@ -1575,11 +1651,12 @@
             "skillSize": 143584,
             "skillSizeLabel": "143K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "sl-yuque-publisher",
-            "displayName": "沈浪-语雀发布",
+            "displayName": "语雀发布",
             "displayRole": "语雀",
             "source": "林克核心能力",
             "level": 1,
@@ -1593,11 +1670,12 @@
             "skillSize": 7139,
             "skillSizeLabel": "7K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "SL"
           },
           {
             "name": "link-ks-kim-send-message",
-            "displayName": "林克-KIM推送",
+            "displayName": "KIM推送",
             "displayRole": "KIM机器人",
             "source": "林克核心能力",
             "level": 1,
@@ -1611,11 +1689,12 @@
             "skillSize": 45574,
             "skillSizeLabel": "45K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "sl-codeflicker-weekly-report",
-            "displayName": "沈浪-CF周报",
+            "displayName": "CF项目周报",
             "displayRole": "项目周报",
             "source": "林克核心能力",
             "level": 1,
@@ -1629,7 +1708,8 @@
             "skillSize": 14162,
             "skillSizeLabel": "14K字 · 中型",
             "ksInternal": false,
-            "cfProject": true
+            "cfProject": true,
+            "tag": "SL"
           }
         ],
         "count": 8,
@@ -1644,7 +1724,7 @@
         "skills": [
           {
             "name": "ks-kim-docs-shuttle",
-            "displayName": "快手-文档同步",
+            "displayName": "内网文档同步",
             "displayRole": "Docs同步",
             "source": "林克核心能力",
             "level": 4,
@@ -1658,7 +1738,8 @@
             "skillSize": 208321,
             "skillSizeLabel": "208K字 · 巨型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "pdf",
@@ -1676,7 +1757,8 @@
             "skillSize": 58773,
             "skillSizeLabel": "58K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "docx",
@@ -1694,7 +1776,8 @@
             "skillSize": 130864,
             "skillSizeLabel": "130K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "openai-whisper",
@@ -1712,7 +1795,8 @@
             "skillSize": 1017,
             "skillSizeLabel": "1K字 · 小型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "xlsx",
@@ -1730,7 +1814,8 @@
             "skillSize": 116226,
             "skillSizeLabel": "116K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           }
         ],
         "count": 5,
@@ -1745,7 +1830,7 @@
         "skills": [
           {
             "name": "link-agent-session-controller",
-            "displayName": "林克-会话控制",
+            "displayName": "Agent会话控制",
             "displayRole": "会话管理",
             "source": "林克核心能力",
             "level": 3,
@@ -1759,7 +1844,8 @@
             "skillSize": 46790,
             "skillSizeLabel": "46K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "Link"
           },
           {
             "name": "mcp-builder",
@@ -1777,7 +1863,8 @@
             "skillSize": 120454,
             "skillSizeLabel": "120K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "agent-native-architecture",
@@ -1795,7 +1882,8 @@
             "skillSize": 207758,
             "skillSizeLabel": "207K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "agent-capability-discovery",
@@ -1813,7 +1901,8 @@
             "skillSize": 3561,
             "skillSizeLabel": "3K字 · 小型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "context-window-management",
@@ -1831,7 +1920,8 @@
             "skillSize": 1586,
             "skillSizeLabel": "1K字 · 小型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "workflow-orchestration-patterns",
@@ -1849,11 +1939,12 @@
             "skillSize": 9152,
             "skillSizeLabel": "9K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "ks-mcp-to-skill",
-            "displayName": "快手-MCP转技能",
+            "displayName": "MCP转技能",
             "displayRole": "自动生成",
             "source": "林克核心能力",
             "level": 1,
@@ -1867,7 +1958,8 @@
             "skillSize": 4812,
             "skillSizeLabel": "4K字 · 小型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "using-superpowers",
@@ -1885,7 +1977,8 @@
             "skillSize": 7653,
             "skillSizeLabel": "7K字 · 中型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "planning-with-files",
@@ -1903,7 +1996,8 @@
             "skillSize": 43524,
             "skillSizeLabel": "43K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           }
         ],
         "count": 9,
@@ -1932,7 +2026,8 @@
             "skillSize": 95586,
             "skillSizeLabel": "95K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "vercel-composition-patterns",
@@ -1950,7 +2045,8 @@
             "skillSize": 46474,
             "skillSizeLabel": "46K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "vercel-react-best-practices",
@@ -1968,7 +2064,8 @@
             "skillSize": 168733,
             "skillSizeLabel": "168K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "vercel-react-native-skills",
@@ -1986,7 +2083,8 @@
             "skillSize": 150030,
             "skillSizeLabel": "150K字 · 巨型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "web-design-guidelines",
@@ -2004,7 +2102,8 @@
             "skillSize": 1246,
             "skillSizeLabel": "1K字 · 小型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "error-handling-patterns",
@@ -2022,7 +2121,8 @@
             "skillSize": 16378,
             "skillSizeLabel": "16K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "seo-audit",
@@ -2040,11 +2140,12 @@
             "skillSize": 27020,
             "skillSizeLabel": "27K字 · 大型",
             "ksInternal": false,
-            "cfProject": false
+            "cfProject": false,
+            "tag": ""
           },
           {
             "name": "ks-kate-prd-understand",
-            "displayName": "快手-需求理解",
+            "displayName": "PRD需求理解",
             "displayRole": "需求分析",
             "source": "林克核心能力",
             "level": 1,
@@ -2058,12 +2159,13 @@
             "skillSize": 10016,
             "skillSizeLabel": "10K字 · 中型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-kate-brief-design",
-            "displayName": "快手-方案设计",
-            "displayRole": "技术方案",
+            "displayName": "技术方案设计",
+            "displayRole": "方案设计",
             "source": "林克核心能力",
             "level": 1,
             "exp": 10,
@@ -2076,11 +2178,12 @@
             "skillSize": 11175,
             "skillSizeLabel": "11K字 · 中型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-kmodel",
-            "displayName": "快手-Kmodel开发",
+            "displayName": "Kmodel开发",
             "displayRole": "框架开发",
             "source": "林克核心能力",
             "level": 1,
@@ -2094,11 +2197,12 @@
             "skillSize": 70874,
             "skillSizeLabel": "70K字 · 巨型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-commit-msg",
-            "displayName": "快手-提交规范",
+            "displayName": "提交信息生成",
             "displayRole": "Git规范",
             "source": "林克核心能力",
             "level": 1,
@@ -2112,11 +2216,12 @@
             "skillSize": 6131,
             "skillSizeLabel": "6K字 · 中型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-browser-testing-doc",
-            "displayName": "快手-测试文档",
+            "displayName": "浏览器测试文档",
             "displayRole": "测试指南",
             "source": "林克核心能力",
             "level": 1,
@@ -2130,11 +2235,12 @@
             "skillSize": 8771,
             "skillSizeLabel": "8K字 · 中型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-qa-test-case",
-            "displayName": "快手-测试用例",
+            "displayName": "QA测试用例",
             "displayRole": "测试用例",
             "source": "林克核心能力",
             "level": 1,
@@ -2148,7 +2254,8 @@
             "skillSize": 12362,
             "skillSizeLabel": "12K字 · 中型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           }
         ],
         "count": 13,
@@ -2163,8 +2270,8 @@
         "skills": [
           {
             "name": "ks-kwaibi-data-query",
-            "displayName": "快手-数据看板",
-            "displayRole": "KwaiBI",
+            "displayName": "KwaiBI看板",
+            "displayRole": "数据看板",
             "source": "林克核心能力",
             "level": 1,
             "exp": 10,
@@ -2177,11 +2284,12 @@
             "skillSize": 6651,
             "skillSizeLabel": "6K字 · 中型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-kwaibi-sql-exec",
-            "displayName": "快手-SQL取数",
+            "displayName": "SQL取数",
             "displayRole": "SQL执行",
             "source": "林克核心能力",
             "level": 1,
@@ -2195,11 +2303,12 @@
             "skillSize": 7335,
             "skillSizeLabel": "7K字 · 中型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-tianwen-monitor-query",
-            "displayName": "快手-天问监控",
+            "displayName": "天问监控",
             "displayRole": "监控指标",
             "source": "林克核心能力",
             "level": 1,
@@ -2213,11 +2322,12 @@
             "skillSize": 46734,
             "skillSizeLabel": "46K字 · 大型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-hive-data-agent",
-            "displayName": "快手-Hive查询",
+            "displayName": "Hive查询",
             "displayRole": "数据地图",
             "source": "林克核心能力",
             "level": 1,
@@ -2231,11 +2341,12 @@
             "skillSize": 3781,
             "skillSizeLabel": "3K字 · 小型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-meeting-room-booking",
-            "displayName": "快手-会议室预订",
+            "displayName": "会议室预订",
             "displayRole": "预订",
             "source": "林克核心能力",
             "level": 1,
@@ -2249,11 +2360,12 @@
             "skillSize": 3822,
             "skillSizeLabel": "3K字 · 小型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-onepoint-meeting",
-            "displayName": "快手-Onepoint",
+            "displayName": "Onepoint会议",
             "displayRole": "会议记录",
             "source": "林克核心能力",
             "level": 1,
@@ -2267,11 +2379,12 @@
             "skillSize": 3024,
             "skillSizeLabel": "3K字 · 小型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-kim-skills-assistant",
-            "displayName": "快手-KIM API",
+            "displayName": "KIM API",
             "displayRole": "底层API",
             "source": "林克核心能力",
             "level": 1,
@@ -2285,11 +2398,12 @@
             "skillSize": 12535,
             "skillSizeLabel": "12K字 · 中型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-快手-sso-login",
-            "displayName": "快手-SSO登录",
+            "displayName": "SSO登录",
             "displayRole": "内网登录",
             "source": "林克核心能力",
             "level": 1,
@@ -2303,11 +2417,12 @@
             "skillSize": 2996,
             "skillSizeLabel": "2K字 · 小型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           },
           {
             "name": "ks-file-upload",
-            "displayName": "快手-文件上传",
+            "displayName": "文件上传",
             "displayRole": "BlobStore",
             "source": "林克核心能力",
             "level": 1,
@@ -2321,7 +2436,8 @@
             "skillSize": 7322,
             "skillSizeLabel": "7K字 · 中型",
             "ksInternal": true,
-            "cfProject": false
+            "cfProject": false,
+            "tag": "KS"
           }
         ],
         "count": 9,
@@ -2343,7 +2459,7 @@
             "skills": [
               {
                 "name": "link-homepage",
-                "displayName": "林克-首页",
+                "displayName": "林克首页",
                 "displayRole": "对外门面",
                 "source": "林克核心能力",
                 "level": 3,
@@ -2357,11 +2473,12 @@
                 "skillSize": 29201,
                 "skillSizeLabel": "29K字 · 大型",
                 "ksInternal": false,
-                "cfProject": true
+                "cfProject": true,
+                "tag": "Link"
               },
               {
                 "name": "link-skill-dojo",
-                "displayName": "林克-技能修炼",
+                "displayName": "技能修炼",
                 "displayRole": "修炼",
                 "source": "林克核心能力",
                 "level": 3,
@@ -2375,11 +2492,12 @@
                 "skillSize": 214246,
                 "skillSizeLabel": "214K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-skill-management",
-                "displayName": "林克-技能体系优化",
+                "displayName": "技能体系优化",
                 "displayRole": "技能树",
                 "source": "林克核心能力",
                 "level": 3,
@@ -2393,11 +2511,12 @@
                 "skillSize": 31754,
                 "skillSizeLabel": "31K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-find-skills",
-                "displayName": "林克-技能发现",
+                "displayName": "技能发现",
                 "displayRole": "发现",
                 "source": "林克核心能力",
                 "level": 3,
@@ -2411,11 +2530,12 @@
                 "skillSize": 16494,
                 "skillSizeLabel": "16K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-learn-from-mistakes",
-                "displayName": "林克-举一反三",
+                "displayName": "举一反三",
                 "displayRole": "复盘并举一反三",
                 "source": "林克核心能力",
                 "level": 3,
@@ -2429,11 +2549,12 @@
                 "skillSize": 11480,
                 "skillSizeLabel": "11K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-xixingdafa",
-                "displayName": "林克-吸星大法",
+                "displayName": "吸星大法",
                 "displayRole": "外部吸收",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2447,11 +2568,12 @@
                 "skillSize": 30731,
                 "skillSizeLabel": "30K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-xiaowuxianggong",
-                "displayName": "林克-小无相功",
+                "displayName": "小无相功",
                 "displayRole": "进化导航",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2465,11 +2587,12 @@
                 "skillSize": 23954,
                 "skillSizeLabel": "23K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-beiming-shengong",
-                "displayName": "林克-北冥神功",
+                "displayName": "北冥神功",
                 "displayRole": "能力导出",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2483,11 +2606,12 @@
                 "skillSize": 357833,
                 "skillSizeLabel": "357K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-proactive-agent",
-                "displayName": "林克-主动自驱",
+                "displayName": "主动自驱",
                 "displayRole": "让引擎自己动",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2501,11 +2625,12 @@
                 "skillSize": 57148,
                 "skillSizeLabel": "57K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-daily-reflection-evolution",
-                "displayName": "林克-闭关修炼",
+                "displayName": "闭关修炼",
                 "displayRole": "每日流水线",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2519,11 +2644,12 @@
                 "skillSize": 75673,
                 "skillSizeLabel": "75K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-neigong-cultivation",
-                "displayName": "林克-内功修炼",
+                "displayName": "内功修炼",
                 "displayRole": "深度修炼",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2537,11 +2663,12 @@
                 "skillSize": 32032,
                 "skillSizeLabel": "32K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-memory-hygiene",
-                "displayName": "林克-记忆体系优化",
+                "displayName": "记忆体系优化",
                 "displayRole": "记忆树",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2555,11 +2682,12 @@
                 "skillSize": 14718,
                 "skillSizeLabel": "14K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-knowledge-curator",
-                "displayName": "林克-知识体系优化",
+                "displayName": "知识体系优化",
                 "displayRole": "知识树",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2573,11 +2701,12 @@
                 "skillSize": 14449,
                 "skillSizeLabel": "14K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-skill-creator",
-                "displayName": "林克-技能创建",
+                "displayName": "技能创建",
                 "displayRole": "创建",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2591,11 +2720,12 @@
                 "skillSize": 191334,
                 "skillSizeLabel": "191K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-skill-evaluator",
-                "displayName": "林克-技能评估",
+                "displayName": "技能评估",
                 "displayRole": "评估",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2609,7 +2739,8 @@
                 "skillSize": 62309,
                 "skillSizeLabel": "62K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               }
             ],
             "count": 15,
@@ -2623,7 +2754,7 @@
             "skills": [
               {
                 "name": "link-product-thinking",
-                "displayName": "林克-产品思维",
+                "displayName": "产品思维",
                 "displayRole": "用户视角",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2637,11 +2768,12 @@
                 "skillSize": 15367,
                 "skillSizeLabel": "15K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-essence-insight",
-                "displayName": "林克-本质洞察",
+                "displayName": "本质洞察",
                 "displayRole": "透视规律",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2655,11 +2787,12 @@
                 "skillSize": 28376,
                 "skillSizeLabel": "28K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-knowledge-acquisition-meta",
-                "displayName": "林克-知识习得",
+                "displayName": "知识习得",
                 "displayRole": "新领域",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2673,7 +2806,8 @@
                 "skillSize": 18917,
                 "skillSizeLabel": "18K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "critical-thinking-logical-reasoning",
@@ -2691,7 +2825,8 @@
                 "skillSize": 3567,
                 "skillSizeLabel": "3K字 · 小型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               }
             ],
             "count": 4,
@@ -2705,7 +2840,7 @@
             "skills": [
               {
                 "name": "link-meta-execution",
-                "displayName": "林克-元执行",
+                "displayName": "元执行",
                 "displayRole": "一次做对",
                 "source": "林克核心能力",
                 "level": 3,
@@ -2719,11 +2854,12 @@
                 "skillSize": 42681,
                 "skillSizeLabel": "42K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-knowledge-base",
-                "displayName": "林克-知识库",
+                "displayName": "知识库",
                 "displayRole": "检索入口",
                 "source": "林克核心能力",
                 "level": 3,
@@ -2737,11 +2873,12 @@
                 "skillSize": 7017,
                 "skillSizeLabel": "7K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-night-task-runner",
-                "displayName": "林克-夜间任务",
+                "displayName": "夜间任务",
                 "displayRole": "长任务",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2755,11 +2892,12 @@
                 "skillSize": 22217,
                 "skillSizeLabel": "22K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "link-debug-pro",
-                "displayName": "林克-调试专家",
+                "displayName": "调试专家",
                 "displayRole": "问题定位",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2773,7 +2911,8 @@
                 "skillSize": 5123,
                 "skillSizeLabel": "5K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               }
             ],
             "count": 4,
@@ -2797,7 +2936,7 @@
             "skills": [
               {
                 "name": "sl-ai-insight",
-                "displayName": "沈浪-AI洞察",
+                "displayName": "AI洞察",
                 "displayRole": "AI行业追踪",
                 "source": "林克核心能力",
                 "level": 3,
@@ -2811,7 +2950,8 @@
                 "skillSize": 182770,
                 "skillSizeLabel": "182K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": true
+                "cfProject": true,
+                "tag": "SL"
               }
             ],
             "count": 1,
@@ -2825,7 +2965,7 @@
             "skills": [
               {
                 "name": "sl-rd-efficiency-insight",
-                "displayName": "沈浪-研效洞察",
+                "displayName": "研效洞察",
                 "displayRole": "研效追踪",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2839,7 +2979,8 @@
                 "skillSize": 19141,
                 "skillSizeLabel": "19K字 · 大型",
                 "ksInternal": true,
-                "cfProject": true
+                "cfProject": true,
+                "tag": "SL"
               }
             ],
             "count": 1,
@@ -2867,7 +3008,8 @@
                 "skillSize": 143853,
                 "skillSizeLabel": "143K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "investment-tracker",
@@ -2885,7 +3027,8 @@
                 "skillSize": 7336,
                 "skillSizeLabel": "7K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "investment-analyzer",
@@ -2903,7 +3046,8 @@
                 "skillSize": 14591,
                 "skillSizeLabel": "14K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               }
             ],
             "count": 3,
@@ -2927,7 +3071,7 @@
             "skills": [
               {
                 "name": "ks-clawbook",
-                "displayName": "快手-ClawBook",
+                "displayName": "ClawBook",
                 "displayRole": "社区学习",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2941,7 +3085,8 @@
                 "skillSize": 53338,
                 "skillSizeLabel": "53K字 · 巨型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               }
             ],
             "count": 1,
@@ -2969,11 +3114,12 @@
                 "skillSize": 47279,
                 "skillSizeLabel": "47K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "sl-ai-column-writer",
-                "displayName": "沈浪-专栏写作",
+                "displayName": "专栏写作",
                 "displayRole": "内容创作",
                 "source": "林克核心能力",
                 "level": 1,
@@ -2987,7 +3133,8 @@
                 "skillSize": 24436,
                 "skillSizeLabel": "24K字 · 大型",
                 "ksInternal": false,
-                "cfProject": true
+                "cfProject": true,
+                "tag": "SL"
               },
               {
                 "name": "copywriting",
@@ -3005,7 +3152,8 @@
                 "skillSize": 5139,
                 "skillSizeLabel": "5K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "humanize-writing",
@@ -3023,7 +3171,8 @@
                 "skillSize": 11997,
                 "skillSizeLabel": "11K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-translate",
@@ -3041,7 +3190,8 @@
                 "skillSize": 55208,
                 "skillSizeLabel": "55K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-format-markdown",
@@ -3059,7 +3209,8 @@
                 "skillSize": 55074,
                 "skillSizeLabel": "55K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-markdown-to-html",
@@ -3077,7 +3228,8 @@
                 "skillSize": 136023,
                 "skillSizeLabel": "136K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "ks-promotion-coaching",
@@ -3095,7 +3247,8 @@
                 "skillSize": 11424,
                 "skillSizeLabel": "11K字 · 中型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-promotion-review-sabcd",
@@ -3113,7 +3266,8 @@
                 "skillSize": 66420,
                 "skillSizeLabel": "66K字 · 巨型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "executive-report-writing",
@@ -3131,7 +3285,8 @@
                 "skillSize": 3491,
                 "skillSizeLabel": "3K字 · 小型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               }
             ],
             "count": 10,
@@ -3159,7 +3314,8 @@
                 "skillSize": 88069,
                 "skillSizeLabel": "88K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "html-screenshot",
@@ -3177,7 +3333,8 @@
                 "skillSize": 28434944,
                 "skillSizeLabel": "28434K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-image-gen",
@@ -3195,7 +3352,8 @@
                 "skillSize": 157500,
                 "skillSizeLabel": "157K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-danger-gemini-web",
@@ -3213,7 +3371,8 @@
                 "skillSize": 122124,
                 "skillSizeLabel": "122K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-cover-image",
@@ -3231,7 +3390,8 @@
                 "skillSize": 90234,
                 "skillSizeLabel": "90K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-article-illustrator",
@@ -3249,7 +3409,8 @@
                 "skillSize": 96458,
                 "skillSizeLabel": "96K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-infographic",
@@ -3267,7 +3428,8 @@
                 "skillSize": 67549,
                 "skillSizeLabel": "67K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-xhs-images",
@@ -3285,7 +3447,8 @@
                 "skillSize": 86278,
                 "skillSizeLabel": "86K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-comic",
@@ -3303,7 +3466,8 @@
                 "skillSize": 110045,
                 "skillSizeLabel": "110K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-compress-image",
@@ -3321,7 +3485,8 @@
                 "skillSize": 13957,
                 "skillSizeLabel": "13K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               }
             ],
             "count": 10,
@@ -3349,7 +3514,8 @@
                 "skillSize": 29842,
                 "skillSizeLabel": "29K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "web-dev-workflow",
@@ -3367,7 +3533,8 @@
                 "skillSize": 29219,
                 "skillSizeLabel": "29K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "frontend-design",
@@ -3385,7 +3552,8 @@
                 "skillSize": 45188,
                 "skillSizeLabel": "45K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "ui-ux-pro-max",
@@ -3403,7 +3571,8 @@
                 "skillSize": 123560,
                 "skillSizeLabel": "123K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "zelda-style",
@@ -3421,7 +3590,8 @@
                 "skillSize": 69724,
                 "skillSizeLabel": "69K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "canvas-design",
@@ -3439,7 +3609,8 @@
                 "skillSize": 141923,
                 "skillSizeLabel": "141K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "pixel-action-game",
@@ -3457,11 +3628,12 @@
                 "skillSize": 93142,
                 "skillSizeLabel": "93K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "link-personal-homepage-template",
-                "displayName": "林克-首页模板",
+                "displayName": "首页模板",
                 "displayRole": "角色面板",
                 "source": "林克核心能力",
                 "level": 1,
@@ -3475,7 +3647,8 @@
                 "skillSize": 182907,
                 "skillSizeLabel": "182K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "theme-factory",
@@ -3493,7 +3666,8 @@
                 "skillSize": 19813,
                 "skillSizeLabel": "19K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               }
             ],
             "count": 9,
@@ -3521,7 +3695,8 @@
                 "skillSize": 164908,
                 "skillSizeLabel": "164K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-slide-deck",
@@ -3539,11 +3714,12 @@
                 "skillSize": 121139,
                 "skillSizeLabel": "121K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "ks-work-report-ppt",
-                "displayName": "快手-汇报PPT",
+                "displayName": "工作汇报PPT",
                 "displayRole": "汇报风格",
                 "source": "林克核心能力",
                 "level": 1,
@@ -3557,7 +3733,8 @@
                 "skillSize": 29093,
                 "skillSizeLabel": "29K字 · 大型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "artistic-ppt",
@@ -3575,7 +3752,8 @@
                 "skillSize": 22735,
                 "skillSizeLabel": "22K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               }
             ],
             "count": 4,
@@ -3603,7 +3781,8 @@
                 "skillSize": 56471,
                 "skillSizeLabel": "56K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "industry-research",
@@ -3621,7 +3800,8 @@
                 "skillSize": 14814,
                 "skillSizeLabel": "14K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "summarize",
@@ -3639,7 +3819,8 @@
                 "skillSize": 3271,
                 "skillSizeLabel": "3K字 · 小型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "apify-competitor-intelligence",
@@ -3657,7 +3838,8 @@
                 "skillSize": 17058,
                 "skillSizeLabel": "17K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "apify-market-research",
@@ -3675,7 +3857,8 @@
                 "skillSize": 15821,
                 "skillSizeLabel": "15K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "apify-trend-analysis",
@@ -3693,7 +3876,8 @@
                 "skillSize": 16009,
                 "skillSizeLabel": "16K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-url-to-markdown",
@@ -3711,7 +3895,8 @@
                 "skillSize": 105668,
                 "skillSizeLabel": "105K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-danger-x-to-markdown",
@@ -3729,7 +3914,8 @@
                 "skillSize": 154697,
                 "skillSizeLabel": "154K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "internet-content-research",
@@ -3747,11 +3933,12 @@
                 "skillSize": 15115,
                 "skillSizeLabel": "15K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "ks-kstack",
-                "displayName": "快手-KStack文章",
+                "displayName": "KStack文章",
                 "displayRole": "内部文章",
                 "source": "林克核心能力",
                 "level": 1,
@@ -3765,7 +3952,8 @@
                 "skillSize": 13741,
                 "skillSizeLabel": "13K字 · 中型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               }
             ],
             "count": 10,
@@ -3793,7 +3981,8 @@
                 "skillSize": 1423,
                 "skillSizeLabel": "1K字 · 小型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "feishu-assistant",
@@ -3811,7 +4000,8 @@
                 "skillSize": 2477,
                 "skillSizeLabel": "2K字 · 小型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-post-to-wechat",
@@ -3829,7 +4019,8 @@
                 "skillSize": 317884,
                 "skillSizeLabel": "317K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-post-to-weibo",
@@ -3847,7 +4038,8 @@
                 "skillSize": 237299,
                 "skillSizeLabel": "237K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "baoyu-post-to-x",
@@ -3865,11 +4057,12 @@
                 "skillSize": 143584,
                 "skillSizeLabel": "143K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "sl-yuque-publisher",
-                "displayName": "沈浪-语雀发布",
+                "displayName": "语雀发布",
                 "displayRole": "语雀",
                 "source": "林克核心能力",
                 "level": 1,
@@ -3883,11 +4076,12 @@
                 "skillSize": 7139,
                 "skillSizeLabel": "7K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "SL"
               },
               {
                 "name": "link-ks-kim-send-message",
-                "displayName": "林克-KIM推送",
+                "displayName": "KIM推送",
                 "displayRole": "KIM机器人",
                 "source": "林克核心能力",
                 "level": 1,
@@ -3901,11 +4095,12 @@
                 "skillSize": 45574,
                 "skillSizeLabel": "45K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "sl-codeflicker-weekly-report",
-                "displayName": "沈浪-CF周报",
+                "displayName": "CF项目周报",
                 "displayRole": "项目周报",
                 "source": "林克核心能力",
                 "level": 1,
@@ -3919,7 +4114,8 @@
                 "skillSize": 14162,
                 "skillSizeLabel": "14K字 · 中型",
                 "ksInternal": false,
-                "cfProject": true
+                "cfProject": true,
+                "tag": "SL"
               }
             ],
             "count": 8,
@@ -3933,7 +4129,7 @@
             "skills": [
               {
                 "name": "ks-kim-docs-shuttle",
-                "displayName": "快手-文档同步",
+                "displayName": "内网文档同步",
                 "displayRole": "Docs同步",
                 "source": "林克核心能力",
                 "level": 4,
@@ -3947,7 +4143,8 @@
                 "skillSize": 208321,
                 "skillSizeLabel": "208K字 · 巨型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "pdf",
@@ -3965,7 +4162,8 @@
                 "skillSize": 58773,
                 "skillSizeLabel": "58K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "docx",
@@ -3983,7 +4181,8 @@
                 "skillSize": 130864,
                 "skillSizeLabel": "130K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "openai-whisper",
@@ -4001,7 +4200,8 @@
                 "skillSize": 1017,
                 "skillSizeLabel": "1K字 · 小型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "xlsx",
@@ -4019,7 +4219,8 @@
                 "skillSize": 116226,
                 "skillSizeLabel": "116K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               }
             ],
             "count": 5,
@@ -4033,7 +4234,7 @@
             "skills": [
               {
                 "name": "link-agent-session-controller",
-                "displayName": "林克-会话控制",
+                "displayName": "Agent会话控制",
                 "displayRole": "会话管理",
                 "source": "林克核心能力",
                 "level": 3,
@@ -4047,7 +4248,8 @@
                 "skillSize": 46790,
                 "skillSizeLabel": "46K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "Link"
               },
               {
                 "name": "mcp-builder",
@@ -4065,7 +4267,8 @@
                 "skillSize": 120454,
                 "skillSizeLabel": "120K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "agent-native-architecture",
@@ -4083,7 +4286,8 @@
                 "skillSize": 207758,
                 "skillSizeLabel": "207K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "agent-capability-discovery",
@@ -4101,7 +4305,8 @@
                 "skillSize": 3561,
                 "skillSizeLabel": "3K字 · 小型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "context-window-management",
@@ -4119,7 +4324,8 @@
                 "skillSize": 1586,
                 "skillSizeLabel": "1K字 · 小型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "workflow-orchestration-patterns",
@@ -4137,11 +4343,12 @@
                 "skillSize": 9152,
                 "skillSizeLabel": "9K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "ks-mcp-to-skill",
-                "displayName": "快手-MCP转技能",
+                "displayName": "MCP转技能",
                 "displayRole": "自动生成",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4155,7 +4362,8 @@
                 "skillSize": 4812,
                 "skillSizeLabel": "4K字 · 小型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "using-superpowers",
@@ -4173,7 +4381,8 @@
                 "skillSize": 7653,
                 "skillSizeLabel": "7K字 · 中型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "planning-with-files",
@@ -4191,7 +4400,8 @@
                 "skillSize": 43524,
                 "skillSizeLabel": "43K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               }
             ],
             "count": 9,
@@ -4219,7 +4429,8 @@
                 "skillSize": 95586,
                 "skillSizeLabel": "95K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "vercel-composition-patterns",
@@ -4237,7 +4448,8 @@
                 "skillSize": 46474,
                 "skillSizeLabel": "46K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "vercel-react-best-practices",
@@ -4255,7 +4467,8 @@
                 "skillSize": 168733,
                 "skillSizeLabel": "168K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "vercel-react-native-skills",
@@ -4273,7 +4486,8 @@
                 "skillSize": 150030,
                 "skillSizeLabel": "150K字 · 巨型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "web-design-guidelines",
@@ -4291,7 +4505,8 @@
                 "skillSize": 1246,
                 "skillSizeLabel": "1K字 · 小型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "error-handling-patterns",
@@ -4309,7 +4524,8 @@
                 "skillSize": 16378,
                 "skillSizeLabel": "16K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "seo-audit",
@@ -4327,11 +4543,12 @@
                 "skillSize": 27020,
                 "skillSizeLabel": "27K字 · 大型",
                 "ksInternal": false,
-                "cfProject": false
+                "cfProject": false,
+                "tag": ""
               },
               {
                 "name": "ks-kate-prd-understand",
-                "displayName": "快手-需求理解",
+                "displayName": "PRD需求理解",
                 "displayRole": "需求分析",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4345,12 +4562,13 @@
                 "skillSize": 10016,
                 "skillSizeLabel": "10K字 · 中型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-kate-brief-design",
-                "displayName": "快手-方案设计",
-                "displayRole": "技术方案",
+                "displayName": "技术方案设计",
+                "displayRole": "方案设计",
                 "source": "林克核心能力",
                 "level": 1,
                 "exp": 10,
@@ -4363,11 +4581,12 @@
                 "skillSize": 11175,
                 "skillSizeLabel": "11K字 · 中型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-kmodel",
-                "displayName": "快手-Kmodel开发",
+                "displayName": "Kmodel开发",
                 "displayRole": "框架开发",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4381,11 +4600,12 @@
                 "skillSize": 70874,
                 "skillSizeLabel": "70K字 · 巨型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-commit-msg",
-                "displayName": "快手-提交规范",
+                "displayName": "提交信息生成",
                 "displayRole": "Git规范",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4399,11 +4619,12 @@
                 "skillSize": 6131,
                 "skillSizeLabel": "6K字 · 中型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-browser-testing-doc",
-                "displayName": "快手-测试文档",
+                "displayName": "浏览器测试文档",
                 "displayRole": "测试指南",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4417,11 +4638,12 @@
                 "skillSize": 8771,
                 "skillSizeLabel": "8K字 · 中型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-qa-test-case",
-                "displayName": "快手-测试用例",
+                "displayName": "QA测试用例",
                 "displayRole": "测试用例",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4435,7 +4657,8 @@
                 "skillSize": 12362,
                 "skillSizeLabel": "12K字 · 中型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               }
             ],
             "count": 13,
@@ -4449,8 +4672,8 @@
             "skills": [
               {
                 "name": "ks-kwaibi-data-query",
-                "displayName": "快手-数据看板",
-                "displayRole": "KwaiBI",
+                "displayName": "KwaiBI看板",
+                "displayRole": "数据看板",
                 "source": "林克核心能力",
                 "level": 1,
                 "exp": 10,
@@ -4463,11 +4686,12 @@
                 "skillSize": 6651,
                 "skillSizeLabel": "6K字 · 中型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-kwaibi-sql-exec",
-                "displayName": "快手-SQL取数",
+                "displayName": "SQL取数",
                 "displayRole": "SQL执行",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4481,11 +4705,12 @@
                 "skillSize": 7335,
                 "skillSizeLabel": "7K字 · 中型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-tianwen-monitor-query",
-                "displayName": "快手-天问监控",
+                "displayName": "天问监控",
                 "displayRole": "监控指标",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4499,11 +4724,12 @@
                 "skillSize": 46734,
                 "skillSizeLabel": "46K字 · 大型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-hive-data-agent",
-                "displayName": "快手-Hive查询",
+                "displayName": "Hive查询",
                 "displayRole": "数据地图",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4517,11 +4743,12 @@
                 "skillSize": 3781,
                 "skillSizeLabel": "3K字 · 小型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-meeting-room-booking",
-                "displayName": "快手-会议室预订",
+                "displayName": "会议室预订",
                 "displayRole": "预订",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4535,11 +4762,12 @@
                 "skillSize": 3822,
                 "skillSizeLabel": "3K字 · 小型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-onepoint-meeting",
-                "displayName": "快手-Onepoint",
+                "displayName": "Onepoint会议",
                 "displayRole": "会议记录",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4553,11 +4781,12 @@
                 "skillSize": 3024,
                 "skillSizeLabel": "3K字 · 小型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-kim-skills-assistant",
-                "displayName": "快手-KIM API",
+                "displayName": "KIM API",
                 "displayRole": "底层API",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4571,11 +4800,12 @@
                 "skillSize": 12535,
                 "skillSizeLabel": "12K字 · 中型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-快手-sso-login",
-                "displayName": "快手-SSO登录",
+                "displayName": "SSO登录",
                 "displayRole": "内网登录",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4589,11 +4819,12 @@
                 "skillSize": 2996,
                 "skillSizeLabel": "2K字 · 小型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               },
               {
                 "name": "ks-file-upload",
-                "displayName": "快手-文件上传",
+                "displayName": "文件上传",
                 "displayRole": "BlobStore",
                 "source": "林克核心能力",
                 "level": 1,
@@ -4607,7 +4838,8 @@
                 "skillSize": 7322,
                 "skillSizeLabel": "7K字 · 中型",
                 "ksInternal": true,
-                "cfProject": false
+                "cfProject": false,
+                "tag": "KS"
               }
             ],
             "count": 9,

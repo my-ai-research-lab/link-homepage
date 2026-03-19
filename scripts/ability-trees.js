@@ -118,12 +118,22 @@ function renderSkillTechTree(container, skills) {
         var level = skill.level || 1;
         var color = getLevelColor(level);
         var sourceColor = getSourceColor(skill.source);
-        // 添加 CF项目标记、快手内部标记和技能大小标签
-        var cfTag = skill.cfProject ? '<span class="skill-chip-cf">CF</span>' : '';
-        var ksTag = (skill.ksInternal && !skill.cfProject) ? '<span class="skill-chip-ks">KS</span>' : '';
-        var sizeTag = skill.skillSizeLabel ? '<span class="skill-chip-size">' + (skill.skillSize > 10000 ? Math.round(skill.skillSize / 1000) + 'K' : Math.round(skill.skillSize / 1000) + 'K') + '</span>' : '';
-        // 添加 data-skill-name 属性以支持调用关系连线
-        return '<div class="skill-chip" data-skill-name="' + skill.name + '" style="--chip-color:' + color + ';--chip-source-color:' + sourceColor + ';" onmouseenter="showTreeTooltip(event, \'' + id + '\', \'skill\')" onmouseleave="hideTooltip()"><span class="skill-chip-level">' + level + '</span><span class="skill-chip-name">' + name + '</span>' + cfTag + ksTag + sizeTag + '</div>';
+        // 归属标签：优先用 tag 字段（KS/SL/Link），兼容旧 ksInternal/cfProject 标志
+        var ownerTag = '';
+        if (skill.tag === 'KS') {
+            ownerTag = '<span class="skill-chip-ks">KS</span>';
+        } else if (skill.tag === 'SL') {
+            ownerTag = '<span class="skill-chip-sl">SL</span>';
+        } else if (skill.tag === 'Link') {
+            ownerTag = '<span class="skill-chip-link">Link</span>';
+        } else if (skill.ksInternal) {
+            ownerTag = '<span class="skill-chip-ks">KS</span>';
+        } else if (skill.cfProject) {
+            ownerTag = '<span class="skill-chip-link">Link</span>';
+        }
+        var sizeTag = skill.skillSizeLabel ? '<span class="skill-chip-size">' + Math.round(skill.skillSize / 1000) + 'K</span>' : '';
+        // 标签顺序：级别 → 归属标签 → 名称 → 规模
+        return '<div class="skill-chip" data-skill-name="' + skill.name + '" style="--chip-color:' + color + ';--chip-source-color:' + sourceColor + ';" onmouseenter="showTreeTooltip(event, \'' + id + '\', \'skill\')" onmouseleave="hideTooltip()"><span class="skill-chip-level">' + level + '</span>' + ownerTag + '<span class="skill-chip-name">' + name + '</span>' + sizeTag + '</div>';
     }
     
     // ========== 渲染 ==========

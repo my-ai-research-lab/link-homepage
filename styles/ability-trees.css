@@ -745,9 +745,34 @@
     background: rgba(251, 146, 60, 0.15);
     padding: 1px 3px;
     border-radius: 2px;
-    margin-left: 2px;
+    margin-right: 3px;
+    flex-shrink: 0;
 }
-/* CodeFlicker项目标记 */
+/* 沈浪项目标记 */
+.skill-chip-sl {
+    font-family: var(--font-mono);
+    font-size: 8px;
+    font-weight: 600;
+    color: #4ade80;
+    background: rgba(74, 222, 128, 0.15);
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-right: 3px;
+    flex-shrink: 0;
+}
+/* 林克专属标记 */
+.skill-chip-link {
+    font-family: var(--font-mono);
+    font-size: 8px;
+    font-weight: 600;
+    color: #a78bfa;
+    background: rgba(167, 139, 250, 0.15);
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-right: 3px;
+    flex-shrink: 0;
+}
+/* CodeFlicker项目标记（保留兼容） */
 .skill-chip-cf {
     font-family: var(--font-mono);
     font-size: 8px;
