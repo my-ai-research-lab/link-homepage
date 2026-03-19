@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T14:07:53.028858",
+  "generatedAt": "2026-03-19T14:53:22.998635",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -50,7 +50,7 @@
     }
   },
   "skills": {
-    "total": 117,
+    "total": 116,
     "categories": {
       "🔄 自进化引擎": {
         "role": "engine",
@@ -90,8 +90,8 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 199522,
-            "skillSizeLabel": "199K字 · 巨型",
+            "skillSize": 214246,
+            "skillSizeLabel": "214K字 · 巨型",
             "ksInternal": false,
             "cfProject": false
           },
@@ -144,7 +144,7 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 11408,
+            "skillSize": 11480,
             "skillSizeLabel": "11K字 · 中型",
             "ksInternal": false,
             "cfProject": false
@@ -465,7 +465,7 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 42444,
+            "skillSize": 42681,
             "skillSizeLabel": "42K字 · 大型",
             "ksInternal": false,
             "cfProject": false
@@ -2109,8 +2109,8 @@
             "frequency": "0",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 5951,
-            "skillSizeLabel": "5K字 · 中型",
+            "skillSize": 6131,
+            "skillSizeLabel": "6K字 · 中型",
             "ksInternal": true,
             "cfProject": false
           },
@@ -2326,33 +2326,6 @@
         ],
         "count": 9,
         "avgLevel": 1.0
-      },
-      "其他技能": {
-        "icon": "📦",
-        "color": "#64748b",
-        "layer": "execution",
-        "skills": [
-          {
-            "name": "notebooklm",
-            "displayName": "NotebookLM查询",
-            "displayRole": "",
-            "source": "平台预装技能",
-            "level": 1,
-            "exp": 10,
-            "description": "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Dr",
-            "lastUpdated": "2026-03-19",
-            "callCount": 0,
-            "frequency": "0",
-            "successRate": 90,
-            "sourceType": "平台预装",
-            "skillSize": 128310,
-            "skillSizeLabel": "128K字 · 巨型",
-            "ksInternal": false,
-            "cfProject": false
-          }
-        ],
-        "count": 1,
-        "avgLevel": 1.0
       }
     },
     "tree": {
@@ -2399,8 +2372,8 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 199522,
-                "skillSizeLabel": "199K字 · 巨型",
+                "skillSize": 214246,
+                "skillSizeLabel": "214K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false
               },
@@ -2453,7 +2426,7 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 11408,
+                "skillSize": 11480,
                 "skillSizeLabel": "11K字 · 中型",
                 "ksInternal": false,
                 "cfProject": false
@@ -2743,7 +2716,7 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 42444,
+                "skillSize": 42681,
                 "skillSizeLabel": "42K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false
@@ -4423,8 +4396,8 @@
                 "frequency": "0",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 5951,
-                "skillSizeLabel": "5K字 · 中型",
+                "skillSize": 6131,
+                "skillSizeLabel": "6K字 · 中型",
                 "ksInternal": true,
                 "cfProject": false
               },
@@ -4639,36 +4612,9 @@
             ],
             "count": 9,
             "avgLevel": 1.0
-          },
-          "其他技能": {
-            "icon": "📦",
-            "color": "#64748b",
-            "layer": "execution",
-            "skills": [
-              {
-                "name": "notebooklm",
-                "displayName": "NotebookLM查询",
-                "displayRole": "",
-                "source": "平台预装技能",
-                "level": 1,
-                "exp": 10,
-                "description": "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Dr",
-                "lastUpdated": "2026-03-19",
-                "callCount": 0,
-                "frequency": "0",
-                "successRate": 90,
-                "sourceType": "平台预装",
-                "skillSize": 128310,
-                "skillSizeLabel": "128K字 · 巨型",
-                "ksInternal": false,
-                "cfProject": false
-              }
-            ],
-            "count": 1,
-            "avgLevel": 1.0
           }
         },
-        "count": 89,
+        "count": 88,
         "avgLevel": 1.6
       }
     },
@@ -5859,7 +5805,7 @@
         "source": "用户显式记录"
       },
       {
-        "title": "契约漂移检测：修改函数参数名/数据结构时必须扫描所有消费者（v2）",
+        "title": "契约漂移检测：修改函数参数名/数据结构时必须扫描所有消费者（v3）",
         "category": "development_code_specification",
         "categoryLabel": "代码规范",
         "layer": null,
@@ -10718,7 +10664,7 @@
     ],
     "skills": [
       79,
-      117
+      116
     ],
     "knowledge": [
       297,
