@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T05:02:31.763702",
+  "generatedAt": "2026-03-20T06:19:58.643507",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -15,14 +15,14 @@
       "icon": "👑",
       "description": "炉火纯青，宗师风范"
     },
-    "totalExp": 398450,
-    "expProgress": 42.1,
+    "totalExp": 398800,
+    "expProgress": 43.0,
     "currentThreshold": 382801,
     "nextThreshold": 420009,
     "stats": {
-      "understanding": 91.3,
+      "understanding": 91.8,
       "execution": 84.0,
-      "skillDepth": 87.7,
+      "skillDepth": 87.6,
       "thinkingDepth": 43.8,
       "knowledgeBreadth": 80.8
     },
@@ -34,15 +34,15 @@
         "mdv": 0.6,
         "ctr": 3.3
       },
-      "activeSkills": 72,
-      "highLevelSkills": 69,
-      "skillTotalValue": 2371.2,
+      "activeSkills": 74,
+      "highLevelSkills": 71,
+      "skillTotalValue": 2387.8,
       "cultivationExp": 0,
-      "baseExp": 398450,
+      "baseExp": 398800,
       "expBreakdown": {
-        "understanding": 91299,
+        "understanding": 91799,
         "execution": 84000,
-        "skill": 131550,
+        "skill": 131399,
         "thinking": 35039,
         "knowledge": 56559,
         "cultivation": 0
@@ -141,11 +141,11 @@
             "displayRole": "每日流水线",
             "source": "林克核心能力",
             "level": 5,
-            "exp": 87,
+            "exp": 88,
             "description": "闭关修炼 — 自进化引擎的核心能力之一，每日运转的进化流水线。触发词：'每日修炼'、'闭关修炼'、'运行每日任务'、'补跑日报'。负责串联举一反三（即时复盘）和内功修炼（深度修炼），完成：数据收集→预分析→对话复盘→内功修炼→发布同步→度量记录的完整每日循环。",
             "lastUpdated": "2026-03-13",
-            "callCount": 56,
-            "frequency": "1.2次/周",
+            "callCount": 57,
+            "frequency": "1.4次/周",
             "successRate": 95,
             "sourceType": "自定义",
             "skillSize": 75673,
@@ -163,8 +163,8 @@
             "exp": 73,
             "description": "举一反三 — 双轮驱动之一，自进化引擎的即时复盘能力。触发词：'复盘'、'举一反三'、'总结这个问题'、'这次做得好'。核心职责：从经验（成功或失败）中即时提取可复用模式，沉淀为记忆或技能。与内功修炼通过P2反馈互相连接。交付物必须是实际的Skill文件更新或记忆变更。两种触发模式：Mode A（用户显式触发，完整四阶段）；Mode B（被meta-execution P2自动调用，静默自举）。",
             "lastUpdated": "2026-03-09",
-            "callCount": 43,
-            "frequency": "1.7次/周",
+            "callCount": 45,
+            "frequency": "1.9次/周",
             "successRate": 93,
             "sourceType": "自定义",
             "skillSize": 11480,
@@ -183,7 +183,7 @@
             "description": "内功修炼 — 双轮驱动之一，自进化引擎的深度修炼能力。触发词：'内功修炼'、'三位一体优化'、'优化3棵树'、'记忆瘦身'。核心职责：记忆/技能/知识三棵树的深度诊断和优化。与举一反三通过P2反馈互相连接。调用系统优化工具（记忆优化/技能优化/知识优化）执行具体操作。",
             "lastUpdated": "2026-03-09",
             "callCount": 50,
-            "frequency": "1.4次/周",
+            "frequency": "1.5次/周",
             "successRate": 93,
             "sourceType": "自定义",
             "skillSize": 32491,
@@ -293,11 +293,11 @@
             "displayRole": "发现",
             "source": "林克核心能力",
             "level": 4,
-            "exp": 73,
+            "exp": 74,
             "description": "技能发现 — 技能生命周期的第一阶段。多源搜索 + 主动巡检。模式A: 用户触发搜索（找技能, 搜索技能, ClawHub, skills.sh, 万擎, SkillHub, LangBridge, 网友推荐）。模式B: 主动巡检已有技能的外部更新（被 skill-dojo 社区对标调用）。搜索 skills.sh (86K+)、ClawHub/OpenClaw (13K+) 两大外部生态 + 快",
             "lastUpdated": "2026-03-19",
-            "callCount": 27,
-            "frequency": "1.8次/周",
+            "callCount": 28,
+            "frequency": "1.9次/周",
             "successRate": 93,
             "sourceType": "自定义",
             "skillSize": 16494,
@@ -352,13 +352,13 @@
             "level": 5,
             "exp": 100,
             "description": "技能修炼 — 技能生命周期的第四阶段（发现→创建→评估→修炼）。触发词：'技能修炼'、'跑一下技能测试'、'持续精进'、'技能场景测试'、'退化检测'。核心职责：通过场景化测试、退化检测、弱点分析持续提升现有技能。属于自进化引擎的技能生命周期模块。注意：如果是评估单个技能质量（评分），请使用 link-skill-evaluator 技能。",
-            "lastUpdated": "2026-03-19",
+            "lastUpdated": "2026-03-20",
             "callCount": 88,
             "frequency": "2次/月",
             "successRate": 95,
             "sourceType": "自定义",
-            "skillSize": 223088,
-            "skillSizeLabel": "223K字 · 巨型",
+            "skillSize": 255154,
+            "skillSizeLabel": "255K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
             "tag": "Link"
@@ -452,7 +452,7 @@
             "description": "This skill should be used automatically when receiving any task that requires execution, AND when resuming a session from context overflow. It provides a meta-framework for \"getting things right the f",
             "lastUpdated": "2026-03-12",
             "callCount": 84,
-            "frequency": "3.4次/周",
+            "frequency": "3.1次/周",
             "successRate": 95,
             "sourceType": "自定义",
             "skillSize": 44970,
@@ -558,7 +558,7 @@
             "description": "AI行业洞察平台专属技能。当用户明确提到'AI洞察'、'AI日报'、'AI周报'或执行AI行业调研任务时使用。核心场景：生成AI行业日报/周报、追踪AI公司/人物、沉淀AI行业知识、管理AI信息源。即使用户只是说'跑一下日报'或'今天AI有什么动态'，只要上下文是AI行业相关，也应该触发。注意：本技能仅处理AI行业领域，研发效能相关请使用 sl-rd-efficiency-insight 技能",
             "lastUpdated": "2026-03-14",
             "callCount": 118,
-            "frequency": "2.3次/周",
+            "frequency": "2.0次/周",
             "successRate": 95,
             "sourceType": "自定义",
             "skillSize": 182770,
@@ -667,7 +667,7 @@
             "description": "行业调研方法论（调研框架）。触发词：'行业调研'、'市场分析'、'竞品分析'、'做个调研'、'帮我分析一下XXX市场'、'公司对比'、'产品对比'、'技术趋势分析'、'industry research'。核心职责：提供结构化的多维对比分析框架、基准分析、洞察提取方法论。注意：如果是从微信公众号/小红书等国内平台获取数据，请配合使用 internet-content-research 技能获取",
             "lastUpdated": "2026-03-09",
             "callCount": 20,
-            "frequency": "1.3次/周",
+            "frequency": "1.2次/周",
             "successRate": 90,
             "sourceType": "自定义",
             "skillSize": 14814,
@@ -845,10 +845,10 @@
             "displayRole": "内容创作",
             "source": "林克核心能力",
             "level": 3,
-            "exp": 59,
+            "exp": 60,
             "description": "This skill should be used when the user mentions \"写专栏\", \"养了个AI\", \"写文章\", \"写下一期\", \"专栏更新\", \"发布文章\", \"写预告\", \"CF专栏\", \"column writing\", or discusses creating, editing, publishing articles for the \"养了个AI\" Cod",
             "lastUpdated": "2026-03-09",
-            "callCount": 12,
+            "callCount": 13,
             "frequency": "3次/月",
             "successRate": 90,
             "sourceType": "自定义",
@@ -1050,7 +1050,7 @@
             "description": "当涉及任何网页文件（HTML/CSS/JS）的创建或修改时，必须使用此技能。\n触发词包括：网页开发、部署、发布、预览、deploy、publish、修复页面、更新页面、\n调整样式、修改HTML、编辑CSS、fix bug、首页、index.html、styles.css、\nlink-homepage、knowledge目录下的HTML文件、创建仓库、首次部署、初次部署、新项目部署。\n提供标准化的本",
             "lastUpdated": "2026-03-19",
             "callCount": 27,
-            "frequency": "1.3次/周",
+            "frequency": "1.2次/周",
             "successRate": 93,
             "sourceType": "自定义",
             "skillSize": 29219,
@@ -1164,7 +1164,7 @@
             "description": "清爽调研报告风格的纯样式规范。当用户提到\"清爽调研报告风格\"时使用此技能。本技能仅提供CSS样式和视觉设计规范，不影响页面内容、数据或功能逻辑。适用于任何需要应用此风格的网页项目。",
             "lastUpdated": "2026-03-15",
             "callCount": 34,
-            "frequency": "2.3次/周",
+            "frequency": "1.9次/周",
             "successRate": 93,
             "sourceType": "自定义",
             "skillSize": 29842,
@@ -1319,7 +1319,7 @@
             "description": "PPT演示文稿。创建、读取、编辑、合并PowerPoint文件",
             "lastUpdated": "2026-03-09",
             "callCount": 16,
-            "frequency": "1.1次/周",
+            "frequency": "4次/月",
             "successRate": 90,
             "sourceType": "自定义",
             "skillSize": 164908,
@@ -1333,12 +1333,12 @@
             "displayName": "AI幻灯片",
             "displayRole": "AI生成",
             "source": "林克核心能力",
-            "level": 1,
-            "exp": 10,
+            "level": 3,
+            "exp": 62,
             "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"",
             "lastUpdated": "2026-03-19",
-            "callCount": 0,
-            "frequency": "0",
+            "callCount": 1,
+            "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
             "skillSize": 121139,
@@ -1371,12 +1371,12 @@
             "displayName": "艺术风格PPT",
             "displayRole": "艺术创意",
             "source": "林克核心能力",
-            "level": 1,
-            "exp": 10,
+            "level": 3,
+            "exp": 62,
             "description": "艺术风格PPT。用AI生成背景图+PptxGenJS排版，制作纪念册、手账、相册等艺术级演示文稿",
             "lastUpdated": "2026-03-12",
-            "callCount": 0,
-            "frequency": "0",
+            "callCount": 1,
+            "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
             "skillSize": 22735,
@@ -1387,7 +1387,7 @@
           }
         ],
         "count": 4,
-        "avgLevel": 2.0
+        "avgLevel": 3.0
       },
       "📤 发布推送": {
         "role": "publish",
@@ -1516,10 +1516,10 @@
             "displayRole": "飞书",
             "source": "林克核心能力",
             "level": 3,
-            "exp": 57,
+            "exp": 58,
             "description": "沈浪飞书助手 — 飞书机器人与CodeFlicker的本地链路。触发词：\"处理飞书消息\"、\"看看飞书\"、\"飞书有消息吗\"、\"检查飞书\"。支持消息自动触发和离线处理。属于沈浪定制技能（SL前缀）。",
             "lastUpdated": "2026-03-09",
-            "callCount": 6,
+            "callCount": 8,
             "frequency": "2次/月",
             "successRate": 90,
             "sourceType": "自定义",
@@ -1884,7 +1884,7 @@
             "description": "HTML截图原子技能 — 将HTML渲染为高清PNG截图。触发词：'HTML截图'、'生成PNG'、'HTML转图片'、'截图配图'、'章节配图'。自动适配固定高度和动态高度两种模式，支持KIM Doc配图、调研报告图表等场景。",
             "lastUpdated": "2026-03-19",
             "callCount": 64,
-            "frequency": "4.0次/周",
+            "frequency": "3.7次/周",
             "successRate": 95,
             "sourceType": "自定义",
             "skillSize": 28434944,
@@ -2255,10 +2255,10 @@
             "displayRole": "社区学习",
             "source": "林克核心能力",
             "level": 4,
-            "exp": 77,
+            "exp": 78,
             "description": "ClawBook 社区 Skill — 连接你与其他 Claw 的社区。触发词：'看看社区'、'发个帖子'、'ClawBook'、'社区分享'、'逛逛社区'。通过这个 Skill，你可以在 ClawBook 社区发帖分享经验、评论讨论、投票表态、浏览 Feed 获取灵感，并且主动从社区学习有价值的经验沉淀到自己的技能/记忆体系中。当你完成了一个有趣的任务、学到了新知识、遇到了难题、想分享工作流、或",
             "lastUpdated": "2026-03-19",
-            "callCount": 37,
+            "callCount": 38,
             "frequency": "1.2次/周",
             "successRate": 93,
             "sourceType": "自定义",
@@ -2368,11 +2368,11 @@
                 "displayRole": "每日流水线",
                 "source": "林克核心能力",
                 "level": 5,
-                "exp": 87,
+                "exp": 88,
                 "description": "闭关修炼 — 自进化引擎的核心能力之一，每日运转的进化流水线。触发词：'每日修炼'、'闭关修炼'、'运行每日任务'、'补跑日报'。负责串联举一反三（即时复盘）和内功修炼（深度修炼），完成：数据收集→预分析→对话复盘→内功修炼→发布同步→度量记录的完整每日循环。",
                 "lastUpdated": "2026-03-13",
-                "callCount": 56,
-                "frequency": "1.2次/周",
+                "callCount": 57,
+                "frequency": "1.4次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
                 "skillSize": 75673,
@@ -2390,8 +2390,8 @@
                 "exp": 73,
                 "description": "举一反三 — 双轮驱动之一，自进化引擎的即时复盘能力。触发词：'复盘'、'举一反三'、'总结这个问题'、'这次做得好'。核心职责：从经验（成功或失败）中即时提取可复用模式，沉淀为记忆或技能。与内功修炼通过P2反馈互相连接。交付物必须是实际的Skill文件更新或记忆变更。两种触发模式：Mode A（用户显式触发，完整四阶段）；Mode B（被meta-execution P2自动调用，静默自举）。",
                 "lastUpdated": "2026-03-09",
-                "callCount": 43,
-                "frequency": "1.7次/周",
+                "callCount": 45,
+                "frequency": "1.9次/周",
                 "successRate": 93,
                 "sourceType": "自定义",
                 "skillSize": 11480,
@@ -2410,7 +2410,7 @@
                 "description": "内功修炼 — 双轮驱动之一，自进化引擎的深度修炼能力。触发词：'内功修炼'、'三位一体优化'、'优化3棵树'、'记忆瘦身'。核心职责：记忆/技能/知识三棵树的深度诊断和优化。与举一反三通过P2反馈互相连接。调用系统优化工具（记忆优化/技能优化/知识优化）执行具体操作。",
                 "lastUpdated": "2026-03-09",
                 "callCount": 50,
-                "frequency": "1.4次/周",
+                "frequency": "1.5次/周",
                 "successRate": 93,
                 "sourceType": "自定义",
                 "skillSize": 32491,
@@ -2520,11 +2520,11 @@
                 "displayRole": "发现",
                 "source": "林克核心能力",
                 "level": 4,
-                "exp": 73,
+                "exp": 74,
                 "description": "技能发现 — 技能生命周期的第一阶段。多源搜索 + 主动巡检。模式A: 用户触发搜索（找技能, 搜索技能, ClawHub, skills.sh, 万擎, SkillHub, LangBridge, 网友推荐）。模式B: 主动巡检已有技能的外部更新（被 skill-dojo 社区对标调用）。搜索 skills.sh (86K+)、ClawHub/OpenClaw (13K+) 两大外部生态 + 快",
                 "lastUpdated": "2026-03-19",
-                "callCount": 27,
-                "frequency": "1.8次/周",
+                "callCount": 28,
+                "frequency": "1.9次/周",
                 "successRate": 93,
                 "sourceType": "自定义",
                 "skillSize": 16494,
@@ -2579,13 +2579,13 @@
                 "level": 5,
                 "exp": 100,
                 "description": "技能修炼 — 技能生命周期的第四阶段（发现→创建→评估→修炼）。触发词：'技能修炼'、'跑一下技能测试'、'持续精进'、'技能场景测试'、'退化检测'。核心职责：通过场景化测试、退化检测、弱点分析持续提升现有技能。属于自进化引擎的技能生命周期模块。注意：如果是评估单个技能质量（评分），请使用 link-skill-evaluator 技能。",
-                "lastUpdated": "2026-03-19",
+                "lastUpdated": "2026-03-20",
                 "callCount": 88,
                 "frequency": "2次/月",
                 "successRate": 95,
                 "sourceType": "自定义",
-                "skillSize": 223088,
-                "skillSizeLabel": "223K字 · 巨型",
+                "skillSize": 255154,
+                "skillSizeLabel": "255K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": "Link"
@@ -2677,7 +2677,7 @@
                 "description": "This skill should be used automatically when receiving any task that requires execution, AND when resuming a session from context overflow. It provides a meta-framework for \"getting things right the f",
                 "lastUpdated": "2026-03-12",
                 "callCount": 84,
-                "frequency": "3.4次/周",
+                "frequency": "3.1次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
                 "skillSize": 44970,
@@ -2792,7 +2792,7 @@
                 "description": "AI行业洞察平台专属技能。当用户明确提到'AI洞察'、'AI日报'、'AI周报'或执行AI行业调研任务时使用。核心场景：生成AI行业日报/周报、追踪AI公司/人物、沉淀AI行业知识、管理AI信息源。即使用户只是说'跑一下日报'或'今天AI有什么动态'，只要上下文是AI行业相关，也应该触发。注意：本技能仅处理AI行业领域，研发效能相关请使用 sl-rd-efficiency-insight 技能",
                 "lastUpdated": "2026-03-14",
                 "callCount": 118,
-                "frequency": "2.3次/周",
+                "frequency": "2.0次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
                 "skillSize": 182770,
@@ -2908,7 +2908,7 @@
                 "description": "行业调研方法论（调研框架）。触发词：'行业调研'、'市场分析'、'竞品分析'、'做个调研'、'帮我分析一下XXX市场'、'公司对比'、'产品对比'、'技术趋势分析'、'industry research'。核心职责：提供结构化的多维对比分析框架、基准分析、洞察提取方法论。注意：如果是从微信公众号/小红书等国内平台获取数据，请配合使用 internet-content-research 技能获取",
                 "lastUpdated": "2026-03-09",
                 "callCount": 20,
-                "frequency": "1.3次/周",
+                "frequency": "1.2次/周",
                 "successRate": 90,
                 "sourceType": "自定义",
                 "skillSize": 14814,
@@ -3085,10 +3085,10 @@
                 "displayRole": "内容创作",
                 "source": "林克核心能力",
                 "level": 3,
-                "exp": 59,
+                "exp": 60,
                 "description": "This skill should be used when the user mentions \"写专栏\", \"养了个AI\", \"写文章\", \"写下一期\", \"专栏更新\", \"发布文章\", \"写预告\", \"CF专栏\", \"column writing\", or discusses creating, editing, publishing articles for the \"养了个AI\" Cod",
                 "lastUpdated": "2026-03-09",
-                "callCount": 12,
+                "callCount": 13,
                 "frequency": "3次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
@@ -3289,7 +3289,7 @@
                 "description": "当涉及任何网页文件（HTML/CSS/JS）的创建或修改时，必须使用此技能。\n触发词包括：网页开发、部署、发布、预览、deploy、publish、修复页面、更新页面、\n调整样式、修改HTML、编辑CSS、fix bug、首页、index.html、styles.css、\nlink-homepage、knowledge目录下的HTML文件、创建仓库、首次部署、初次部署、新项目部署。\n提供标准化的本",
                 "lastUpdated": "2026-03-19",
                 "callCount": 27,
-                "frequency": "1.3次/周",
+                "frequency": "1.2次/周",
                 "successRate": 93,
                 "sourceType": "自定义",
                 "skillSize": 29219,
@@ -3403,7 +3403,7 @@
                 "description": "清爽调研报告风格的纯样式规范。当用户提到\"清爽调研报告风格\"时使用此技能。本技能仅提供CSS样式和视觉设计规范，不影响页面内容、数据或功能逻辑。适用于任何需要应用此风格的网页项目。",
                 "lastUpdated": "2026-03-15",
                 "callCount": 34,
-                "frequency": "2.3次/周",
+                "frequency": "1.9次/周",
                 "successRate": 93,
                 "sourceType": "自定义",
                 "skillSize": 29842,
@@ -3556,7 +3556,7 @@
                 "description": "PPT演示文稿。创建、读取、编辑、合并PowerPoint文件",
                 "lastUpdated": "2026-03-09",
                 "callCount": 16,
-                "frequency": "1.1次/周",
+                "frequency": "4次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
                 "skillSize": 164908,
@@ -3570,12 +3570,12 @@
                 "displayName": "AI幻灯片",
                 "displayRole": "AI生成",
                 "source": "林克核心能力",
-                "level": 1,
-                "exp": 10,
+                "level": 3,
+                "exp": 62,
                 "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"",
                 "lastUpdated": "2026-03-19",
-                "callCount": 0,
-                "frequency": "0",
+                "callCount": 1,
+                "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
                 "skillSize": 121139,
@@ -3608,12 +3608,12 @@
                 "displayName": "艺术风格PPT",
                 "displayRole": "艺术创意",
                 "source": "林克核心能力",
-                "level": 1,
-                "exp": 10,
+                "level": 3,
+                "exp": 62,
                 "description": "艺术风格PPT。用AI生成背景图+PptxGenJS排版，制作纪念册、手账、相册等艺术级演示文稿",
                 "lastUpdated": "2026-03-12",
-                "callCount": 0,
-                "frequency": "0",
+                "callCount": 1,
+                "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
                 "skillSize": 22735,
@@ -3624,7 +3624,7 @@
               }
             ],
             "count": 4,
-            "avgLevel": 2.0
+            "avgLevel": 3.0
           },
           "📤 发布推送": {
             "role": "publish",
@@ -3752,10 +3752,10 @@
                 "displayRole": "飞书",
                 "source": "林克核心能力",
                 "level": 3,
-                "exp": 57,
+                "exp": 58,
                 "description": "沈浪飞书助手 — 飞书机器人与CodeFlicker的本地链路。触发词：\"处理飞书消息\"、\"看看飞书\"、\"飞书有消息吗\"、\"检查飞书\"。支持消息自动触发和离线处理。属于沈浪定制技能（SL前缀）。",
                 "lastUpdated": "2026-03-09",
-                "callCount": 6,
+                "callCount": 8,
                 "frequency": "2次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
@@ -4118,7 +4118,7 @@
                 "description": "HTML截图原子技能 — 将HTML渲染为高清PNG截图。触发词：'HTML截图'、'生成PNG'、'HTML转图片'、'截图配图'、'章节配图'。自动适配固定高度和动态高度两种模式，支持KIM Doc配图、调研报告图表等场景。",
                 "lastUpdated": "2026-03-19",
                 "callCount": 64,
-                "frequency": "4.0次/周",
+                "frequency": "3.7次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
                 "skillSize": 28434944,
@@ -4486,10 +4486,10 @@
                 "displayRole": "社区学习",
                 "source": "林克核心能力",
                 "level": 4,
-                "exp": 77,
+                "exp": 78,
                 "description": "ClawBook 社区 Skill — 连接你与其他 Claw 的社区。触发词：'看看社区'、'发个帖子'、'ClawBook'、'社区分享'、'逛逛社区'。通过这个 Skill，你可以在 ClawBook 社区发帖分享经验、评论讨论、投票表态、浏览 Feed 获取灵感，并且主动从社区学习有价值的经验沉淀到自己的技能/记忆体系中。当你完成了一个有趣的任务、学到了新知识、遇到了难题、想分享工作流、或",
                 "lastUpdated": "2026-03-19",
-                "callCount": 37,
+                "callCount": 38,
                 "frequency": "1.2次/周",
                 "successRate": 93,
                 "sourceType": "自定义",
@@ -4505,7 +4505,7 @@
           }
         },
         "count": 79,
-        "avgLevel": 2.3
+        "avgLevel": 2.4
       }
     },
     "relationships": {
@@ -4790,10 +4790,10 @@
         "relatedMemories": [
           "ai_insight"
         ],
-        "fileCount": 95,
-        "sizeKB": 581.4,
+        "fileCount": 107,
+        "sizeKB": 1194.3,
         "heatLevel": 5,
-        "recentCount": 63
+        "recentCount": 75
       },
       "rd-efficiency": {
         "name": "rd-efficiency",
@@ -4945,10 +4945,10 @@
             "relatedMemories": [
               "ai_insight"
             ],
-            "fileCount": 95,
-            "sizeKB": 581.4,
+            "fileCount": 107,
+            "sizeKB": 1194.3,
             "heatLevel": 5,
-            "recentCount": 63
+            "recentCount": 75
           },
           "rd-efficiency": {
             "name": "rd-efficiency",
@@ -4968,8 +4968,8 @@
             "recentCount": 31
           }
         },
-        "totalFiles": 126,
-        "totalSizeKB": 1049.6
+        "totalFiles": 138,
+        "totalSizeKB": 1662.5
       },
       "📦 实践知识层": {
         "icon": "📦",
@@ -5026,8 +5026,8 @@
         "totalSizeKB": 666.7
       }
     },
-    "totalFiles": 298,
-    "totalSizeKB": 2751.4
+    "totalFiles": 310,
+    "totalSizeKB": 3364.3
   },
   "memories": {
     "items": [
@@ -5830,13 +5830,13 @@
         "source": "项目记忆"
       },
       {
-        "title": "多文件联动更新的隐式耦合陷阱（十一类+检查清单 v4）",
+        "title": "多文件联动更新的隐式耦合陷阱（十二类+检查清单 v5）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "前端开发",
         "layer": "🛠️ 实践记忆层",
         "icon": "🎨",
         "color": "#f472b6",
-        "description": "多文件/多目录联动更新的隐式耦合陷阱 十一类联动（v4 新增第11类） | 维度 | 典型场景 | 修复方式 | |:-----|:----...",
+        "description": "多文件/多目录联动更新的隐式耦合陷阱 十二类联动（v5 新增第12类） | 维度 | 典型场景 | 修复方式 | |:-----|:----...",
         "keywords": [
           "联动更新",
           "隐式耦合",
@@ -6039,19 +6039,19 @@
         "source": "项目记忆"
       },
       {
-        "title": "技能管理必须一步到位执行修复（只诊断不修复是反模式）",
+        "title": "技能管理必须一步到位执行修复（只诊断不修复是反模式）+ skill-dojo报告必须用HTTP URL",
         "category": "common_pitfalls_experience",
-        "categoryLabel": "通用踩坑",
+        "categoryLabel": "前端开发",
         "layer": "🛠️ 实践记忆层",
-        "icon": "⚠️",
-        "color": "#ef4444",
-        "description": "问题：技能管理(link-skill-management)执行时只做诊断报告就停止，或者在P0问题时询问用户确认，导致流程中断。 根因：...",
+        "icon": "🎨",
+        "color": "#f472b6",
+        "description": "核心规则 技能管理类任务必须一步到位完成全部修复动作，中间不停顿询问。 skill-dojo 评测报告的一步到位检查清单（2026-03-20...",
         "keywords": [
-          "技能管理",
-          "skill-management",
-          "诊断",
-          "修复",
-          "闭环"
+          "skill-dojo",
+          "评测报告",
+          "HTTP URL",
+          "file协议",
+          "一步到位"
         ],
         "importance": 5,
         "updatedAt": "2026-03-19",
@@ -7179,6 +7179,25 @@
         "source": "用户显式记录"
       },
       {
+        "title": "信息查询任务不应自动拆分为批量执行任务",
+        "category": "task_flow_experience",
+        "categoryLabel": "通用踩坑",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "问题场景 当用户询问\"有什么/列举/分类/包含哪些\"类问题时，Agent可能误判为需要逐一执行的批量任务，创建过多子任务导致假性未完成。 典型...",
+        "keywords": [
+          "任务分类",
+          "过度拆分",
+          "信息查询",
+          "批量执行",
+          "任务规划"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-03-19",
+        "source": "项目记忆"
+      },
+      {
         "title": "修复问题时的精确打击原则（防止过度删除）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "通用踩坑",
@@ -7917,7 +7936,7 @@
         "source": "用户显式记录"
       }
     ],
-    "total": 142,
+    "total": 143,
     "byCategory": {
       "development_code_specification": {
         "count": 5,
@@ -7941,7 +7960,7 @@
         "description": "沟通风格、做事偏好、兴趣爱好"
       },
       "task_flow_experience": {
-        "count": 19,
+        "count": 20,
         "label": "思维方法",
         "icon": "🧠",
         "color": "#fbbf24",
@@ -8750,13 +8769,13 @@
             "description": "SVG/CSS/页面开发踩坑",
             "items": [
               {
-                "title": "多文件联动更新的隐式耦合陷阱（十一类+检查清单 v4）",
+                "title": "多文件联动更新的隐式耦合陷阱（十二类+检查清单 v5）",
                 "category": "common_pitfalls_experience",
                 "categoryLabel": "前端开发",
                 "layer": "🛠️ 实践记忆层",
                 "icon": "🎨",
                 "color": "#f472b6",
-                "description": "多文件/多目录联动更新的隐式耦合陷阱 十一类联动（v4 新增第11类） | 维度 | 典型场景 | 修复方式 | |:-----|:----...",
+                "description": "多文件/多目录联动更新的隐式耦合陷阱 十二类联动（v5 新增第12类） | 维度 | 典型场景 | 修复方式 | |:-----|:----...",
                 "keywords": [
                   "联动更新",
                   "隐式耦合",
@@ -9181,6 +9200,25 @@
                   "特殊字符",
                   "转义",
                   "XML"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-03-19",
+                "source": "项目记忆"
+              },
+              {
+                "title": "技能管理必须一步到位执行修复（只诊断不修复是反模式）+ skill-dojo报告必须用HTTP URL",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "前端开发",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "🎨",
+                "color": "#f472b6",
+                "description": "核心规则 技能管理类任务必须一步到位完成全部修复动作，中间不停顿询问。 skill-dojo 评测报告的一步到位检查清单（2026-03-20...",
+                "keywords": [
+                  "skill-dojo",
+                  "评测报告",
+                  "HTTP URL",
+                  "file协议",
+                  "一步到位"
                 ],
                 "importance": 5,
                 "updatedAt": "2026-03-19",
@@ -9776,7 +9814,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 54
+            "count": 55
           },
           "发布部署": {
             "icon": "🚀",
@@ -10641,25 +10679,6 @@
                 "source": "项目记忆"
               },
               {
-                "title": "技能管理必须一步到位执行修复（只诊断不修复是反模式）",
-                "category": "common_pitfalls_experience",
-                "categoryLabel": "通用踩坑",
-                "layer": "🛠️ 实践记忆层",
-                "icon": "⚠️",
-                "color": "#ef4444",
-                "description": "问题：技能管理(link-skill-management)执行时只做诊断报告就停止，或者在P0问题时询问用户确认，导致流程中断。 根因：...",
-                "keywords": [
-                  "技能管理",
-                  "skill-management",
-                  "诊断",
-                  "修复",
-                  "闭环"
-                ],
-                "importance": 5,
-                "updatedAt": "2026-03-19",
-                "source": "项目记忆"
-              },
-              {
                 "title": "JavaScript函数内赋值全局变量必须用window前缀",
                 "category": "common_pitfalls_experience",
                 "categoryLabel": "通用踩坑",
@@ -10675,6 +10694,25 @@
                   "var"
                 ],
                 "importance": 5,
+                "updatedAt": "2026-03-19",
+                "source": "项目记忆"
+              },
+              {
+                "title": "信息查询任务不应自动拆分为批量执行任务",
+                "category": "task_flow_experience",
+                "categoryLabel": "通用踩坑",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "⚠️",
+                "color": "#ef4444",
+                "description": "问题场景 当用户询问\"有什么/列举/分类/包含哪些\"类问题时，Agent可能误判为需要逐一执行的批量任务，创建过多子任务导致假性未完成。 典型...",
+                "keywords": [
+                  "任务分类",
+                  "过度拆分",
+                  "信息查询",
+                  "批量执行",
+                  "任务规划"
+                ],
+                "importance": 4,
                 "updatedAt": "2026-03-19",
                 "source": "项目记忆"
               },
@@ -10823,7 +10861,7 @@
             "count": 2
           }
         },
-        "count": 106
+        "count": 107
       }
     }
   },
@@ -10841,12 +10879,12 @@
     "knowledge": [
       297,
       298,
-      298
+      310
     ],
     "memories": [
       144,
       152,
-      152
+      153
     ]
   },
   "achievements": [
@@ -10881,7 +10919,7 @@
       "category": "growth",
       "unlocked": true,
       "progress": 100,
-      "progressText": "懂你程度 91/80",
+      "progressText": "懂你程度 92/80",
       "date": "2026-03-20"
     },
     {
@@ -10893,7 +10931,7 @@
       "category": "growth",
       "unlocked": true,
       "progress": 100,
-      "progressText": "4星+技能 69/10",
+      "progressText": "4星+技能 71/10",
       "date": "2026-03-20"
     },
     {
