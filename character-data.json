@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T15:09:59.737440",
+  "generatedAt": "2026-03-19T15:16:46.466102",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -15,14 +15,14 @@
       "icon": "👑",
       "description": "炉火纯青，宗师风范"
     },
-    "totalExp": 367550,
-    "expProgress": 54.0,
+    "totalExp": 367700,
+    "expProgress": 54.4,
     "currentThreshold": 349649,
     "nextThreshold": 382801,
     "stats": {
       "understanding": 91.3,
       "execution": 84.0,
-      "skillDepth": 67.1,
+      "skillDepth": 67.2,
       "thinkingDepth": 43.8,
       "knowledgeBreadth": 80.8
     },
@@ -34,15 +34,15 @@
         "mdv": 0.6,
         "ctr": 3.3
       },
-      "activeSkills": 34,
-      "highLevelSkills": 34,
-      "skillTotalValue": 183.5,
+      "activeSkills": 33,
+      "highLevelSkills": 33,
+      "skillTotalValue": 181.7,
       "cultivationExp": 0,
-      "baseExp": 367550,
+      "baseExp": 367700,
       "expBreakdown": {
         "understanding": 91299,
         "execution": 84000,
-        "skill": 100649,
+        "skill": 100800,
         "thinking": 35039,
         "knowledge": 56559,
         "cultivation": 0
@@ -50,7 +50,7 @@
     }
   },
   "skills": {
-    "total": 116,
+    "total": 113,
     "categories": {
       "🔄 自进化引擎": {
         "role": "engine",
@@ -890,7 +890,7 @@
         "skills": [
           {
             "name": "ai-image-generator",
-            "displayName": "AI生图",
+            "displayName": "快手AI生图",
             "displayRole": "本地生图",
             "source": "林克核心能力",
             "level": 4,
@@ -905,7 +905,7 @@
             "skillSizeLabel": "88K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
-            "tag": ""
+            "tag": "KS"
           },
           {
             "name": "html-screenshot",
@@ -927,25 +927,6 @@
             "tag": ""
           },
           {
-            "name": "baoyu-image-gen",
-            "displayName": "AI图片生成",
-            "displayRole": "多API",
-            "source": "林克核心能力",
-            "level": 1,
-            "exp": 10,
-            "description": "AI image generation with OpenAI, Google, OpenRouter, DashScope, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt fil",
-            "lastUpdated": "2026-03-19",
-            "callCount": 0,
-            "frequency": "0",
-            "successRate": 90,
-            "sourceType": "自定义",
-            "skillSize": 157500,
-            "skillSizeLabel": "157K字 · 巨型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": ""
-          },
-          {
             "name": "baoyu-danger-gemini-web",
             "displayName": "Gemini生图",
             "displayRole": "Gemini",
@@ -960,25 +941,6 @@
             "sourceType": "自定义",
             "skillSize": 122124,
             "skillSizeLabel": "122K字 · 巨型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": ""
-          },
-          {
-            "name": "baoyu-cover-image",
-            "displayName": "封面图生成",
-            "displayRole": "封面",
-            "source": "林克核心能力",
-            "level": 1,
-            "exp": 10,
-            "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 10 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (",
-            "lastUpdated": "2026-03-19",
-            "callCount": 0,
-            "frequency": "0",
-            "successRate": 90,
-            "sourceType": "自定义",
-            "skillSize": 90234,
-            "skillSizeLabel": "90K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
             "tag": ""
@@ -1079,8 +1041,8 @@
             "tag": ""
           }
         ],
-        "count": 10,
-        "avgLevel": 1.5
+        "count": 8,
+        "avgLevel": 1.6
       },
       "🌐 网页开发": {
         "role": "web-dev",
@@ -1397,38 +1359,19 @@
             "tag": ""
           },
           {
-            "name": "summarize",
-            "displayName": "内容摘要",
-            "displayRole": "摘要总结",
-            "source": "林克核心能力",
-            "level": 3,
-            "exp": 57,
-            "description": "内容摘要。使用CLI工具对URL、文件、PDF、音频、视频进行摘要",
-            "lastUpdated": "2026-03-10",
-            "callCount": 2,
-            "frequency": "1次/月",
-            "successRate": 90,
-            "sourceType": "自定义",
-            "skillSize": 3271,
-            "skillSizeLabel": "3K字 · 小型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": ""
-          },
-          {
             "name": "apify-competitor-intelligence",
             "displayName": "竞品分析",
             "displayRole": "竞争对手",
-            "source": "林克核心能力",
+            "source": "平台预装技能",
             "level": 1,
             "exp": 10,
             "description": "竞品情报。分析竞争对手策略、内容、定价和市场定位",
-            "lastUpdated": "2026-03-17",
+            "lastUpdated": "2026-02-09",
             "callCount": 0,
             "frequency": "0",
             "successRate": 90,
-            "sourceType": "自定义",
-            "skillSize": 17058,
+            "sourceType": "平台预装",
+            "skillSize": 17041,
             "skillSizeLabel": "17K字 · 大型",
             "ksInternal": false,
             "cfProject": false,
@@ -1438,16 +1381,16 @@
             "name": "apify-market-research",
             "displayName": "市场调研",
             "displayRole": "市场分析",
-            "source": "林克核心能力",
+            "source": "平台预装技能",
             "level": 1,
             "exp": 10,
             "description": "市场调研。分析市场条件、定价、消费者行为",
-            "lastUpdated": "2026-03-17",
+            "lastUpdated": "2026-02-09",
             "callCount": 0,
             "frequency": "0",
             "successRate": 90,
-            "sourceType": "自定义",
-            "skillSize": 15821,
+            "sourceType": "平台预装",
+            "skillSize": 15804,
             "skillSizeLabel": "15K字 · 大型",
             "ksInternal": false,
             "cfProject": false,
@@ -1457,17 +1400,17 @@
             "name": "apify-trend-analysis",
             "displayName": "趋势分析",
             "displayRole": "趋势追踪",
-            "source": "林克核心能力",
+            "source": "平台预装技能",
             "level": 1,
             "exp": 10,
             "description": "趋势分析。跨Google/Instagram/YouTube/TikTok发现和追踪趋势",
-            "lastUpdated": "2026-03-17",
+            "lastUpdated": "2026-02-09",
             "callCount": 0,
             "frequency": "0",
             "successRate": 90,
-            "sourceType": "自定义",
-            "skillSize": 16009,
-            "skillSizeLabel": "16K字 · 大型",
+            "sourceType": "平台预装",
+            "skillSize": 15992,
+            "skillSizeLabel": "15K字 · 大型",
             "ksInternal": false,
             "cfProject": false,
             "tag": ""
@@ -1549,8 +1492,8 @@
             "tag": "KS"
           }
         ],
-        "count": 10,
-        "avgLevel": 1.6
+        "count": 9,
+        "avgLevel": 1.4
       },
       "📤 发布推送": {
         "role": "publish",
@@ -3300,7 +3243,7 @@
             "skills": [
               {
                 "name": "ai-image-generator",
-                "displayName": "AI生图",
+                "displayName": "快手AI生图",
                 "displayRole": "本地生图",
                 "source": "林克核心能力",
                 "level": 4,
@@ -3315,7 +3258,7 @@
                 "skillSizeLabel": "88K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
-                "tag": ""
+                "tag": "KS"
               },
               {
                 "name": "html-screenshot",
@@ -3337,25 +3280,6 @@
                 "tag": ""
               },
               {
-                "name": "baoyu-image-gen",
-                "displayName": "AI图片生成",
-                "displayRole": "多API",
-                "source": "林克核心能力",
-                "level": 1,
-                "exp": 10,
-                "description": "AI image generation with OpenAI, Google, OpenRouter, DashScope, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt fil",
-                "lastUpdated": "2026-03-19",
-                "callCount": 0,
-                "frequency": "0",
-                "successRate": 90,
-                "sourceType": "自定义",
-                "skillSize": 157500,
-                "skillSizeLabel": "157K字 · 巨型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": ""
-              },
-              {
                 "name": "baoyu-danger-gemini-web",
                 "displayName": "Gemini生图",
                 "displayRole": "Gemini",
@@ -3370,25 +3294,6 @@
                 "sourceType": "自定义",
                 "skillSize": 122124,
                 "skillSizeLabel": "122K字 · 巨型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": ""
-              },
-              {
-                "name": "baoyu-cover-image",
-                "displayName": "封面图生成",
-                "displayRole": "封面",
-                "source": "林克核心能力",
-                "level": 1,
-                "exp": 10,
-                "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 10 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (",
-                "lastUpdated": "2026-03-19",
-                "callCount": 0,
-                "frequency": "0",
-                "successRate": 90,
-                "sourceType": "自定义",
-                "skillSize": 90234,
-                "skillSizeLabel": "90K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": ""
@@ -3489,8 +3394,8 @@
                 "tag": ""
               }
             ],
-            "count": 10,
-            "avgLevel": 1.5
+            "count": 8,
+            "avgLevel": 1.6
           },
           "🌐 网页开发": {
             "role": "web-dev",
@@ -3804,38 +3709,19 @@
                 "tag": ""
               },
               {
-                "name": "summarize",
-                "displayName": "内容摘要",
-                "displayRole": "摘要总结",
-                "source": "林克核心能力",
-                "level": 3,
-                "exp": 57,
-                "description": "内容摘要。使用CLI工具对URL、文件、PDF、音频、视频进行摘要",
-                "lastUpdated": "2026-03-10",
-                "callCount": 2,
-                "frequency": "1次/月",
-                "successRate": 90,
-                "sourceType": "自定义",
-                "skillSize": 3271,
-                "skillSizeLabel": "3K字 · 小型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": ""
-              },
-              {
                 "name": "apify-competitor-intelligence",
                 "displayName": "竞品分析",
                 "displayRole": "竞争对手",
-                "source": "林克核心能力",
+                "source": "平台预装技能",
                 "level": 1,
                 "exp": 10,
                 "description": "竞品情报。分析竞争对手策略、内容、定价和市场定位",
-                "lastUpdated": "2026-03-17",
+                "lastUpdated": "2026-02-09",
                 "callCount": 0,
                 "frequency": "0",
                 "successRate": 90,
-                "sourceType": "自定义",
-                "skillSize": 17058,
+                "sourceType": "平台预装",
+                "skillSize": 17041,
                 "skillSizeLabel": "17K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false,
@@ -3845,16 +3731,16 @@
                 "name": "apify-market-research",
                 "displayName": "市场调研",
                 "displayRole": "市场分析",
-                "source": "林克核心能力",
+                "source": "平台预装技能",
                 "level": 1,
                 "exp": 10,
                 "description": "市场调研。分析市场条件、定价、消费者行为",
-                "lastUpdated": "2026-03-17",
+                "lastUpdated": "2026-02-09",
                 "callCount": 0,
                 "frequency": "0",
                 "successRate": 90,
-                "sourceType": "自定义",
-                "skillSize": 15821,
+                "sourceType": "平台预装",
+                "skillSize": 15804,
                 "skillSizeLabel": "15K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false,
@@ -3864,17 +3750,17 @@
                 "name": "apify-trend-analysis",
                 "displayName": "趋势分析",
                 "displayRole": "趋势追踪",
-                "source": "林克核心能力",
+                "source": "平台预装技能",
                 "level": 1,
                 "exp": 10,
                 "description": "趋势分析。跨Google/Instagram/YouTube/TikTok发现和追踪趋势",
-                "lastUpdated": "2026-03-17",
+                "lastUpdated": "2026-02-09",
                 "callCount": 0,
                 "frequency": "0",
                 "successRate": 90,
-                "sourceType": "自定义",
-                "skillSize": 16009,
-                "skillSizeLabel": "16K字 · 大型",
+                "sourceType": "平台预装",
+                "skillSize": 15992,
+                "skillSizeLabel": "15K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": ""
@@ -3956,8 +3842,8 @@
                 "tag": "KS"
               }
             ],
-            "count": 10,
-            "avgLevel": 1.6
+            "count": 9,
+            "avgLevel": 1.4
           },
           "📤 发布推送": {
             "role": "publish",
@@ -4846,7 +4732,7 @@
             "avgLevel": 1.0
           }
         },
-        "count": 88,
+        "count": 85,
         "avgLevel": 1.6
       }
     },
@@ -10908,7 +10794,7 @@
     ],
     "skills": [
       79,
-      116
+      113
     ],
     "knowledge": [
       297,
@@ -10963,7 +10849,7 @@
       "category": "growth",
       "unlocked": true,
       "progress": 100,
-      "progressText": "4星+技能 34/10",
+      "progressText": "4星+技能 33/10",
       "date": "2026-03-19"
     },
     {
