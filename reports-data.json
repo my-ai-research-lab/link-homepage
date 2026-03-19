@@ -1,13 +1,12 @@
 {
-  "generatedAt": "2026-03-19T05:31:54.968694",
+  "generatedAt": "2026-03-20T05:02:11.018461",
   "summary": {
-    "totalDays": 24,
-    "latestDate": "2026-03-19",
+    "totalDays": 25,
+    "latestDate": "2026-03-20",
     "earliestDate": "2026-02-24"
   },
   "trend": {
     "dates": [
-      "03-06",
       "03-07",
       "03-08",
       "03-09",
@@ -20,10 +19,10 @@
       "03-16",
       "03-17",
       "03-18",
-      "03-19"
+      "03-19",
+      "03-20"
     ],
     "skills": [
-      76,
       77,
       77,
       78,
@@ -36,10 +35,10 @@
       77,
       78,
       79,
-      79
+      107,
+      107
     ],
     "knowledge": [
-      220,
       224,
       228,
       232,
@@ -52,10 +51,10 @@
       205,
       208,
       297,
+      298,
       298
     ],
     "memory": [
-      104,
       105,
       106,
       107,
@@ -68,10 +67,89 @@
       132,
       130,
       144,
-      144
+      152,
+      152
     ]
   },
   "reports": [
+    {
+      "date": "2026-03-20",
+      "dayOfWeek": "周五",
+      "activeProjects": 1,
+      "totalCommits": 0,
+      "conversationCount": 2,
+      "coreProgress": [
+        "💬 完成 2 个任务: 完成社区互动（点赞、学习标记），并总结知识获取与技能提升情况, 全面评测执行层10个技能的功能完整性，包括翻译、生图、PPT生成、复盘等能力，并...",
+        "📁 AI助理核心: 9个文件修改"
+      ],
+      "deliveries": [
+        {
+          "title": "Community Engagement and Learning Summary",
+          "type": "conversation",
+          "goal": "完成社区互动（点赞、学习标记），并总结知识获取与技能提升情况",
+          "deliverables": [],
+          "process": [],
+          "tags": [
+            "community",
+            "learning",
+            "automation",
+            "skill-development",
+            "knowledge-sharing"
+          ]
+        },
+        {
+          "title": "Execution Layer Skills Evaluation Report",
+          "type": "conversation",
+          "goal": "全面评测执行层10个技能的功能完整性，包括翻译、生图、PPT生成、复盘等能力，并生成完整评测报告。",
+          "deliverables": [],
+          "process": [
+            "评测了10个执行层技能全部通过测试，包括baoyu-translate翻译、pptx生成（验证了57KB的.pptx文件）、link-learn-from-mistakes复盘功能（四阶段流程完整）。..."
+          ],
+          "tags": [
+            "skill-evaluation",
+            "pptx-generation",
+            "learning-from-mistakes",
+            "testing-framework",
+            "execution-layer"
+          ]
+        },
+        {
+          "title": "个人助理_V1",
+          "type": "project",
+          "goal": "项目开发与维护",
+          "deliverables": [],
+          "process": [],
+          "commitCount": 0,
+          "fileChangeCount": 9,
+          "deployUrl": null
+        }
+      ],
+      "capabilityGrowth": {
+        "skillCount": 107,
+        "knowledgeCount": 161,
+        "memoryCount": 152,
+        "skillChange": 0,
+        "knowledgeChange": 0,
+        "memoryChange": 0,
+        "newSkills": [],
+        "updatedSkills": [],
+        "newKnowledge": [],
+        "updatedKnowledge": [],
+        "newMemory": [],
+        "updatedMemory": [],
+        "trend": "stable"
+      },
+      "skillCount": 107,
+      "knowledgeCount": 161,
+      "memoryCount": 152,
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 0,
+      "highlights": [
+        "💬 完成 2 个任务: 完成社区互动（点赞、学习标记），并总结知识获取与技能提升情况, 全面评测执行层10个技能的功能完整性，包括翻译、生图、PPT生成、复盘等能力，并...",
+        "📁 AI助理核心: 9个文件修改"
+      ]
+    },
     {
       "date": "2026-03-19",
       "dayOfWeek": "周四",
