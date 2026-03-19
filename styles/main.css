@@ -2508,6 +2508,31 @@ body {
     letter-spacing: 0.3px;
     white-space: nowrap;
 }
+/* 林克定制 - 紫色调 */
+.tip-source-badge[data-type="link"] {
+    background: rgba(167, 139, 250, 0.25);
+    color: #c4b5fd;
+    border: 1px solid rgba(167, 139, 250, 0.4);
+}
+/* 快手定制 - 橙色调 */
+.tip-source-badge[data-type="ks"] {
+    background: rgba(251, 146, 60, 0.25);
+    color: #fdba74;
+    border: 1px solid rgba(251, 146, 60, 0.4);
+}
+/* 个人定制 - 绿色调 */
+.tip-source-badge[data-type="sl"] {
+    background: rgba(74, 222, 128, 0.25);
+    color: #86efac;
+    border: 1px solid rgba(74, 222, 128, 0.4);
+}
+/* 通用 - 蓝灰色调 */
+.tip-source-badge[data-type="generic"] {
+    background: rgba(56, 189, 248, 0.2);
+    color: #7dd3fc;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+}
+/* 兼容旧类型 */
 .tip-source-badge[data-type="builtin"] {
     background: rgba(167, 139, 250, 0.2);
     color: #c4b5fd;
@@ -2522,6 +2547,11 @@ body {
     background: rgba(56, 189, 248, 0.2);
     color: #7dd3fc;
     border: 1px solid rgba(56, 189, 248, 0.3);
+}
+.tip-source-badge[data-type="other"] {
+    background: rgba(100, 116, 139, 0.2);
+    color: #94a3b8;
+    border: 1px solid rgba(100, 116, 139, 0.3);
 }
 
 .tip-level {
