@@ -15,6 +15,9 @@ function renderSkillTechTree(container, skills) {
     var categories = skills.categories;
     var relationships = skills.relationships || {};
     
+    // 从 JSON 数据填充技能调用关系（单一数据源）
+    SKILL_CALL_DATA = relationships.skill_calls || [];
+    
     // 技能名称全部从数据读取（v4.0 — 消除 skillNameMap 硬编码）
     // displayName: 统一中文名（所有展示场景使用同一名称）, name: 英文标识符
     function getName(skill) {
@@ -1062,9 +1065,10 @@ function drawSkillCallConnectors() {
         };
     }
     
-    // 绘制每条调用关系连线
+    // 绘制每条调用关系连线（数据来源：SKILL_CALL_DATA，从 JSON skill_calls 读取）
     var drawnPairs = {};
-    DOMAIN_SKILL_CALLS.forEach(function(call) {
+    var callsData = SKILL_CALL_DATA.length > 0 ? SKILL_CALL_DATA : DOMAIN_SKILL_CALLS;
+    callsData.forEach(function(call) {
         var fromEl = skillArch.querySelector('[data-skill-name="' + call.from + '"]');
         var toEl = skillArch.querySelector('[data-skill-name="' + call.to + '"]');
         
