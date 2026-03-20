@@ -117,6 +117,7 @@
     overflow: visible;
     position: relative;
     z-index: 101;
+    min-height: 420px;  /* v13.4: 确保容器高度足够显示所有内容 */
 }
 /* Demo风格头部 */
 .engine-header {
@@ -2016,33 +2017,35 @@
     position: relative;
     overflow: visible !important;
 }
-/* v13.4: 紧凑布局 - 标题在左下角，整体居中 */
+/* v13.1: 紧凑布局 - 标题在左，循环圈在右 */
 .lifecycle-section--compact {
-    margin-top: -20px;
-    padding-top: 0;
-    padding-bottom: 0;
-    border-top: none;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 32px;
+    gap: 12px;
 }
-.lifecycle-bottom {
+.lifecycle-left {
     display: flex;
     align-items: center;
-    margin-top: 4px;
-    position: relative;
+    padding-top: 20px;
 }
-.lifecycle-title-corner {
+.lifecycle-title-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
     font-size: 11px;
     color: rgba(200, 220, 240, 0.5);
     font-family: var(--font-mono);
-    padding: 4px 8px;
+    letter-spacing: 2px;
+    padding: 8px 4px;
     border: 1px solid rgba(200, 220, 240, 0.15);
     border-radius: 4px;
     background: rgba(200, 220, 240, 0.03);
-    margin-right: auto;
 }
-.lifecycle-bottom .lifecycle-feedback-label {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+.lifecycle-right {
+    flex: 1;
+    position: relative;
 }
 .lifecycle-header {
     display: flex;
