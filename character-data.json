@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T08:13:23.436508",
+  "generatedAt": "2026-03-20T09:42:35.570837",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -15,12 +15,12 @@
       "icon": "👑",
       "description": "炉火纯青，宗师风范"
     },
-    "totalExp": 394120,
-    "expProgress": 30.4,
+    "totalExp": 394020,
+    "expProgress": 30.2,
     "currentThreshold": 382801,
     "nextThreshold": 420009,
     "stats": {
-      "understanding": 91.6,
+      "understanding": 91.5,
       "execution": 84.0,
       "skillDepth": 87.6,
       "thinkingDepth": 43.8,
@@ -38,9 +38,9 @@
       "highLevelSkills": 71,
       "skillTotalValue": 2387.8,
       "cultivationExp": 0,
-      "baseExp": 394120,
+      "baseExp": 394020,
       "expBreakdown": {
-        "understanding": 91599,
+        "understanding": 91500,
         "execution": 84000,
         "skill": 131399,
         "thinking": 35039,
@@ -357,8 +357,8 @@
             "frequency": "2次/月",
             "successRate": 95,
             "sourceType": "自定义",
-            "skillSize": 558226,
-            "skillSizeLabel": "558K字 · 巨型",
+            "skillSize": 569909,
+            "skillSizeLabel": "569K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
             "tag": "Link"
@@ -746,8 +746,8 @@
             "frequency": "0",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 19923989,
-            "skillSizeLabel": "19923K字 · 巨型",
+            "skillSize": 19924269,
+            "skillSizeLabel": "19924K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
             "tag": ""
@@ -803,8 +803,8 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 56471,
-            "skillSizeLabel": "56K字 · 巨型",
+            "skillSize": 60694,
+            "skillSizeLabel": "60K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
             "tag": ""
@@ -2612,8 +2612,8 @@
                 "frequency": "2次/月",
                 "successRate": 95,
                 "sourceType": "自定义",
-                "skillSize": 558226,
-                "skillSizeLabel": "558K字 · 巨型",
+                "skillSize": 569909,
+                "skillSizeLabel": "569K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": "Link"
@@ -3015,8 +3015,8 @@
                 "frequency": "0",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 19923989,
-                "skillSizeLabel": "19923K字 · 巨型",
+                "skillSize": 19924269,
+                "skillSizeLabel": "19924K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": ""
@@ -3072,8 +3072,8 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 56471,
-                "skillSizeLabel": "56K字 · 巨型",
+                "skillSize": 60694,
+                "skillSizeLabel": "60K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": ""
@@ -4847,9 +4847,9 @@
           "ai_insight"
         ],
         "fileCount": 107,
-        "sizeKB": 1194.5,
+        "sizeKB": 1194.3,
         "heatLevel": 5,
-        "recentCount": 75
+        "recentCount": 107
       },
       "rd-efficiency": {
         "name": "rd-efficiency",
@@ -4988,9 +4988,9 @@
               "ai_insight"
             ],
             "fileCount": 107,
-            "sizeKB": 1194.5,
+            "sizeKB": 1194.3,
             "heatLevel": 5,
-            "recentCount": 75
+            "recentCount": 107
           },
           "rd-efficiency": {
             "name": "rd-efficiency",
@@ -5011,7 +5011,7 @@
           }
         },
         "totalFiles": 138,
-        "totalSizeKB": 1662.7
+        "totalSizeKB": 1662.5
       },
       "📦 实践知识层": {
         "icon": "📦",
@@ -5055,7 +5055,7 @@
       }
     },
     "totalFiles": 298,
-    "totalSizeKB": 2751.6
+    "totalSizeKB": 2751.4
   },
   "memories": {
     "items": [
@@ -6008,25 +6008,6 @@
         "importance": 5,
         "updatedAt": "2026-03-18",
         "source": "项目记忆"
-      },
-      {
-        "title": "生图完成后必须发送可点击链接",
-        "category": "development_practice_specification",
-        "categoryLabel": "通用踩坑",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "⚠️",
-        "color": "#ef4444",
-        "description": "生图完成后必须发送可点击链接 生成图片后，必须让用户能直接查看图片。 执行方式 1. 生成图片后，使用 open 命令直接打开图片文件，...",
-        "keywords": [
-          "生图",
-          "open",
-          "图片查看",
-          "本地文件",
-          "交付"
-        ],
-        "importance": 5,
-        "updatedAt": "2026-03-12",
-        "source": "用户显式记录"
       },
       {
         "title": "直属老板的材料与结构化表达高标准",
@@ -7243,6 +7224,25 @@
         "importance": 4,
         "updatedAt": "2026-03-05",
         "source": "项目记忆"
+      },
+      {
+        "title": "生图完成后必须发送可点击链接",
+        "category": "development_practice_specification",
+        "categoryLabel": "通用踩坑",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "生图完成后必须发送可点击链接 生成图片后，必须让用户能直接查看图片。 执行方式 1. 生成图片后，使用 open 命令直接打开图片文件，...",
+        "keywords": [
+          "生图",
+          "open",
+          "图片查看",
+          "本地文件",
+          "交付"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-03-12",
+        "source": "用户显式记录"
       },
       {
         "title": "禁止使用龙虾emoji",
@@ -10387,7 +10387,7 @@
                   "本地文件",
                   "交付"
                 ],
-                "importance": 5,
+                "importance": 4,
                 "updatedAt": "2026-03-12",
                 "source": "用户显式记录"
               },
