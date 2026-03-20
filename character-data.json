@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T15:35:54.705755",
+  "generatedAt": "2026-03-20T18:07:46.147285",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -15,12 +15,12 @@
       "icon": "👑",
       "description": "炉火纯青，宗师风范"
     },
-    "totalExp": 393270,
-    "expProgress": 28.1,
+    "totalExp": 393470,
+    "expProgress": 28.7,
     "currentThreshold": 382801,
     "nextThreshold": 420009,
     "stats": {
-      "understanding": 92.1,
+      "understanding": 92.3,
       "execution": 84.0,
       "skillDepth": 86.7,
       "thinkingDepth": 43.8,
@@ -38,9 +38,9 @@
       "highLevelSkills": 103,
       "skillTotalValue": 2700.9,
       "cultivationExp": 0,
-      "baseExp": 393270,
+      "baseExp": 393470,
       "expBreakdown": {
-        "understanding": 92100,
+        "understanding": 92300,
         "execution": 84000,
         "skill": 130050,
         "thinking": 35039,
@@ -148,8 +148,8 @@
             "frequency": "1.2次/周",
             "successRate": 95,
             "sourceType": "自定义",
-            "skillSize": 77694,
-            "skillSizeLabel": "77K字 · 巨型",
+            "skillSize": 80716,
+            "skillSizeLabel": "80K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
             "tag": "Link"
@@ -455,7 +455,7 @@
             "frequency": "4.7次/周",
             "successRate": 95,
             "sourceType": "自定义",
-            "skillSize": 44970,
+            "skillSize": 44647,
             "skillSizeLabel": "44K字 · 大型",
             "ksInternal": false,
             "cfProject": false,
@@ -561,8 +561,8 @@
             "frequency": "1.9次/周",
             "successRate": 95,
             "sourceType": "自定义",
-            "skillSize": 183591,
-            "skillSizeLabel": "183K字 · 巨型",
+            "skillSize": 187238,
+            "skillSizeLabel": "187K字 · 巨型",
             "ksInternal": false,
             "cfProject": true,
             "tag": "SL"
@@ -773,12 +773,12 @@
           },
           {
             "name": "apify-market-research",
-            "displayName": "Market Research",
+            "displayName": "市场调研",
             "displayRole": "多平台数据",
             "source": "平台预装技能",
             "level": 2,
             "exp": 47,
-            "description": "Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor.",
+            "description": "市场调研数据采集。从谷歌地图、Facebook、Instagram、Booking.com等平台提取市场状况、地理机会、定价及消费者行为数据",
             "lastUpdated": "2026-02-09",
             "callCount": 1,
             "frequency": "<0.1/天",
@@ -792,12 +792,12 @@
           },
           {
             "name": "apify-competitor-intelligence",
-            "displayName": "Competitor Intelligence",
+            "displayName": "竞品分析",
             "displayRole": "竞争情报",
             "source": "平台预装技能",
             "level": 2,
             "exp": 47,
-            "description": "Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.",
+            "description": "竞品情报分析。从谷歌地图、Booking.com、Facebook、YouTube、TikTok等平台分析竞争对手策略、内容、定价和市场定位",
             "lastUpdated": "2026-02-09",
             "callCount": 1,
             "frequency": "<0.1/天",
@@ -811,12 +811,12 @@
           },
           {
             "name": "apify-trend-analysis",
-            "displayName": "Trend Analysis",
+            "displayName": "趋势分析",
             "displayRole": "市场趋势",
             "source": "平台预装技能",
             "level": 2,
             "exp": 47,
-            "description": "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.",
+            "description": "趋势追踪分析。从谷歌趋势、Instagram、Facebook、YouTube、TikTok发现和追踪新兴趋势，辅助内容策略制定",
             "lastUpdated": "2026-02-09",
             "callCount": 1,
             "frequency": "<0.1/天",
@@ -852,7 +852,7 @@
             "frequency": "4次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 24465,
+            "skillSize": 24459,
             "skillSizeLabel": "24K字 · 大型",
             "ksInternal": false,
             "cfProject": true,
@@ -1409,7 +1409,7 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 317884,
+            "skillSize": 317376,
             "skillSizeLabel": "317K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
@@ -2251,7 +2251,7 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 38239,
+            "skillSize": 38297,
             "skillSizeLabel": "38K字 · 大型",
             "ksInternal": false,
             "cfProject": false,
@@ -2394,8 +2394,8 @@
                 "frequency": "1.2次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
-                "skillSize": 77694,
-                "skillSizeLabel": "77K字 · 巨型",
+                "skillSize": 80716,
+                "skillSizeLabel": "80K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": "Link"
@@ -2699,7 +2699,7 @@
                 "frequency": "4.7次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
-                "skillSize": 44970,
+                "skillSize": 44647,
                 "skillSizeLabel": "44K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false,
@@ -2814,8 +2814,8 @@
                 "frequency": "1.9次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
-                "skillSize": 183591,
-                "skillSizeLabel": "183K字 · 巨型",
+                "skillSize": 187238,
+                "skillSizeLabel": "187K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": true,
                 "tag": "SL"
@@ -3033,12 +3033,12 @@
               },
               {
                 "name": "apify-market-research",
-                "displayName": "Market Research",
+                "displayName": "市场调研",
                 "displayRole": "多平台数据",
                 "source": "平台预装技能",
                 "level": 2,
                 "exp": 47,
-                "description": "Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor.",
+                "description": "市场调研数据采集。从谷歌地图、Facebook、Instagram、Booking.com等平台提取市场状况、地理机会、定价及消费者行为数据",
                 "lastUpdated": "2026-02-09",
                 "callCount": 1,
                 "frequency": "<0.1/天",
@@ -3052,12 +3052,12 @@
               },
               {
                 "name": "apify-competitor-intelligence",
-                "displayName": "Competitor Intelligence",
+                "displayName": "竞品分析",
                 "displayRole": "竞争情报",
                 "source": "平台预装技能",
                 "level": 2,
                 "exp": 47,
-                "description": "Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.",
+                "description": "竞品情报分析。从谷歌地图、Booking.com、Facebook、YouTube、TikTok等平台分析竞争对手策略、内容、定价和市场定位",
                 "lastUpdated": "2026-02-09",
                 "callCount": 1,
                 "frequency": "<0.1/天",
@@ -3071,12 +3071,12 @@
               },
               {
                 "name": "apify-trend-analysis",
-                "displayName": "Trend Analysis",
+                "displayName": "趋势分析",
                 "displayRole": "市场趋势",
                 "source": "平台预装技能",
                 "level": 2,
                 "exp": 47,
-                "description": "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.",
+                "description": "趋势追踪分析。从谷歌趋势、Instagram、Facebook、YouTube、TikTok发现和追踪新兴趋势，辅助内容策略制定",
                 "lastUpdated": "2026-02-09",
                 "callCount": 1,
                 "frequency": "<0.1/天",
@@ -3111,7 +3111,7 @@
                 "frequency": "4次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 24465,
+                "skillSize": 24459,
                 "skillSizeLabel": "24K字 · 大型",
                 "ksInternal": false,
                 "cfProject": true,
@@ -3664,7 +3664,7 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 317884,
+                "skillSize": 317376,
                 "skillSizeLabel": "317K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
@@ -4502,7 +4502,7 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 38239,
+                "skillSize": 38297,
                 "skillSizeLabel": "38K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false,
@@ -4865,7 +4865,7 @@
           "thinking_pattern"
         ],
         "fileCount": 21,
-        "sizeKB": 176.5,
+        "sizeKB": 177.3,
         "heatLevel": 5,
         "recentCount": 21
       },
@@ -4888,12 +4888,15 @@
       },
       "images": {
         "name": "images",
-        "displayName": "images",
-        "icon": "📁",
-        "color": "#64748b",
-        "description": "images相关文档",
+        "displayName": "图片资源",
+        "icon": "🖼",
+        "color": "#94a3b8",
+        "description": "知识库配图、信息图表、视觉素材",
         "layerTag": "L3-execution",
-        "relatedSkills": [],
+        "relatedSkills": [
+          "ai-image-generator",
+          "baoyu-article-illustrator"
+        ],
         "relatedMemories": [],
         "fileCount": 0,
         "sizeKB": 0.0,
@@ -4943,13 +4946,13 @@
               "thinking_pattern"
             ],
             "fileCount": 21,
-            "sizeKB": 176.5,
+            "sizeKB": 177.3,
             "heatLevel": 5,
             "recentCount": 21
           }
         },
         "totalFiles": 152,
-        "totalSizeKB": 1039.3
+        "totalSizeKB": 1040.1
       },
       "🔍 领域知识层": {
         "icon": "🔍",
@@ -5025,12 +5028,15 @@
           },
           "images": {
             "name": "images",
-            "displayName": "images",
-            "icon": "📁",
-            "color": "#64748b",
-            "description": "images相关文档",
+            "displayName": "图片资源",
+            "icon": "🖼",
+            "color": "#94a3b8",
+            "description": "知识库配图、信息图表、视觉素材",
             "layerTag": "L3-execution",
-            "relatedSkills": [],
+            "relatedSkills": [
+              "ai-image-generator",
+              "baoyu-article-illustrator"
+            ],
             "relatedMemories": [],
             "fileCount": 0,
             "sizeKB": 0.0,
@@ -5043,7 +5049,7 @@
       }
     },
     "totalFiles": 299,
-    "totalSizeKB": 2757.6
+    "totalSizeKB": 2758.4
   },
   "memories": {
     "items": [
@@ -5352,13 +5358,13 @@
         "source": "项目记忆"
       },
       {
-        "title": "Agent任务假完成双模式：竞态条件 + 脚本门控失效",
+        "title": "Agent任务假完成双模式（v5 合并版：增加模式C任务中途中断收尾缺失）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "消息通信",
         "layer": "🛠️ 实践记忆层",
         "icon": "💬",
         "color": "#06b6d4",
-        "description": "Agent任务假完成双模式（v4 合并版） 模式A：竞态条件（定时任务启动后立即轮询） | 场景 | 触发时机 | 证据 | |------...",
+        "description": "Agent任务假完成双模式（v5 合并版） 模式A：竞态条件（定时任务启动后立即轮询） | 场景 | 触发时机 | 证据 | |------...",
         "keywords": [
           "Agent假完成",
           "竞态条件",
@@ -5523,44 +5529,6 @@
         "source": "用户显式记录"
       },
       {
-        "title": "Meta-Execution工作模式（含战略论证完整性规则）",
-        "category": "task_flow_experience",
-        "categoryLabel": "通用踩坑",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "⚠️",
-        "color": "#ef4444",
-        "description": "Meta-Execution工作模式（一次做对的元技能） 核心理念 把事情一次做对，而不是反复返工。 三阶段检查框架 P1: 启...",
-        "keywords": [
-          "Meta-Execution",
-          "P1",
-          "P0",
-          "P2",
-          "一次做对"
-        ],
-        "importance": 5,
-        "updatedAt": "2026-03-20",
-        "source": "用户显式记录"
-      },
-      {
-        "title": "Session-Start Protocol (SSP) — 对话启动主动性协议 v2.0（硬执行+显性标注）",
-        "category": "constraint_or_forbidden_rule",
-        "categoryLabel": "用户约束",
-        "layer": "🧠 元认知层",
-        "icon": "🚫",
-        "color": "#dc2626",
-        "description": "Session-Start Protocol (SSP) v2.0 — 硬执行升级 v2.0核心变更: 从\"条件执行\"升级为\"无条件硬执行\"...",
-        "keywords": [
-          "SSP",
-          "Session-Start",
-          "主动性",
-          "自驱",
-          "对话启动"
-        ],
-        "importance": 5,
-        "updatedAt": "2026-03-19",
-        "source": "用户显式记录"
-      },
-      {
         "title": "execute_command heredoc 陷阱（v2：含多行Python代码引号嵌套场景）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "前端开发",
@@ -5577,6 +5545,25 @@
         ],
         "importance": 5,
         "updatedAt": "2026-03-19",
+        "source": "项目记忆"
+      },
+      {
+        "title": "pre-analysis incomplete信号的中间态陷阱（FTR误判）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "通用踩坑",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "问题（2026-03-20 对话复盘发现） 场景 pre-analysis 对某对话产出： ```json { \"ftr_guess\": \"...",
+        "keywords": [
+          "pre-analysis",
+          "FTR误判",
+          "incomplete",
+          "中间态",
+          "stuck_tasks"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-03-20",
         "source": "项目记忆"
       },
       {
@@ -5599,13 +5586,13 @@
         "source": "项目记忆"
       },
       {
-        "title": "skill-dojo 方式B必须启动独立Agent会话（v2：补充批量阈值+编排会话保护）",
+        "title": "skill-dojo 方式B必须启动独立Agent会话（v3：补充每日修炼手动续跑场景）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "文档处理",
         "layer": "🛠️ 实践记忆层",
         "icon": "📄",
         "color": "#38bdf8",
-        "description": "问题（2026-03-20 执行层技能评测踩坑 — v2） 用户要求用 skill-dojo 方式B（深度评测）评测所有执行层技能。 v1 ...",
+        "description": "问题（2026-03-20 执行层技能评测踩坑 — v3） 用户要求用 skill-dojo 方式B（深度评测）评测所有执行层技能。 v1 ...",
         "keywords": [
           "skill-dojo",
           "方式B",
@@ -5692,25 +5679,6 @@
         "importance": 5,
         "updatedAt": "2026-03-19",
         "source": "项目记忆"
-      },
-      {
-        "title": "先加载完整上下文再操作：续接先resume + 子技能先读章节",
-        "category": "common_pitfalls_experience",
-        "categoryLabel": "发布部署",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "🚀",
-        "color": "#4ade80",
-        "description": "先加载完整上下文，再开始操作（双场景合并版） 场景A：跨会话续接 — 必须先 resume（2026-03-19教训） 问题：AI日...",
-        "keywords": [
-          "先读后做",
-          "续接先resume",
-          "子技能",
-          "操作前读文档",
-          "跨会话"
-        ],
-        "importance": 5,
-        "updatedAt": "2026-03-20",
-        "source": "用户显式记录"
       },
       {
         "title": "先验后传播：平台能力判断必须深度验证后才能写入Skill系统",
@@ -5863,6 +5831,25 @@
         "importance": 5,
         "updatedAt": "2026-03-20",
         "source": "用户显式记录"
+      },
+      {
+        "title": "大任务清单中commit&push必须在P0/P1完成后立即执行（不能推迟到最后）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "发布部署",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "🚀",
+        "color": "#4ade80",
+        "description": "问题（2026-03-20 AI日报优化任务踩坑） 任务清单包含10项优化（P0×3, P1×2, P2×3, commit&push×1）， 完成...",
+        "keywords": [
+          "commit",
+          "push",
+          "收尾",
+          "任务清单",
+          "未提交"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-03-20",
+        "source": "项目记忆"
       },
       {
         "title": "定时任务配置双源不一致（tasks.json vs plist）",
@@ -6055,6 +6042,25 @@
         "source": "项目记忆"
       },
       {
+        "title": "每日修炼统一流程 v13.2（摘要）",
+        "category": "user_communication",
+        "categoryLabel": "用户偏好",
+        "layer": "🧠 元认知层",
+        "icon": "💬",
+        "color": "#0ea5e9",
+        "description": "每日修炼统一流程 v13.2 触发词：每日修炼、闭关修炼、运行每日任务 核心架构：6轮多会话/子进程执行，当前 Agent 会话只做...",
+        "keywords": [
+          "每日修炼",
+          "统一流程",
+          "v13.2",
+          "多会话",
+          "独立会话"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-03-20",
+        "source": "用户显式记录"
+      },
+      {
         "title": "浏览器截图失败的替代方案（CDN图片URL直引）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "前端开发",
@@ -6074,22 +6080,22 @@
         "source": "项目记忆"
       },
       {
-        "title": "添棋主动性承诺：从被动响应到系统性保障主动（含SSP+watchdog+agenda工程化）",
+        "title": "添棋主动性承诺（2026-03-20更新：SSP已废弃）",
         "category": "task_flow_experience",
         "categoryLabel": "做事方法",
         "layer": "🧠 元认知层",
         "icon": "⚙️",
         "color": "#5ec4d4",
-        "description": "添棋主动性实践承诺（2026-03-14约定 → 2026-03-15 SSP落地） 背景 虓晗指出添棋已安装proactive-agent...",
+        "description": "添棋主动性实践承诺（2026-03-14约定） 四项主动性行为（核心不变） 1. 做完多走一步（交付后主动） - 完成任务后顺手检查...",
         "keywords": [
           "主动性",
           "proactive",
-          "SSP",
           "自驱",
-          "watchdog"
+          "watchdog",
+          "agenda"
         ],
         "importance": 5,
-        "updatedAt": "2026-03-15",
+        "updatedAt": "2026-03-20",
         "source": "用户显式记录"
       },
       {
@@ -6223,25 +6229,6 @@
         ],
         "importance": 5,
         "updatedAt": "2026-03-16",
-        "source": "项目记忆"
-      },
-      {
-        "title": "网页开发完成后必须提供可直接访问的在线链接",
-        "category": "development_practice_specification",
-        "categoryLabel": "做事方法",
-        "layer": "🧠 元认知层",
-        "icon": "⚙️",
-        "color": "#5ec4d4",
-        "description": "核心规则：所有网页开发任务完成后，必须提供一个可直接点击访问的在线链接，不能只给本地文件路径或GitHub仓库地址。 执行标准： 1. 页...",
-        "keywords": [
-          "网页开发",
-          "部署",
-          "在线链接",
-          "GitHub Pages",
-          "交付规范"
-        ],
-        "importance": 5,
-        "updatedAt": "2026-03-12",
         "source": "项目记忆"
       },
       {
@@ -6758,6 +6745,44 @@
         "source": "项目记忆"
       },
       {
+        "title": "Meta-Execution工作模式（含战略论证完整性规则）",
+        "category": "task_flow_experience",
+        "categoryLabel": "通用踩坑",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "Meta-Execution工作模式（一次做对的元技能） > 完整规范见技能：link-meta-execution（已强制绑定 21 ...",
+        "keywords": [
+          "Meta-Execution",
+          "P1",
+          "P0",
+          "P2",
+          "一次做对"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-03-20",
+        "source": "用户显式记录"
+      },
+      {
+        "title": "Session-Start Protocol (SSP) — 已废弃（2026-03-20 用户主动删除）",
+        "category": "constraint_or_forbidden_rule",
+        "categoryLabel": "用户约束",
+        "layer": "🧠 元认知层",
+        "icon": "🚫",
+        "color": "#dc2626",
+        "description": "SSP 协议 — 已废弃 废弃原因：2026-03-20 沈浪反馈\"太慢了\"，SSP 每次对话开头需要执行命令读取文件，导致对话延迟，体验为...",
+        "keywords": [
+          "SSP",
+          "已废弃",
+          "主动性",
+          "对话启动",
+          "删除"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-03-20",
+        "source": "用户显式记录"
+      },
+      {
         "title": "pathlib rglob/glob 不跟踪软链接（需用os.walk）",
         "category": "development_practice_specification",
         "categoryLabel": "通用踩坑",
@@ -7157,6 +7182,25 @@
         "source": "用户显式记录"
       },
       {
+        "title": "投资理财：基金持仓追踪",
+        "category": "user_communication",
+        "categoryLabel": "用户偏好",
+        "layer": "🧠 元认知层",
+        "icon": "💬",
+        "color": "#0ea5e9",
+        "description": "投资理财信息（历史快照 2026-03-03） 风险投资专项资金 - 总计划投入：30万人民币（专款专用，风险投资金） - 投资平台：支付宝...",
+        "keywords": [
+          "投资",
+          "理财",
+          "基金",
+          "ETF",
+          "人工智能"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-03-20",
+        "source": "用户显式记录"
+      },
+      {
         "title": "推理闭环原则",
         "category": "constraint_or_forbidden_rule",
         "categoryLabel": "用户约束",
@@ -7364,6 +7408,25 @@
         "importance": 4,
         "updatedAt": "2026-03-19",
         "source": "用户显式记录"
+      },
+      {
+        "title": "网页开发完成后必须提供可直接访问的在线链接",
+        "category": "development_practice_specification",
+        "categoryLabel": "做事方法",
+        "layer": "🧠 元认知层",
+        "icon": "⚙️",
+        "color": "#5ec4d4",
+        "description": "核心规则：所有网页开发任务完成后，必须提供一个可直接点击访问的在线链接，不能只给本地文件路径或GitHub仓库地址。 执行标准： 1. 页...",
+        "keywords": [
+          "网页开发",
+          "部署",
+          "在线链接",
+          "GitHub Pages",
+          "交付规范"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-03-12",
+        "source": "项目记忆"
       },
       {
         "title": "跨文件批量标准化修改经验（含防回退三件套）",
@@ -7736,25 +7799,6 @@
         "source": "项目记忆"
       },
       {
-        "title": "投资理财：基金持仓追踪",
-        "category": "user_communication",
-        "categoryLabel": "用户偏好",
-        "layer": "🧠 元认知层",
-        "icon": "💬",
-        "color": "#0ea5e9",
-        "description": "投资理财信息 风险投资专项资金 - 总计划投入：30万人民币（专款专用，风险投资金） - 投资平台：支付宝 当前持仓（2026-03...",
-        "keywords": [
-          "投资",
-          "理财",
-          "基金",
-          "ETF",
-          "人工智能"
-        ],
-        "importance": 3,
-        "updatedAt": "2026-03-11",
-        "source": "用户显式记录"
-      },
-      {
         "title": "敏感词集中管理规则",
         "category": "constraint_or_forbidden_rule",
         "categoryLabel": "用户约束",
@@ -7878,24 +7922,6 @@
           "默认习惯",
           "北冥神功",
           "导出配置"
-        ],
-        "importance": 3,
-        "updatedAt": "2026-03-19",
-        "source": "用户显式记录"
-      },
-      {
-        "title": "每日修炼统一流程 v12.0（摘要）",
-        "category": "user_communication",
-        "categoryLabel": "用户偏好",
-        "layer": "🧠 元认知层",
-        "icon": "💬",
-        "color": "#0ea5e9",
-        "description": "每日修炼统一流程 v12.0 触发词：每日修炼、闭关修炼、运行每日任务 核心架构：4轮多会话执行 - Round 0: 脚本预热（数...",
-        "keywords": [
-          "每日修炼",
-          "统一流程",
-          "v12.0",
-          "多会话"
         ],
         "importance": 3,
         "updatedAt": "2026-03-19",
@@ -8031,7 +8057,7 @@
         "source": "项目记忆"
       }
     ],
-    "total": 143,
+    "total": 144,
     "byCategory": {
       "development_code_specification": {
         "count": 10,
@@ -8069,7 +8095,7 @@
         "description": "保密规则、禁止事项、必须遵守的约束"
       },
       "common_pitfalls_experience": {
-        "count": 77,
+        "count": 78,
         "label": "内容创作",
         "icon": "✍️",
         "color": "#f59e0b",
@@ -8244,7 +8270,7 @@
                 "layer": "🧠 元认知层",
                 "icon": "💬",
                 "color": "#0ea5e9",
-                "description": "投资理财信息 风险投资专项资金 - 总计划投入：30万人民币（专款专用，风险投资金） - 投资平台：支付宝 当前持仓（2026-03...",
+                "description": "投资理财信息（历史快照 2026-03-03） 风险投资专项资金 - 总计划投入：30万人民币（专款专用，风险投资金） - 投资平台：支付宝...",
                 "keywords": [
                   "投资",
                   "理财",
@@ -8252,8 +8278,8 @@
                   "ETF",
                   "人工智能"
                 ],
-                "importance": 3,
-                "updatedAt": "2026-03-11",
+                "importance": 4,
+                "updatedAt": "2026-03-20",
                 "source": "用户显式记录"
               },
               {
@@ -8295,21 +8321,22 @@
                 "source": "用户显式记录"
               },
               {
-                "title": "每日修炼统一流程 v12.0（摘要）",
+                "title": "每日修炼统一流程 v13.2（摘要）",
                 "category": "user_communication",
                 "categoryLabel": "用户偏好",
                 "layer": "🧠 元认知层",
                 "icon": "💬",
                 "color": "#0ea5e9",
-                "description": "每日修炼统一流程 v12.0 触发词：每日修炼、闭关修炼、运行每日任务 核心架构：4轮多会话执行 - Round 0: 脚本预热（数...",
+                "description": "每日修炼统一流程 v13.2 触发词：每日修炼、闭关修炼、运行每日任务 核心架构：6轮多会话/子进程执行，当前 Agent 会话只做...",
                 "keywords": [
                   "每日修炼",
                   "统一流程",
-                  "v12.0",
-                  "多会话"
+                  "v13.2",
+                  "多会话",
+                  "独立会话"
                 ],
-                "importance": 3,
-                "updatedAt": "2026-03-19",
+                "importance": 5,
+                "updatedAt": "2026-03-20",
                 "source": "用户显式记录"
               },
               {
@@ -8433,22 +8460,22 @@
                 "source": "用户显式记录"
               },
               {
-                "title": "Session-Start Protocol (SSP) — 对话启动主动性协议 v2.0（硬执行+显性标注）",
+                "title": "Session-Start Protocol (SSP) — 已废弃（2026-03-20 用户主动删除）",
                 "category": "constraint_or_forbidden_rule",
                 "categoryLabel": "用户约束",
                 "layer": "🧠 元认知层",
                 "icon": "🚫",
                 "color": "#dc2626",
-                "description": "Session-Start Protocol (SSP) v2.0 — 硬执行升级 v2.0核心变更: 从\"条件执行\"升级为\"无条件硬执行\"...",
+                "description": "SSP 协议 — 已废弃 废弃原因：2026-03-20 沈浪反馈\"太慢了\"，SSP 每次对话开头需要执行命令读取文件，导致对话延迟，体验为...",
                 "keywords": [
                   "SSP",
-                  "Session-Start",
+                  "已废弃",
                   "主动性",
-                  "自驱",
-                  "对话启动"
+                  "对话启动",
+                  "删除"
                 ],
-                "importance": 5,
-                "updatedAt": "2026-03-19",
+                "importance": 4,
+                "updatedAt": "2026-03-20",
                 "source": "用户显式记录"
               },
               {
@@ -8676,22 +8703,22 @@
                 "source": "用户显式记录"
               },
               {
-                "title": "添棋主动性承诺：从被动响应到系统性保障主动（含SSP+watchdog+agenda工程化）",
+                "title": "添棋主动性承诺（2026-03-20更新：SSP已废弃）",
                 "category": "task_flow_experience",
                 "categoryLabel": "做事方法",
                 "layer": "🧠 元认知层",
                 "icon": "⚙️",
                 "color": "#5ec4d4",
-                "description": "添棋主动性实践承诺（2026-03-14约定 → 2026-03-15 SSP落地） 背景 虓晗指出添棋已安装proactive-agent...",
+                "description": "添棋主动性实践承诺（2026-03-14约定） 四项主动性行为（核心不变） 1. 做完多走一步（交付后主动） - 完成任务后顺手检查...",
                 "keywords": [
                   "主动性",
                   "proactive",
-                  "SSP",
                   "自驱",
-                  "watchdog"
+                  "watchdog",
+                  "agenda"
                 ],
                 "importance": 5,
-                "updatedAt": "2026-03-15",
+                "updatedAt": "2026-03-20",
                 "source": "用户显式记录"
               },
               {
@@ -8766,7 +8793,7 @@
                   "GitHub Pages",
                   "交付规范"
                 ],
-                "importance": 5,
+                "importance": 4,
                 "updatedAt": "2026-03-12",
                 "source": "项目记忆"
               },
@@ -9853,25 +9880,6 @@
                 "source": "用户显式记录"
               },
               {
-                "title": "先加载完整上下文再操作：续接先resume + 子技能先读章节",
-                "category": "common_pitfalls_experience",
-                "categoryLabel": "发布部署",
-                "layer": "🛠️ 实践记忆层",
-                "icon": "🚀",
-                "color": "#4ade80",
-                "description": "先加载完整上下文，再开始操作（双场景合并版） 场景A：跨会话续接 — 必须先 resume（2026-03-19教训） 问题：AI日...",
-                "keywords": [
-                  "先读后做",
-                  "续接先resume",
-                  "子技能",
-                  "操作前读文档",
-                  "跨会话"
-                ],
-                "importance": 5,
-                "updatedAt": "2026-03-20",
-                "source": "用户显式记录"
-              },
-              {
                 "title": "踩坑记忆召回失败模式（16类任务映射）",
                 "category": "common_pitfalls_experience",
                 "categoryLabel": "发布部署",
@@ -9941,6 +9949,25 @@
                   "plist",
                   "双源不一致",
                   "launchd"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-03-20",
+                "source": "项目记忆"
+              },
+              {
+                "title": "大任务清单中commit&push必须在P0/P1完成后立即执行（不能推迟到最后）",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "发布部署",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "🚀",
+                "color": "#4ade80",
+                "description": "问题（2026-03-20 AI日报优化任务踩坑） 任务清单包含10项优化（P0×3, P1×2, P2×3, commit&push×1）， 完成...",
+                "keywords": [
+                  "commit",
+                  "push",
+                  "收尾",
+                  "任务清单",
+                  "未提交"
                 ],
                 "importance": 5,
                 "updatedAt": "2026-03-20",
@@ -10107,13 +10134,13 @@
                 "source": "项目记忆"
               },
               {
-                "title": "skill-dojo 方式B必须启动独立Agent会话（v2：补充批量阈值+编排会话保护）",
+                "title": "skill-dojo 方式B必须启动独立Agent会话（v3：补充每日修炼手动续跑场景）",
                 "category": "common_pitfalls_experience",
                 "categoryLabel": "文档处理",
                 "layer": "🛠️ 实践记忆层",
                 "icon": "📄",
                 "color": "#38bdf8",
-                "description": "问题（2026-03-20 执行层技能评测踩坑 — v2） 用户要求用 skill-dojo 方式B（深度评测）评测所有执行层技能。 v1 ...",
+                "description": "问题（2026-03-20 执行层技能评测踩坑 — v3） 用户要求用 skill-dojo 方式B（深度评测）评测所有执行层技能。 v1 ...",
                 "keywords": [
                   "skill-dojo",
                   "方式B",
@@ -10153,13 +10180,13 @@
             "description": "KIM/飞书踩坑",
             "items": [
               {
-                "title": "Agent任务假完成双模式：竞态条件 + 脚本门控失效",
+                "title": "Agent任务假完成双模式（v5 合并版：增加模式C任务中途中断收尾缺失）",
                 "category": "common_pitfalls_experience",
                 "categoryLabel": "消息通信",
                 "layer": "🛠️ 实践记忆层",
                 "icon": "💬",
                 "color": "#06b6d4",
-                "description": "Agent任务假完成双模式（v4 合并版） 模式A：竞态条件（定时任务启动后立即轮询） | 场景 | 触发时机 | 证据 | |------...",
+                "description": "Agent任务假完成双模式（v5 合并版） 模式A：竞态条件（定时任务启动后立即轮询） | 场景 | 触发时机 | 证据 | |------...",
                 "keywords": [
                   "Agent假完成",
                   "竞态条件",
@@ -10580,7 +10607,7 @@
                 "layer": "🛠️ 实践记忆层",
                 "icon": "⚠️",
                 "color": "#ef4444",
-                "description": "Meta-Execution工作模式（一次做对的元技能） 核心理念 把事情一次做对，而不是反复返工。 三阶段检查框架 P1: 启...",
+                "description": "Meta-Execution工作模式（一次做对的元技能） > 完整规范见技能：link-meta-execution（已强制绑定 21 ...",
                 "keywords": [
                   "Meta-Execution",
                   "P1",
@@ -10588,7 +10615,7 @@
                   "P2",
                   "一次做对"
                 ],
-                "importance": 5,
+                "importance": 4,
                 "updatedAt": "2026-03-20",
                 "source": "用户显式记录"
               },
@@ -10799,6 +10826,25 @@
                 "source": "项目记忆"
               },
               {
+                "title": "pre-analysis incomplete信号的中间态陷阱（FTR误判）",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "通用踩坑",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "⚠️",
+                "color": "#ef4444",
+                "description": "问题（2026-03-20 对话复盘发现） 场景 pre-analysis 对某对话产出： ```json { \"ftr_guess\": \"...",
+                "keywords": [
+                  "pre-analysis",
+                  "FTR误判",
+                  "incomplete",
+                  "中间态",
+                  "stuck_tasks"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-03-20",
+                "source": "项目记忆"
+              },
+              {
                 "title": "AI日报KIM卡片能力更新模块（capability_update字段）",
                 "category": "development_practice_specification",
                 "categoryLabel": "通用踩坑",
@@ -10894,7 +10940,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 23
+            "count": 24
           },
           "项目知识": {
             "icon": "📋",
@@ -10943,7 +10989,7 @@
             "count": 2
           }
         },
-        "count": 106
+        "count": 107
       }
     }
   },
@@ -10966,7 +11012,7 @@
     "memories": [
       144,
       152,
-      158
+      159
     ]
   },
   "achievements": [
