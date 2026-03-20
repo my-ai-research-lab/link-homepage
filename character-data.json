@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T14:22:53.038840",
+  "generatedAt": "2026-03-20T15:35:54.705755",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -148,8 +148,8 @@
             "frequency": "1.2次/周",
             "successRate": 95,
             "sourceType": "自定义",
-            "skillSize": 76123,
-            "skillSizeLabel": "76K字 · 巨型",
+            "skillSize": 77694,
+            "skillSizeLabel": "77K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
             "tag": "Link"
@@ -224,7 +224,7 @@
             "frequency": "4次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 31754,
+            "skillSize": 31831,
             "skillSizeLabel": "31K字 · 大型",
             "ksInternal": false,
             "cfProject": false,
@@ -770,10 +770,67 @@
             "ksInternal": true,
             "cfProject": false,
             "tag": "KS"
+          },
+          {
+            "name": "apify-market-research",
+            "displayName": "Market Research",
+            "displayRole": "多平台数据",
+            "source": "平台预装技能",
+            "level": 2,
+            "exp": 47,
+            "description": "Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor.",
+            "lastUpdated": "2026-02-09",
+            "callCount": 1,
+            "frequency": "<0.1/天",
+            "successRate": 90,
+            "sourceType": "平台预装",
+            "skillSize": 15804,
+            "skillSizeLabel": "15K字 · 大型",
+            "ksInternal": false,
+            "cfProject": false,
+            "tag": ""
+          },
+          {
+            "name": "apify-competitor-intelligence",
+            "displayName": "Competitor Intelligence",
+            "displayRole": "竞争情报",
+            "source": "平台预装技能",
+            "level": 2,
+            "exp": 47,
+            "description": "Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.",
+            "lastUpdated": "2026-02-09",
+            "callCount": 1,
+            "frequency": "<0.1/天",
+            "successRate": 90,
+            "sourceType": "平台预装",
+            "skillSize": 17041,
+            "skillSizeLabel": "17K字 · 大型",
+            "ksInternal": false,
+            "cfProject": false,
+            "tag": ""
+          },
+          {
+            "name": "apify-trend-analysis",
+            "displayName": "Trend Analysis",
+            "displayRole": "市场趋势",
+            "source": "平台预装技能",
+            "level": 2,
+            "exp": 47,
+            "description": "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.",
+            "lastUpdated": "2026-02-09",
+            "callCount": 1,
+            "frequency": "<0.1/天",
+            "successRate": 90,
+            "sourceType": "平台预装",
+            "skillSize": 15992,
+            "skillSizeLabel": "15K字 · 大型",
+            "ksInternal": false,
+            "cfProject": false,
+            "tag": ""
           }
         ],
-        "count": 6,
-        "avgLevel": 3.2
+        "count": 9,
+        "avgLevel": 2.8
       },
       "📝 内容写作": {
         "role": "writing",
@@ -2233,72 +2290,6 @@
         ],
         "count": 1,
         "avgLevel": 4.0
-      },
-      "其他技能": {
-        "icon": "📦",
-        "color": "#64748b",
-        "layer": "execution",
-        "skills": [
-          {
-            "name": "apify-market-research",
-            "displayName": "Market Research",
-            "displayRole": "",
-            "source": "平台预装技能",
-            "level": 2,
-            "exp": 47,
-            "description": "Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor.",
-            "lastUpdated": "2026-02-09",
-            "callCount": 1,
-            "frequency": "<0.1/天",
-            "successRate": 90,
-            "sourceType": "平台预装",
-            "skillSize": 15804,
-            "skillSizeLabel": "15K字 · 大型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": ""
-          },
-          {
-            "name": "apify-competitor-intelligence",
-            "displayName": "Competitor Intelligence",
-            "displayRole": "",
-            "source": "平台预装技能",
-            "level": 2,
-            "exp": 47,
-            "description": "Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.",
-            "lastUpdated": "2026-02-09",
-            "callCount": 1,
-            "frequency": "<0.1/天",
-            "successRate": 90,
-            "sourceType": "平台预装",
-            "skillSize": 17041,
-            "skillSizeLabel": "17K字 · 大型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": ""
-          },
-          {
-            "name": "apify-trend-analysis",
-            "displayName": "Trend Analysis",
-            "displayRole": "",
-            "source": "平台预装技能",
-            "level": 2,
-            "exp": 47,
-            "description": "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.",
-            "lastUpdated": "2026-02-09",
-            "callCount": 1,
-            "frequency": "<0.1/天",
-            "successRate": 90,
-            "sourceType": "平台预装",
-            "skillSize": 15992,
-            "skillSizeLabel": "15K字 · 大型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": ""
-          }
-        ],
-        "count": 3,
-        "avgLevel": 2.0
       }
     },
     "tree": {
@@ -2403,8 +2394,8 @@
                 "frequency": "1.2次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
-                "skillSize": 76123,
-                "skillSizeLabel": "76K字 · 巨型",
+                "skillSize": 77694,
+                "skillSizeLabel": "77K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": "Link"
@@ -2479,7 +2470,7 @@
                 "frequency": "4次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 31754,
+                "skillSize": 31831,
                 "skillSizeLabel": "31K字 · 大型",
                 "ksInternal": false,
                 "cfProject": false,
@@ -3039,10 +3030,67 @@
                 "ksInternal": true,
                 "cfProject": false,
                 "tag": "KS"
+              },
+              {
+                "name": "apify-market-research",
+                "displayName": "Market Research",
+                "displayRole": "多平台数据",
+                "source": "平台预装技能",
+                "level": 2,
+                "exp": 47,
+                "description": "Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor.",
+                "lastUpdated": "2026-02-09",
+                "callCount": 1,
+                "frequency": "<0.1/天",
+                "successRate": 90,
+                "sourceType": "平台预装",
+                "skillSize": 15804,
+                "skillSizeLabel": "15K字 · 大型",
+                "ksInternal": false,
+                "cfProject": false,
+                "tag": ""
+              },
+              {
+                "name": "apify-competitor-intelligence",
+                "displayName": "Competitor Intelligence",
+                "displayRole": "竞争情报",
+                "source": "平台预装技能",
+                "level": 2,
+                "exp": 47,
+                "description": "Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.",
+                "lastUpdated": "2026-02-09",
+                "callCount": 1,
+                "frequency": "<0.1/天",
+                "successRate": 90,
+                "sourceType": "平台预装",
+                "skillSize": 17041,
+                "skillSizeLabel": "17K字 · 大型",
+                "ksInternal": false,
+                "cfProject": false,
+                "tag": ""
+              },
+              {
+                "name": "apify-trend-analysis",
+                "displayName": "Trend Analysis",
+                "displayRole": "市场趋势",
+                "source": "平台预装技能",
+                "level": 2,
+                "exp": 47,
+                "description": "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.",
+                "lastUpdated": "2026-02-09",
+                "callCount": 1,
+                "frequency": "<0.1/天",
+                "successRate": 90,
+                "sourceType": "平台预装",
+                "skillSize": 15992,
+                "skillSizeLabel": "15K字 · 大型",
+                "ksInternal": false,
+                "cfProject": false,
+                "tag": ""
               }
             ],
-            "count": 6,
-            "avgLevel": 3.2
+            "count": 9,
+            "avgLevel": 2.8
           },
           "📝 内容写作": {
             "role": "writing",
@@ -4492,72 +4540,6 @@
             ],
             "count": 1,
             "avgLevel": 4.0
-          },
-          "其他技能": {
-            "icon": "📦",
-            "color": "#64748b",
-            "layer": "execution",
-            "skills": [
-              {
-                "name": "apify-market-research",
-                "displayName": "Market Research",
-                "displayRole": "",
-                "source": "平台预装技能",
-                "level": 2,
-                "exp": 47,
-                "description": "Analyze market conditions, geographic opportunities, pricing, consumer behavior, and product validation across Google Maps, Facebook, Instagram, Booking.com, and TripAdvisor.",
-                "lastUpdated": "2026-02-09",
-                "callCount": 1,
-                "frequency": "<0.1/天",
-                "successRate": 90,
-                "sourceType": "平台预装",
-                "skillSize": 15804,
-                "skillSizeLabel": "15K字 · 大型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": ""
-              },
-              {
-                "name": "apify-competitor-intelligence",
-                "displayName": "Competitor Intelligence",
-                "displayRole": "",
-                "source": "平台预装技能",
-                "level": 2,
-                "exp": 47,
-                "description": "Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.",
-                "lastUpdated": "2026-02-09",
-                "callCount": 1,
-                "frequency": "<0.1/天",
-                "successRate": 90,
-                "sourceType": "平台预装",
-                "skillSize": 17041,
-                "skillSizeLabel": "17K字 · 大型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": ""
-              },
-              {
-                "name": "apify-trend-analysis",
-                "displayName": "Trend Analysis",
-                "displayRole": "",
-                "source": "平台预装技能",
-                "level": 2,
-                "exp": 47,
-                "description": "Discover and track emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.",
-                "lastUpdated": "2026-02-09",
-                "callCount": 1,
-                "frequency": "<0.1/天",
-                "successRate": 90,
-                "sourceType": "平台预装",
-                "skillSize": 15992,
-                "skillSizeLabel": "15K字 · 大型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": ""
-              }
-            ],
-            "count": 3,
-            "avgLevel": 2.0
           }
         },
         "count": 80,
@@ -4847,7 +4829,7 @@
           "ai_insight"
         ],
         "fileCount": 107,
-        "sizeKB": 1194.3,
+        "sizeKB": 1196.3,
         "heatLevel": 5,
         "recentCount": 107
       },
@@ -4883,7 +4865,7 @@
           "thinking_pattern"
         ],
         "fileCount": 21,
-        "sizeKB": 176.2,
+        "sizeKB": 176.5,
         "heatLevel": 5,
         "recentCount": 21
       },
@@ -4961,13 +4943,13 @@
               "thinking_pattern"
             ],
             "fileCount": 21,
-            "sizeKB": 176.2,
+            "sizeKB": 176.5,
             "heatLevel": 5,
             "recentCount": 21
           }
         },
         "totalFiles": 152,
-        "totalSizeKB": 1039.0
+        "totalSizeKB": 1039.3
       },
       "🔍 领域知识层": {
         "icon": "🔍",
@@ -4991,7 +4973,7 @@
               "ai_insight"
             ],
             "fileCount": 107,
-            "sizeKB": 1194.3,
+            "sizeKB": 1196.3,
             "heatLevel": 5,
             "recentCount": 107
           },
@@ -5014,7 +4996,7 @@
           }
         },
         "totalFiles": 138,
-        "totalSizeKB": 1662.5
+        "totalSizeKB": 1664.5
       },
       "📦 实践知识层": {
         "icon": "📦",
@@ -5061,7 +5043,7 @@
       }
     },
     "totalFiles": 299,
-    "totalSizeKB": 2755.3
+    "totalSizeKB": 2757.6
   },
   "memories": {
     "items": [
@@ -5332,6 +5314,25 @@
         "source": "项目记忆"
       },
       {
+        "title": "AI日报质量门检查失败的三档处理策略（防无限重跑）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "脚本自动化",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚡",
+        "color": "#64748b",
+        "description": "AI日报质量门失败处理策略（v1.0 — 2026-03-20） 问题来源 2026-03-20 AI日报流程：sogou链接占比43%→3...",
+        "keywords": [
+          "AI日报",
+          "质量门",
+          "重跑",
+          "循环",
+          "搜索"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-03-20",
+        "source": "用户显式记录"
+      },
+      {
         "title": "AI日报链接处理核心规则（合并版v8.2）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "前端开发",
@@ -5598,13 +5599,13 @@
         "source": "项目记忆"
       },
       {
-        "title": "skill-dojo 方式B必须启动独立Agent会话（禁止当前会话逐个跑）",
+        "title": "skill-dojo 方式B必须启动独立Agent会话（v2：补充批量阈值+编排会话保护）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "文档处理",
         "layer": "🛠️ 实践记忆层",
         "icon": "📄",
         "color": "#38bdf8",
-        "description": "问题（2026-03-20 执行层技能评测踩坑） 用户要求用 skill-dojo 方式B（深度评测）评测所有77个执行层技能。 正确做法 ...",
+        "description": "问题（2026-03-20 执行层技能评测踩坑 — v2） 用户要求用 skill-dojo 方式B（深度评测）评测所有执行层技能。 v1 ...",
         "keywords": [
           "skill-dojo",
           "方式B",
@@ -5845,13 +5846,13 @@
         "source": "项目记忆"
       },
       {
-        "title": "多文件联动更新的隐式耦合陷阱（十二类检查清单）",
+        "title": "多文件联动更新的隐式耦合陷阱（十三类检查清单）",
         "category": "common_pitfalls_experience",
         "categoryLabel": "发布部署",
         "layer": "🛠️ 实践记忆层",
         "icon": "🚀",
         "color": "#4ade80",
-        "description": "多文件联动更新的隐式耦合陷阱 十二类联动（检查清单） 1. 数据联动：JSON数据更新后同步到消费者 2. 概念联动：分类改名后旧名称残留 ...",
+        "description": "多文件联动更新的隐式耦合陷阱 十三类联动（检查清单） 1. 数据联动：JSON数据更新后同步到消费者 2. 概念联动：分类改名后旧名称残留 ...",
         "keywords": [
           "联动更新",
           "隐式耦合",
@@ -5860,7 +5861,7 @@
           "grep"
         ],
         "importance": 5,
-        "updatedAt": "2026-03-19",
+        "updatedAt": "2026-03-20",
         "source": "用户显式记录"
       },
       {
@@ -6383,7 +6384,7 @@
         "layer": "🛠️ 实践记忆层",
         "icon": "🎨",
         "color": "#f472b6",
-        "description": "页面交付必须提供可点击链接 强制规则（最高优先级） 无论页面是本地 HTML 文件还是在线部署页面，做完后必须默认给出可直接点击的链接*...",
+        "description": "页面交付必须提供可点击链接 ⚠️ 重要限制（已验证） CodeFlicker 聊天界面会屏蔽 file:// 协议链接 — 点击...",
         "keywords": [
           "页面",
           "链接",
@@ -8030,7 +8031,7 @@
         "source": "项目记忆"
       }
     ],
-    "total": 142,
+    "total": 143,
     "byCategory": {
       "development_code_specification": {
         "count": 10,
@@ -8068,7 +8069,7 @@
         "description": "保密规则、禁止事项、必须遵守的约束"
       },
       "common_pitfalls_experience": {
-        "count": 76,
+        "count": 77,
         "label": "内容创作",
         "icon": "✍️",
         "color": "#f59e0b",
@@ -9000,7 +9001,7 @@
                 "layer": "🛠️ 实践记忆层",
                 "icon": "🎨",
                 "color": "#f472b6",
-                "description": "页面交付必须提供可点击链接 强制规则（最高优先级） 无论页面是本地 HTML 文件还是在线部署页面，做完后必须默认给出可直接点击的链接*...",
+                "description": "页面交付必须提供可点击链接 ⚠️ 重要限制（已验证） CodeFlicker 聊天界面会屏蔽 file:// 协议链接 — 点击...",
                 "keywords": [
                   "页面",
                   "链接",
@@ -9798,13 +9799,13 @@
             "description": "GitHub Pages/部署踩坑",
             "items": [
               {
-                "title": "多文件联动更新的隐式耦合陷阱（十二类检查清单）",
+                "title": "多文件联动更新的隐式耦合陷阱（十三类检查清单）",
                 "category": "common_pitfalls_experience",
                 "categoryLabel": "发布部署",
                 "layer": "🛠️ 实践记忆层",
                 "icon": "🚀",
                 "color": "#4ade80",
-                "description": "多文件联动更新的隐式耦合陷阱 十二类联动（检查清单） 1. 数据联动：JSON数据更新后同步到消费者 2. 概念联动：分类改名后旧名称残留 ...",
+                "description": "多文件联动更新的隐式耦合陷阱 十三类联动（检查清单） 1. 数据联动：JSON数据更新后同步到消费者 2. 概念联动：分类改名后旧名称残留 ...",
                 "keywords": [
                   "联动更新",
                   "隐式耦合",
@@ -9813,7 +9814,7 @@
                   "grep"
                 ],
                 "importance": 5,
-                "updatedAt": "2026-03-19",
+                "updatedAt": "2026-03-20",
                 "source": "用户显式记录"
               },
               {
@@ -10106,13 +10107,13 @@
                 "source": "项目记忆"
               },
               {
-                "title": "skill-dojo 方式B必须启动独立Agent会话（禁止当前会话逐个跑）",
+                "title": "skill-dojo 方式B必须启动独立Agent会话（v2：补充批量阈值+编排会话保护）",
                 "category": "common_pitfalls_experience",
                 "categoryLabel": "文档处理",
                 "layer": "🛠️ 实践记忆层",
                 "icon": "📄",
                 "color": "#38bdf8",
-                "description": "问题（2026-03-20 执行层技能评测踩坑） 用户要求用 skill-dojo 方式B（深度评测）评测所有77个执行层技能。 正确做法 ...",
+                "description": "问题（2026-03-20 执行层技能评测踩坑 — v2） 用户要求用 skill-dojo 方式B（深度评测）评测所有执行层技能。 v1 ...",
                 "keywords": [
                   "skill-dojo",
                   "方式B",
@@ -10240,6 +10241,25 @@
                 ],
                 "importance": 3,
                 "updatedAt": "2026-03-19",
+                "source": "用户显式记录"
+              },
+              {
+                "title": "AI日报质量门检查失败的三档处理策略（防无限重跑）",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "脚本自动化",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "⚡",
+                "color": "#64748b",
+                "description": "AI日报质量门失败处理策略（v1.0 — 2026-03-20） 问题来源 2026-03-20 AI日报流程：sogou链接占比43%→3...",
+                "keywords": [
+                  "AI日报",
+                  "质量门",
+                  "重跑",
+                  "循环",
+                  "搜索"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-03-20",
                 "source": "用户显式记录"
               },
               {
@@ -10433,7 +10453,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 11
+            "count": 12
           },
           "通用踩坑": {
             "icon": "⚠️",
@@ -10923,7 +10943,7 @@
             "count": 2
           }
         },
-        "count": 105
+        "count": 106
       }
     }
   },
@@ -10946,7 +10966,7 @@
     "memories": [
       144,
       152,
-      157
+      158
     ]
   },
   "achievements": [
