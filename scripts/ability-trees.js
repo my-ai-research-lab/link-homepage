@@ -288,10 +288,11 @@ function renderSkillTechTree(container, skills) {
             toolNodesHtml += createDemoNode(homepageSkill, homepageSkill.displayName || '林克首页', homepageSkill.displayRole || '对外门面', 'homepage');
         }
         
-        // 技能生命周期节点
+        // 技能生命周期节点（v13.1: 标题移到左边，布局更紧凑）
         var lifecycleHtml = '';
         if (techniqueSkills.length > 0) {
-            lifecycleHtml = '<div class="lifecycle-section"><div class="lifecycle-header"><span class="lifecycle-title">技能生命周期</span></div><div class="lifecycle-flow">';
+            // 新布局：标题在左侧，循环圈在右侧
+            lifecycleHtml = '<div class="lifecycle-section lifecycle-section--compact"><div class="lifecycle-left"><span class="lifecycle-title-vertical">技能生命周期</span></div><div class="lifecycle-right"><div class="lifecycle-flow">';
             var skillNames = ['技能发现', '技能创建', '技能评估', '技能修炼'];
             var skillRoles = ['搜索市场技能', '从零编写技能', '评测质量分数', '持续精进优化'];
             for (var ti2 = 0; ti2 < techniqueSkills.length; ti2++) {
@@ -312,8 +313,8 @@ function renderSkillTechTree(container, skills) {
             // 添加U形闭环底部的"社区学习"标签（样式与"触发"标签一致）
             lifecycleHtml += '<span class="lifecycle-feedback-label connector-label" style="--label-color: rgba(167, 139, 250, 0.85); --label-border: rgba(167, 139, 250, 0.4);">社区学习</span>';
             // 技能生命周期闭环结束
-                lifecycleHtml += '</div></div>';
-            }
+            lifecycleHtml += '</div></div></div>';
+        }
         
         // 组装完整的引擎HTML（完全遵循Demo结构）
         engineHtml = '<div class="engine-section">' +
@@ -813,16 +814,18 @@ function drawElbowConnectors() {
     arrow1.setAttribute('opacity', '0.8');
     svg.appendChild(arrow1);
     
-    // 标签 "驱动"
-    var label1 = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    label1.setAttribute('x', p1.gx - 6);
-    label1.setAttribute('y', (p1.sy + p1.ey - 8) / 2);
-    label1.setAttribute('text-anchor', 'end');
-    label1.setAttribute('dominant-baseline', 'middle');
-    label1.setAttribute('fill', '#fb923c');
-    label1.setAttribute('opacity', '0.7');
-    label1.textContent = '驱动';
-    svg.appendChild(label1);
+    // 标签 "驱动"（使用 foreignObject 包裹 HTML 标签，与"触发"样式一致）
+    var foreignObj = document.createElementNS('http://www.w3.org/2000/svg', 'foreignObject');
+    foreignObj.setAttribute('x', p1.gx - 40);
+    foreignObj.setAttribute('y', (p1.sy + p1.ey - 8) / 2 - 12);
+    foreignObj.setAttribute('width', '36');
+    foreignObj.setAttribute('height', '24');
+    var labelDiv = document.createElement('span');
+    labelDiv.className = 'connector-label connector-label--center';
+    labelDiv.style.cssText = '--label-color: #fb923c; --label-border: rgba(251, 146, 60, 0.4); font-size: 9px; padding: 3px 6px;';
+    labelDiv.textContent = '驱动';
+    foreignObj.appendChild(labelDiv);
+    svg.appendChild(foreignObj);
     
     // v13.0: 内功修炼已废弃，移除 内功修炼→记忆优化 的连接器
     

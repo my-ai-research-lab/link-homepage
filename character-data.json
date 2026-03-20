@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-20T07:53:37.941635",
+  "generatedAt": "2026-03-20T08:13:23.436508",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -148,7 +148,7 @@
             "frequency": "1.4次/周",
             "successRate": 95,
             "sourceType": "自定义",
-            "skillSize": 76487,
+            "skillSize": 76123,
             "skillSizeLabel": "76K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
@@ -357,8 +357,8 @@
             "frequency": "2次/月",
             "successRate": 95,
             "sourceType": "自定义",
-            "skillSize": 549490,
-            "skillSizeLabel": "549K字 · 巨型",
+            "skillSize": 558226,
+            "skillSizeLabel": "558K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
             "tag": "Link"
@@ -2403,7 +2403,7 @@
                 "frequency": "1.4次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
-                "skillSize": 76487,
+                "skillSize": 76123,
                 "skillSizeLabel": "76K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
@@ -2612,8 +2612,8 @@
                 "frequency": "2次/月",
                 "successRate": 95,
                 "sourceType": "自定义",
-                "skillSize": 549490,
-                "skillSizeLabel": "549K字 · 巨型",
+                "skillSize": 558226,
+                "skillSizeLabel": "558K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": "Link"
