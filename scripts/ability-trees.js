@@ -797,9 +797,9 @@ function drawElbowConnectors() {
     var gx1 = Math.min(bw - 16, b.right + 20);
     
     // ---- 连接器: 闭关修炼 → 经验总结（驱动）----
-    // sy: 闭关修炼底部 到 经验总结顶部 的中间位置（让线在两者正中间水平段）
-    var sy1 = b.bottom + (j.top - b.bottom) / 2;
-    // 箭头从经验总结左侧进入（水平箭头）
+    // sy: 偏向经验总结一侧（2/3处），让水平段在视觉上更居中
+    var sy1 = b.bottom + (j.top - b.bottom) * 0.65;
+    // 箭头从经验总结左侧进入（水平箭头），ey=j.cy（节点中心高度）
     var p1 = { sx: b.right, sy: sy1, gx: gx1, ex: j.left, ey: j.cy };
     
     var path1 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
@@ -814,9 +814,9 @@ function drawElbowConnectors() {
     path1.setAttribute('opacity', '0.55');
     svg.appendChild(path1);
     
-    // 箭头（从左侧水平进入经验总结，朝右 ►）
+    // 箭头（从左侧水平进入经验总结，朝右 ►，顶点在右侧）
     var arrow1 = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
-    arrow1.setAttribute('points', p1.ex + ',' + p1.ey + ' ' + (p1.ex + 9) + ',' + (p1.ey - 5) + ' ' + (p1.ex + 9) + ',' + (p1.ey + 5));
+    arrow1.setAttribute('points', (p1.ex + 9) + ',' + p1.ey + ' ' + p1.ex + ',' + (p1.ey - 5) + ' ' + p1.ex + ',' + (p1.ey + 5));
     arrow1.setAttribute('fill', '#fb923c');
     arrow1.setAttribute('opacity', '0.55');
     svg.appendChild(arrow1);
