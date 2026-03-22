@@ -833,11 +833,11 @@ function drawElbowConnectors() {
     arrow1.setAttribute('opacity', '0.55');
     svg.appendChild(arrow1);
     
-    // 标签 "驱动" — 放在左侧竖线右边（gxLeft+2），高度在左侧竖线中间
+    // 标签 "驱动" — 放在右侧竖线右边（gxR+2），高度在右侧竖线中间（b.cy → midY 段）
     var foreignObj = document.createElementNS('http://www.w3.org/2000/svg', 'foreignObject');
-    foreignObj.setAttribute('x', p1.gxL + 2);
-    // 标签在左侧竖线(midY → j.cy)的中间位置
-    foreignObj.setAttribute('y', (p1.midY + p1.ey) / 2 - 12);
+    foreignObj.setAttribute('x', p1.gxR + 2);
+    // 标签在右侧竖线(b.cy → midY)的中间位置
+    foreignObj.setAttribute('y', (p1.sy + p1.midY) / 2 - 12);
     foreignObj.setAttribute('width', '36');
     foreignObj.setAttribute('height', '24');
     var labelDiv = document.createElement('span');
