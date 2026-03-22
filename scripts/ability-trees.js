@@ -797,15 +797,26 @@ function drawElbowConnectors() {
     var gx1 = Math.min(bw - 16, b.right + 20);
     
     // ---- 连接器: 闭关修炼 → 经验总结（驱动）----
-    // 路径（按图中黄色箭头）：闭关修炼左出 → 左侧gutter → 向下到经验总结中心高度 → 向右射入经验总结
-    // 左侧 gutter：经验总结左边再往左 20px
+    // 路径：右→下→左→下→右→射入经验总结（完整绕行路径）
+    // 右侧gutter: gx1 = b.right + 20
+    // 左侧gutter: gxLeft = j.left - 20
+    // 中间折转高度: mid_y = 两行中间
     var gxLeft = j.left - 20;
-    var p1 = { sx: b.left, sy: b.cy, gx: gxLeft, ex: j.left, ey: j.cy };
+    var midY = (b.cy + j.cy) / 2;
+    var p1 = { sx: b.right, sy: b.cy, gxR: gx1, midY: midY, gxL: gxLeft, ex: j.left, ey: j.cy };
     
     var path1 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    // 左出(闭关修炼左侧) → 向左到gutter → 向下到经验总结中心高度 → 向右延伸到箭头起点
-    // 路径到 (ex - 10) 停止，再由箭头接力到 ex
-    path1.setAttribute('d', 'M ' + p1.sx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.ey + ' L ' + (p1.ex - 10) + ' ' + p1.ey);
+    // 右出(b.right) → 向右到右侧gutter(gx1) → 向下到中间高度(midY)
+    // → 向左横穿到左侧gutter(gxLeft) → 向下到经验总结中心(j.cy)
+    // → 向右到箭头尾部(j.left-10)，箭头顶点接到j.left
+    path1.setAttribute('d',
+      'M ' + p1.sx + ' ' + p1.sy +
+      ' L ' + p1.gxR + ' ' + p1.sy +
+      ' L ' + p1.gxR + ' ' + p1.midY +
+      ' L ' + p1.gxL + ' ' + p1.midY +
+      ' L ' + p1.gxL + ' ' + p1.ey +
+      ' L ' + (p1.ex - 10) + ' ' + p1.ey
+    );
     path1.setAttribute('fill', 'none');
     path1.setAttribute('stroke', '#fb923c');
     path1.setAttribute('stroke-width', '1.5');
@@ -815,20 +826,18 @@ function drawElbowConnectors() {
     path1.setAttribute('opacity', '0.55');
     svg.appendChild(path1);
     
-    // 箭头朝右 ► 射入经验总结：顶点在右侧(ex, ey)，展开在左侧(ex-10, ey±5)
+    // 箭头朝右 ► 射入经验总结：顶点(j.left, j.cy)，展开在左(j.left-10, j.cy±5)
     var arrow1 = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
-    // 正确的朝右箭头：右顶点, 左上, 左下
     arrow1.setAttribute('points', p1.ex + ',' + p1.ey + ' ' + (p1.ex - 10) + ',' + (p1.ey - 5) + ' ' + (p1.ex - 10) + ',' + (p1.ey + 5));
     arrow1.setAttribute('fill', '#fb923c');
     arrow1.setAttribute('opacity', '0.55');
     svg.appendChild(arrow1);
     
-    // 标签 "驱动"（使用 foreignObject 包裹 HTML 标签，与"触发"样式一致）
+    // 标签 "驱动" — 放在左侧竖线右边（gxLeft+2），高度在左侧竖线中间
     var foreignObj = document.createElementNS('http://www.w3.org/2000/svg', 'foreignObject');
-    // 标签放在左侧竖线右边（gutter+2px），避免负坐标跑出容器
-    foreignObj.setAttribute('x', p1.gx + 2);
-    // 标签在竖线段中间
-    foreignObj.setAttribute('y', (p1.sy + p1.ey) / 2 - 12);
+    foreignObj.setAttribute('x', p1.gxL + 2);
+    // 标签在左侧竖线(midY → j.cy)的中间位置
+    foreignObj.setAttribute('y', (p1.midY + p1.ey) / 2 - 12);
     foreignObj.setAttribute('width', '36');
     foreignObj.setAttribute('height', '24');
     var labelDiv = document.createElement('span');
