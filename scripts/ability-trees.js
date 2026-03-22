@@ -797,12 +797,14 @@ function drawElbowConnectors() {
     var gx1 = Math.min(bw - 16, b.right + 20);
     
     // ---- 连接器: 闭关修炼 → 经验总结（驱动）----
-    // 路径：闭关修炼右出 → 右侧gutter → 向下到经验总结中心高度 → 向左直达经验总结左侧
-    var p1 = { sx: b.right, sy: b.cy, gx: gx1, ex: j.left, ey: j.cy };
+    // 路径（按图中黄色箭头）：闭关修炼左出 → 左侧gutter → 向下到经验总结中心高度 → 向右射入经验总结
+    // 左侧 gutter：经验总结左边再往左 20px
+    var gxLeft = j.left - 20;
+    var p1 = { sx: b.left, sy: b.cy, gx: gxLeft, ex: j.left, ey: j.cy };
     
     var path1 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    // 右出 → gutter → 向下到经验总结中心 → 向左到经验总结左侧（不绕左边缘，直接连）
-    path1.setAttribute('d', 'M ' + p1.sx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.ey + ' L ' + (p1.ex + 10) + ' ' + p1.ey);
+    // 左出(闭关修炼左侧) → 向左到gutter → 向下到经验总结中心高度 → 向右到经验总结左侧
+    path1.setAttribute('d', 'M ' + p1.sx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.ey + ' L ' + (p1.ex - 10) + ' ' + p1.ey);
     path1.setAttribute('fill', 'none');
     path1.setAttribute('stroke', '#fb923c');
     path1.setAttribute('stroke-width', '1.5');
@@ -812,15 +814,17 @@ function drawElbowConnectors() {
     path1.setAttribute('opacity', '0.55');
     svg.appendChild(path1);
     
-    // 箭头（从左侧水平进入经验总结，朝右 ►，顶点在右侧）
+    // 箭头（从左侧水平射入经验总结，朝右 ►，顶点在右侧）
     var arrow1 = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
-    arrow1.setAttribute('points', (p1.ex + 10) + ',' + p1.ey + ' ' + p1.ex + ',' + (p1.ey - 5) + ' ' + p1.ex + ',' + (p1.ey + 5));
+    // 顶点(ex, ey)，展开在左：(ex-10, ey-5) 和 (ex-10, ey+5)
+    arrow1.setAttribute('points', p1.ex + ',' + p1.ey + ' ' + (p1.ex - 10) + ',' + (p1.ey - 5) + ' ' + (p1.ex - 10) + ',' + (p1.ey + 5));
     arrow1.setAttribute('fill', '#fb923c');
     arrow1.setAttribute('opacity', '0.55');
     svg.appendChild(arrow1);
     
     // 标签 "驱动"（使用 foreignObject 包裹 HTML 标签，与"触发"样式一致）
     var foreignObj = document.createElementNS('http://www.w3.org/2000/svg', 'foreignObject');
+    // 标签放在左侧竖线旁边（gutter左边）
     foreignObj.setAttribute('x', p1.gx - 18);
     // 标签在竖线段中间
     foreignObj.setAttribute('y', (p1.sy + p1.ey) / 2 - 12);
