@@ -284,7 +284,7 @@ function renderSkillTechTree(container, skills) {
         }
         // 林克首页节点
         if (homepageSkill) {
-            toolNodesHtml += '<div class="tools-connector"><div class="connector-h"></div><div class="arrow-right"></div></div>';
+            toolNodesHtml += '<div class="tools-connector"><div class="connector-h"></div><div class="arrow-right"></div><div class="energy-particles"><div class="energy-particle" style="--particle-color: #4ade80; --particle-duration: 2.2s; animation-delay: 0s;"></div><div class="energy-particle" style="--particle-color: #4ade80; --particle-duration: 2.2s; animation-delay: 1.1s;"></div></div></div>';
             toolNodesHtml += createDemoNode(homepageSkill, homepageSkill.displayName || '林克首页', homepageSkill.displayRole || '对外门面', 'homepage');
         }
         
@@ -347,7 +347,7 @@ function renderSkillTechTree(container, skills) {
                     // 经验总结节点
                     '<div id="node-jingyan" class="engine-node engine-node--tool" onmouseenter="showTreeTooltip(event, \'' + storeSkill(reviewSkill) + '\', \'skill\')" onmouseleave="hideTooltip()"><div class="engine-node-ring"><svg viewBox="0 0 22 22"><circle class="ring-bg" cx="11" cy="11" r="8"/><circle class="ring-progress" cx="11" cy="11" r="8" stroke-dasharray="50" stroke-dashoffset="' + (50 * (1 - ((reviewSkill && reviewSkill.exp) || ((reviewSkill && reviewSkill.level) || 1) * 20) / 100)) + '" style="stroke: #4ade80;"/></svg><span class="engine-node-level">' + ((reviewSkill && reviewSkill.level) || 1) + '</span></div><div class="engine-node-info"><span class="engine-node-name">经验总结</span><span class="engine-node-role">复盘并举一反三</span></div></div>' +
                     // 经验总结 → 记忆体系优化 连接器
-                    '<div class="tools-connector"><div class="connector-h" style="--line-from: #4ade80; --line-to: #4ade80;"></div><div class="arrow-right" style="--arrow-color: #4ade80;"></div></div>' +
+                    '<div class="tools-connector"><div class="connector-h" style="--line-from: #4ade80; --line-to: #4ade80;"></div><div class="arrow-right" style="--arrow-color: #4ade80;"></div><div class="energy-particles"><div class="energy-particle" style="--particle-color: #4ade80; --particle-duration: 2.2s; animation-delay: 0s;"></div><div class="energy-particle" style="--particle-color: #4ade80; --particle-duration: 2.2s; animation-delay: 1.1s;"></div></div></div>' +
                     // 系统优化工具节点
                     toolNodesHtml +
                 '</div></div>' +

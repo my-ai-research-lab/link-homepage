@@ -1751,6 +1751,7 @@
     align-items: center;
     width: 30px;
     flex-shrink: 0;
+    position: relative;
 }
 .tools-connector .connector-h {
     flex: 1;
@@ -1763,6 +1764,11 @@
     border-left-width: 6px;
     border-top-width: 4px;
     border-bottom-width: 4px;
+}
+.tools-connector .energy-particles {
+    top: 50%;
+    transform: translateY(-50%);
+    height: 10px;
 }
 
 /* ==================== Demo风格：底部思维方法+做事方法 ==================== */
