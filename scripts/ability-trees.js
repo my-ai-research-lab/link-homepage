@@ -797,12 +797,12 @@ function drawElbowConnectors() {
     var gx1 = Math.min(bw - 16, b.right + 20);
     
     // ---- 连接器: 闭关修炼 → 经验总结（驱动）----
-    // 路径：从闭关修炼右出 → 右侧gutter → 向下到经验总结中心高度 → 向左穿越整个宽度 → 箭头从左侧射入经验总结
+    // 路径：闭关修炼右出 → 右侧gutter → 向下到经验总结中心高度 → 向左直达经验总结左侧
     var p1 = { sx: b.right, sy: b.cy, gx: gx1, ex: j.left, ey: j.cy };
     
     var path1 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    // 右出 → gutter竖线右边 → 向下到经验总结中心 → 向左穿越整个宽度到左边缘 → 向右到经验总结左侧
-    path1.setAttribute('d', 'M ' + p1.sx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.ey + ' L 8 ' + p1.ey + ' L ' + (p1.ex + 10) + ' ' + p1.ey);
+    // 右出 → gutter → 向下到经验总结中心 → 向左到经验总结左侧（不绕左边缘，直接连）
+    path1.setAttribute('d', 'M ' + p1.sx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.sy + ' L ' + p1.gx + ' ' + p1.ey + ' L ' + (p1.ex + 10) + ' ' + p1.ey);
     path1.setAttribute('fill', 'none');
     path1.setAttribute('stroke', '#fb923c');
     path1.setAttribute('stroke-width', '1.5');
