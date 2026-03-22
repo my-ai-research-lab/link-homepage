@@ -811,14 +811,14 @@ function drawElbowConnectors() {
     path1.setAttribute('stroke-dasharray', '5, 4');
     path1.setAttribute('stroke-linecap', 'round');
     path1.setAttribute('stroke-linejoin', 'round');
-    path1.setAttribute('opacity', '0.35');
+    path1.setAttribute('opacity', '0.55');
     svg.appendChild(path1);
     
     // 箭头（从左侧水平进入经验总结，朝右 ►）
     var arrow1 = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
     arrow1.setAttribute('points', p1.ex + ',' + p1.ey + ' ' + (p1.ex + 9) + ',' + (p1.ey - 5) + ' ' + (p1.ex + 9) + ',' + (p1.ey + 5));
     arrow1.setAttribute('fill', '#fb923c');
-    arrow1.setAttribute('opacity', '0.35');
+    arrow1.setAttribute('opacity', '0.55');
     svg.appendChild(arrow1);
     
     // 标签 "驱动"（使用 foreignObject 包裹 HTML 标签，与"触发"样式一致）
@@ -830,7 +830,7 @@ function drawElbowConnectors() {
     foreignObj.setAttribute('height', '24');
     var labelDiv = document.createElement('span');
     labelDiv.className = 'connector-label connector-label--center';
-    labelDiv.style.cssText = '--label-color: rgba(251, 146, 60, 0.5); --label-border: rgba(251, 146, 60, 0.2); font-size: 9px; padding: 3px 6px; opacity: 0.6;';
+    labelDiv.style.cssText = '--label-color: rgba(251, 146, 60, 0.8); --label-border: rgba(251, 146, 60, 0.4); font-size: 9px; padding: 3px 6px; opacity: 0.75;';
     labelDiv.textContent = '驱动';
     foreignObj.appendChild(labelDiv);
     svg.appendChild(foreignObj);
