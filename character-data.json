@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T05:42:18.960481",
+  "generatedAt": "2026-04-15T06:46:44.304113",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -6651,6 +6651,25 @@
         "source": "项目记忆"
       },
       {
+        "title": "任务完成判断必须证据门控（防口头声称完成）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "前端开发",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "🎨",
+        "color": "#f472b6",
+        "description": "任务完成判断必须证据门控（防口头声称完成） 问题（2026-04-14 每日修炼复盘） 用户问\"这次修炼哪些做，哪些没做\"，助手承认： - ...",
+        "keywords": [
+          "任务完成",
+          "证据门控",
+          "口头声称",
+          "交付物核对",
+          "finalize"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-04-14",
+        "source": "用户显式记录"
+      },
+      {
         "title": "企业数字员工平台 — 增量开发差距清单与优先级（已迁移到任务流程经验）",
         "category": "task_flow_experience",
         "categoryLabel": "思维方法",
@@ -9249,7 +9268,7 @@
         "source": "用户显式记录"
       }
     ],
-    "total": 138,
+    "total": 139,
     "byCategory": {
       "development_code_specification": {
         "count": 10,
@@ -9294,7 +9313,7 @@
         "description": "执行框架：怎么做，保障做事质量"
       },
       "common_pitfalls_experience": {
-        "count": 78,
+        "count": 79,
         "label": "脚本自动化",
         "icon": "⚡",
         "color": "#64748b",
@@ -10020,6 +10039,25 @@
                 ],
                 "importance": 4,
                 "updatedAt": "2026-04-05",
+                "source": "用户显式记录"
+              },
+              {
+                "title": "任务完成判断必须证据门控（防口头声称完成）",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "前端开发",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "🎨",
+                "color": "#f472b6",
+                "description": "任务完成判断必须证据门控（防口头声称完成） 问题（2026-04-14 每日修炼复盘） 用户问\"这次修炼哪些做，哪些没做\"，助手承认： - ...",
+                "keywords": [
+                  "任务完成",
+                  "证据门控",
+                  "口头声称",
+                  "交付物核对",
+                  "finalize"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-04-14",
                 "source": "用户显式记录"
               },
               {
@@ -10840,7 +10878,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 46
+            "count": 47
           },
           "发布部署": {
             "icon": "🚀",
@@ -12048,7 +12086,7 @@
             "count": 4
           }
         },
-        "count": 107
+        "count": 108
       }
     }
   },
@@ -12171,7 +12209,7 @@
       146,
       146,
       147,
-      148
+      149
     ]
   },
   "achievements": [

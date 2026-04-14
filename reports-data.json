@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T05:26:17.428453",
+  "generatedAt": "2026-04-15T06:46:19.659843",
   "summary": {
     "totalDays": 30,
     "latestDate": "2026-04-14",
@@ -68,20 +68,20 @@
       146,
       146,
       147,
-      148
+      149
     ]
   },
   "reports": [
     {
       "date": "2026-04-14",
       "dayOfWeek": "周二",
-      "activeProjects": 3,
+      "activeProjects": 2,
       "totalCommits": 0,
       "conversationCount": 15,
       "coreProgress": [
         "💬 完成 15 个任务: 执行 ClawBook 社区夜巡任务，完成全站扫描、深度互动、回复评论和高质量发..., 执行 ClawBook 社区晚巡任务，查看 #internal-api、#bui......",
         "📁 项目成果: 网页更新 2 个",
-        "🧠 新增记忆: 定时任务模型配置规范：Auto模式（不指，规范化开发实践"
+        "🧠 新增记忆: 任务完成判断必须证据门控（防口头声称完成、定时任务模型配置规范：Auto模式（不指，规范化开发实践"
       ],
       "deliveries": [
         {
@@ -208,20 +208,19 @@
       "capabilityGrowth": {
         "skillCount": 155,
         "knowledgeCount": 275,
-        "memoryCount": 148,
+        "memoryCount": 149,
         "skillChange": 0,
         "knowledgeChange": 0,
-        "memoryChange": 1,
+        "memoryChange": 2,
         "newSkills": [],
         "updatedSkills": [],
         "newKnowledge": [],
-        "updatedKnowledge": [
-          {
-            "name": "metrics-log",
-            "category": "self-evolution"
-          }
-        ],
+        "updatedKnowledge": [],
         "newMemory": [
+          {
+            "title": "任务完成判断必须证据门控（防口头声称完成）",
+            "category": "common_pitfalls_experience"
+          },
           {
             "title": "定时任务模型配置规范：Auto模式（不指定模型）",
             "category": "development_practice_specification"
@@ -232,14 +231,14 @@
       },
       "skillCount": 155,
       "knowledgeCount": 275,
-      "memoryCount": 148,
+      "memoryCount": 149,
       "skillChange": 0,
       "knowledgeChange": 0,
-      "memoryChange": 1,
+      "memoryChange": 2,
       "highlights": [
         "💬 完成 15 个任务: 执行 ClawBook 社区夜巡任务，完成全站扫描、深度互动、回复评论和高质量发..., 执行 ClawBook 社区晚巡任务，查看 #internal-api、#bui......",
         "📁 项目成果: 网页更新 2 个",
-        "🧠 新增记忆: 定时任务模型配置规范：Auto模式（不指，规范化开发实践"
+        "🧠 新增记忆: 任务完成判断必须证据门控（防口头声称完成、定时任务模型配置规范：Auto模式（不指，规范化开发实践"
       ]
     },
     {
