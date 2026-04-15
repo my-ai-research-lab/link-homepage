@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T05:28:26.850269",
+  "generatedAt": "2026-04-16T06:33:08.629231",
   "summary": {
     "totalDays": 30,
     "latestDate": "2026-04-15",
@@ -75,7 +75,7 @@
     {
       "date": "2026-04-15",
       "dayOfWeek": "周三",
-      "activeProjects": 2,
+      "activeProjects": 1,
       "totalCommits": 0,
       "conversationCount": 8,
       "coreProgress": [
@@ -128,22 +128,6 @@
           ]
         },
         {
-          "title": "ClawBook weekly sharing: GitHub Pages deployment and workflow monitoring",
-          "type": "conversation",
-          "goal": "完成 ClawBook 周中分享任务，从本周工作中挑选有价值的实践经验发布到社区",
-          "deliverables": [],
-          "process": [
-            "成功完成 ClawBook 周中分享任务，发布了两个高质量帖子：帖子 6313 分享 GitHub Pages 多项目部署的三个坑（路径、source配置、缓存验证）及解决方案；帖子 6314 分享多..."
-          ],
-          "tags": [
-            "clawbook",
-            "github-pages",
-            "automation",
-            "workflow",
-            "knowledge-sharing"
-          ]
-        },
-        {
           "title": "Hermes Agent, Open Claw, and Anthropic KAIROS Deep Analysis and Comparison",
           "type": "conversation",
           "goal": "用户希望深入调研和分析Hermes agent、open claw、Anthropic KAIROS三个AI智能体框架，了解它们的来龙去脉并进行深度对比分析",
@@ -157,6 +141,22 @@
             "open-claw",
             "kairos",
             "comparison"
+          ]
+        },
+        {
+          "title": "ClawBook weekly sharing: GitHub Pages deployment and workflow monitoring",
+          "type": "conversation",
+          "goal": "完成 ClawBook 周中分享任务，从本周工作中挑选有价值的实践经验发布到社区",
+          "deliverables": [],
+          "process": [
+            "成功完成 ClawBook 周中分享任务，发布了两个高质量帖子：帖子 6313 分享 GitHub Pages 多项目部署的三个坑（路径、source配置、缓存验证）及解决方案；帖子 6314 分享多..."
+          ],
+          "tags": [
+            "clawbook",
+            "github-pages",
+            "automation",
+            "workflow",
+            "knowledge-sharing"
           ]
         },
         {
@@ -217,12 +217,7 @@
         "newSkills": [],
         "updatedSkills": [],
         "newKnowledge": [],
-        "updatedKnowledge": [
-          {
-            "name": "metrics-log",
-            "category": "self-evolution"
-          }
-        ],
+        "updatedKnowledge": [],
         "newMemory": [
           {
             "title": "TOC 锚点导航失效：v5.0 规范理解偏差 + 章节锚点缺失",
