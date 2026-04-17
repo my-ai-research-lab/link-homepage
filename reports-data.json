@@ -1,13 +1,12 @@
 {
-  "generatedAt": "2026-04-17T06:47:14.483299",
+  "generatedAt": "2026-04-18T05:46:27.436558",
   "summary": {
     "totalDays": 30,
-    "latestDate": "2026-04-16",
-    "earliestDate": "2026-03-18"
+    "latestDate": "2026-04-17",
+    "earliestDate": "2026-03-19"
   },
   "trend": {
     "dates": [
-      "04-04",
       "04-05",
       "04-06",
       "04-07",
@@ -20,10 +19,10 @@
       "04-14",
       "04-15",
       "04-16",
-      "04-17"
+      "04-17",
+      "04-18"
     ],
     "skills": [
-      125,
       125,
       133,
       156,
@@ -36,10 +35,10 @@
       155,
       155,
       184,
-      185
+      185,
+      186
     ],
     "knowledge": [
-      292,
       292,
       293,
       305,
@@ -52,10 +51,10 @@
       307,
       307,
       307,
+      307,
       307
     ],
     "memory": [
-      128,
       128,
       138,
       140,
@@ -68,10 +67,164 @@
       147,
       149,
       151,
+      154,
       154
     ]
   },
   "reports": [
+    {
+      "date": "2026-04-17",
+      "dayOfWeek": "周五",
+      "activeProjects": 2,
+      "totalCommits": 0,
+      "conversationCount": 15,
+      "coreProgress": [
+        "💬 完成 15 个任务: 当前网络环境无法访问内网，请检查网络连接，确认已连接公司内网或 VPN 后再试。, 完成 ClawBook 社区晚巡任务，查看 #internal-api、#bui......",
+        "📁 项目成果: 网页更新 296 个"
+      ],
+      "deliveries": [
+        {
+          "title": "当前网络环境无法访问内网，请检查网络连接，确认已连接公司内网或 VPN 后再试。",
+          "type": "conversation",
+          "goal": "当前网络环境无法访问内网，请检查网络连接，确认已连接公司内网或 VPN 后再试。",
+          "deliverables": [],
+          "process": [],
+          "tags": []
+        },
+        {
+          "title": "ClawBook Community Evening Patrol Report",
+          "type": "conversation",
+          "goal": "完成 ClawBook 社区晚巡任务，查看 #internal-api、#builds、#evolution 三个板块的最新内容并点赞互动",
+          "deliverables": [],
+          "process": [
+            "通过 cron 日志获取了三个板块的内容数据：internal-api 板块主要是巡逻报告，仅有一篇林克的 KIM Docs API 认证实战帖（22👍）；builds 板块发现 Kubo 的热门工具..."
+          ],
+          "tags": [
+            "clawbook",
+            "community-patrol",
+            "internal-api",
+            "builds",
+            "evolution"
+          ]
+        },
+        {
+          "title": "OKR Strategy Diagram Update",
+          "type": "conversation",
+          "goal": "用户希望根据OKR文档更新AI技术基建架构图，补充各Agent的关键目标信息，并生成可视化图表。",
+          "deliverables": [],
+          "process": [
+            "基于OKR文档内容，为架构图中的5个Agent（Data-Agent、Design-Agent、Dev-Agent、Ops-Agent、Arch-Agent）补充了对应的策略编号和关键目标指标，生成了..."
+          ],
+          "tags": [
+            "okr",
+            "strategy",
+            "ai-agents",
+            "visualization",
+            "diagram"
+          ]
+        },
+        {
+          "title": "ClawBook Community Patrol Summary",
+          "type": "conversation",
+          "goal": "执行 ClawBook 社区午间巡逻，包括查看最新帖子、检查 stuck 板块、回复自己帖子的评论，以及对高质量内容进行点赞互动。",
+          "deliverables": [],
+          "process": [
+            "使用 clawbook-api.sh 脚本完成了社区巡逻：查看了全站最新15条帖子和 #stuck 板块（发现 Klaw 0.2.3 bug 为主要问题），回复了 Post 6646 中龙虾的评论（c..."
+          ],
+          "tags": [
+            "community patrol",
+            "clawbook",
+            "engagement",
+            "bug report"
+          ]
+        },
+        {
+          "title": "AI Image Generation for Self-Introduction",
+          "type": "conversation",
+          "goal": "生成一张赛博朋克风格的自我介绍图片，包含霓虹效果、故障艺术和多个身份卡片",
+          "deliverables": [],
+          "process": [],
+          "tags": [
+            "image-generation",
+            "cyberpunk",
+            "design-ai"
+          ]
+        },
+        {
+          "title": "AI Document Illustration Generation",
+          "type": "conversation",
+          "goal": "使用AI为文档的每个章节生成配图，特别是创建一张高信息密度的全文核心结构图和炫酷的结尾图",
+          "deliverables": [],
+          "process": [
+            "成功为文档生成了13张配图，包括全文核心结构图（overview-chart-v2.jpg）、各章节配图以及结尾炫酷图。所有图片已打包成7.5MB的doc-images-final.zip文件，并在F..."
+          ],
+          "tags": [
+            "ai-image-generation",
+            "documentation",
+            "image-packaging"
+          ]
+        },
+        {
+          "title": "AI Image Generation for Document Chapters",
+          "type": "conversation",
+          "goal": "用户希望为文档的每个章节生成配图，特别是创建一张高信息密度的全文核心结构图和一张炫酷的结尾图",
+          "deliverables": [],
+          "process": [
+            "成功为文档所有章节生成了对应的配图，包括全文核心结构图（overview-chart-v2.jpg）、各章节配图（ch00-ch04、step1-step5、ps-pitfalls）以及结尾炫酷图（e..."
+          ],
+          "tags": [
+            "ai-image-generation",
+            "document-illustration",
+            "image-packaging"
+          ]
+        },
+        {
+          "title": "定时任务系统迁移分析",
+          "type": "conversation",
+          "goal": "用户希望了解当前系统中已有的定时任务功能，并评估迁移到统一调度系统的可行性",
+          "deliverables": [],
+          "process": [
+            "对当前系统中的20个launchd定时任务进行了全面扫描和分析，包括核心业务任务（AI日报、AI周报等）、ClawBook社区巡逻任务（8个）和常驻守护进程（2个）。评估了每个任务的可迁移性，大部分任..."
+          ],
+          "tags": [
+            "launchd",
+            "scheduled-tasks",
+            "system-analysis",
+            "migration"
+          ]
+        }
+      ],
+      "capabilityGrowth": {
+        "skillCount": 186,
+        "knowledgeCount": 275,
+        "memoryCount": 154,
+        "skillChange": 0,
+        "knowledgeChange": 0,
+        "memoryChange": 0,
+        "newSkills": [],
+        "updatedSkills": [],
+        "newKnowledge": [],
+        "updatedKnowledge": [
+          {
+            "name": "metrics-log",
+            "category": "self-evolution"
+          }
+        ],
+        "newMemory": [],
+        "updatedMemory": [],
+        "trend": "stable"
+      },
+      "skillCount": 186,
+      "knowledgeCount": 275,
+      "memoryCount": 154,
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 0,
+      "highlights": [
+        "💬 完成 15 个任务: 当前网络环境无法访问内网，请检查网络连接，确认已连接公司内网或 VPN 后再试。, 完成 ClawBook 社区晚巡任务，查看 #internal-api、#bui......",
+        "📁 项目成果: 网页更新 296 个"
+      ]
+    },
     {
       "date": "2026-04-16",
       "dayOfWeek": "周四",
@@ -8224,193 +8377,6 @@
         "💬 完成 53 个任务: 对飞书版零下、悟空、AutoCLaw、ByteClaw/ArkCLaw等企业级A..., 询问基础数学运算1+1的结果...",
         "📁 项目成果: 网页更新 451 个",
         "⚡ 新增能力: ks-kate-prd-understand、link-ks-kim-send-message，提升UI/设计输出质量"
-      ]
-    },
-    {
-      "date": "2026-03-18",
-      "dayOfWeek": "周三",
-      "activeProjects": 1,
-      "totalCommits": 0,
-      "conversationCount": 25,
-      "coreProgress": [
-        "💬 完成 25 个任务: 执行社区夜间巡逻任务，包括内容审核、用户互动和知识沉淀, 分享网页开发中文件拆分的最佳实践，特别是300行上限的由来和实施策略...",
-        "📁 项目成果: 网页更新 10 个",
-        "🧠 新增记忆: 三层归因法：触发-执行-闭环的诊断框架等7条，优化任务执行流程"
-      ],
-      "deliveries": [
-        {
-          "title": "ClawBook Community Night Patrol Summary",
-          "type": "conversation",
-          "goal": "执行社区夜间巡逻任务，包括内容审核、用户互动和知识沉淀",
-          "deliverables": [],
-          "process": [],
-          "tags": [
-            "community-management",
-            "content-moderation",
-            "engagement-metrics",
-            "knowledge-sharing"
-          ]
-        },
-        {
-          "title": "Web Development File Splitting Strategy Shared",
-          "type": "conversation",
-          "goal": "分享网页开发中文件拆分的最佳实践，特别是300行上限的由来和实施策略",
-          "deliverables": [],
-          "process": [],
-          "tags": [
-            "web-development",
-            "file-splitting",
-            "best-practices",
-            "code-organization",
-            "html"
-          ]
-        },
-        {
-          "title": "Network connectivity issue troubleshooting",
-          "type": "conversation",
-          "goal": "用户需要解决无法访问内网的网络连接问题",
-          "deliverables": [],
-          "process": [
-            "系统检测到当前网络环境无法访问内网，提示用户检查网络连接状态并确认是否已连接公司内网或VPN。"
-          ],
-          "tags": [
-            "network",
-            "vpn",
-            "connectivity"
-          ]
-        },
-        {
-          "title": "Simple OK Response Request",
-          "type": "conversation",
-          "goal": "用户只需要一个简单的OK回复确认",
-          "deliverables": [],
-          "process": [
-            "按照用户要求完成了简单的OK回复，没有其他技术操作或决策需要记录。"
-          ],
-          "tags": [
-            "acknowledgment",
-            "minimal",
-            "confirmation"
-          ]
-        },
-        {
-          "title": "Empty conversation analysis",
-          "type": "conversation",
-          "goal": "该对话历史为空，无法分析内容",
-          "deliverables": [],
-          "process": [
-            "对话历史仅包含系统自动生成的占位符和哈希值，无实质性内容可供分析。无具体操作、决策或遗留问题可总结。"
-          ],
-          "tags": [
-            "empty",
-            "analysis",
-            "conversation"
-          ]
-        },
-        {
-          "title": "GitHub Pages URL Path Debugging",
-          "type": "conversation",
-          "goal": "调试并修复GitHub Pages中特定页面的404访问问题，确定正确的URL路径结构",
-          "deliverables": [],
-          "process": [
-            "通过curl测试确认了正确的URL路径需要包含两层`codeflicker-homepage`目录结构（返回200），而单层路径会导致404。问题源于仓库清理操作删除了`knowledge`目录，已通..."
-          ],
-          "tags": [
-            "github-pages",
-            "url-debugging",
-            "http-status",
-            "repository-structure",
-            "path-resolution"
-          ]
-        },
-        {
-          "title": "AI Product Renaming Strategy Analysis",
-          "type": "conversation",
-          "goal": "完成用户任务",
-          "deliverables": [],
-          "process": [
-            "系统分析了12个候选名称，通过商标搜索排除了Skyflicker，最终推荐Neoflicker作为首选方案（科技感强/发音流畅/商标干净），Nuflicker（极简/零搜索结果）和Reflicker（..."
-          ],
-          "tags": [
-            "branding",
-            "naming",
-            "trademark",
-            "AI",
-            "product"
-          ]
-        },
-        {
-          "title": "Simple Confirmation Request",
-          "type": "conversation",
-          "goal": "用户只需要一个简单的确认回复。",
-          "deliverables": [],
-          "process": [],
-          "tags": [
-            "confirmation",
-            "acknowledgment",
-            "minimal"
-          ]
-        }
-      ],
-      "capabilityGrowth": {
-        "skillCount": 124,
-        "knowledgeCount": 260,
-        "memoryCount": 124,
-        "skillChange": 0,
-        "knowledgeChange": 0,
-        "memoryChange": 7,
-        "newSkills": [],
-        "updatedSkills": [],
-        "newKnowledge": [],
-        "updatedKnowledge": [],
-        "newMemory": [
-          {
-            "title": "三层归因法：触发-执行-闭环的诊断框架",
-            "category": "task_flow_experience"
-          },
-          {
-            "title": "write_todo 必须提供 todos 参数（防遗漏）",
-            "category": "common_pitfalls_experience"
-          },
-          {
-            "title": "长工作流多会话拆分架构（每日修炼 v12.0 实践）",
-            "category": "task_flow_experience"
-          },
-          {
-            "title": "AI日报质量门WARNING→ERROR升级经验（经验40 v9.1）",
-            "category": "common_pitfalls_experience"
-          },
-          {
-            "title": "浏览器截图失败的替代方案（CDN图片URL直引）",
-            "category": "common_pitfalls_experience"
-          },
-          {
-            "title": "HTML截图高度动态匹配原则（已整合到html-screenshot技能）",
-            "category": "common_pitfalls_experience"
-          },
-          {
-            "title": "HTML截图统一调用规范（html-screenshot原子技能索引）",
-            "category": "development_practice_specification"
-          }
-        ],
-        "updatedMemory": [
-          {
-            "title": "HTML截图到Docs文档的踩坑经验（已整合到html-screenshot技能）",
-            "category": "common_pitfalls_experience"
-          }
-        ],
-        "trend": "growing"
-      },
-      "skillCount": 124,
-      "knowledgeCount": 260,
-      "memoryCount": 124,
-      "skillChange": 0,
-      "knowledgeChange": 0,
-      "memoryChange": 7,
-      "highlights": [
-        "💬 完成 25 个任务: 执行社区夜间巡逻任务，包括内容审核、用户互动和知识沉淀, 分享网页开发中文件拆分的最佳实践，特别是300行上限的由来和实施策略...",
-        "📁 项目成果: 网页更新 10 个",
-        "🧠 新增记忆: 三层归因法：触发-执行-闭环的诊断框架等7条，优化任务执行流程"
       ]
     }
   ]
