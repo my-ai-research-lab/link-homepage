@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-20T06:23:06.551926",
+  "generatedAt": "2026-04-20T06:29:24.024431",
   "summary": {
     "totalDays": 30,
-    "latestDate": "2026-04-18",
-    "earliestDate": "2026-03-20"
+    "latestDate": "2026-04-19",
+    "earliestDate": "2026-03-21"
   },
   "trend": {
     "dates": [
@@ -72,6 +72,183 @@
     ]
   },
   "reports": [
+    {
+      "date": "2026-04-19",
+      "dayOfWeek": "周日",
+      "activeProjects": 2,
+      "totalCommits": 0,
+      "conversationCount": 4,
+      "coreProgress": [
+        "💬 完成 4 个任务: 用户希望运行AI日报生成流程并确认部署成功, 完成AI-Insight订阅页面的部署修复，并将本次踩坑经验沉淀到技能记忆系统中...",
+        "📁 项目成果: 网页更新 1 个",
+        "🧠 新增记忆: 浏览器前端 OAuth + Appwri等6条，优化任务执行流程"
+      ],
+      "deliveries": [
+        {
+          "title": "AI Daily Report Generation and Deployment Verification",
+          "type": "conversation",
+          "goal": "用户希望运行AI日报生成流程并确认部署成功",
+          "deliverables": [],
+          "process": [
+            "执行了AI日报生成任务，通过GitHub Actions workflow完成构建和部署。验证了内外部GitHub Pages站点（ai-insight和ai-insight-public）均返回HT..."
+          ],
+          "tags": [
+            "github-actions",
+            "github-pages",
+            "daily-report"
+          ]
+        },
+        {
+          "title": "AI-Insight Deployment and Integration Pitfalls",
+          "type": "conversation",
+          "goal": "完成AI-Insight订阅页面的部署修复，并将本次踩坑经验沉淀到技能记忆系统中",
+          "deliverables": [],
+          "process": [
+            "修复了GitHub Pages路径配置错误（需修改根目录`index.html`而非`public/index.html`），解决了OAuth回调URL硬编码问题（改用`window.location..."
+          ],
+          "tags": [
+            "github-pages",
+            "appwrite",
+            "oauth",
+            "esm",
+            "deployment"
+          ]
+        },
+        {
+          "title": "AI Daily Report Update Verification",
+          "type": "conversation",
+          "goal": "运行AI日报并确认内外部首页已更新到最新日期",
+          "deliverables": [],
+          "process": [
+            "执行了AI日报生成任务，通过GitHub Actions workflow完成部署。验证了内外部GitHub Pages站点（ai-insight和ai-insight-public）均返回200状态..."
+          ],
+          "tags": [
+            "ai-daily",
+            "github-pages",
+            "deployment"
+          ]
+        },
+        {
+          "title": "ClawBook 社区晨间巡检任务",
+          "type": "conversation",
+          "goal": "执行 ClawBook 社区晨间巡检，包括查看热帖、检查 TIL 和 Stuck 板块、进行点赞评论互动、提供问题帮助",
+          "deliverables": [],
+          "process": [
+            "用户请求通过 clawbook skill 执行社区晨检任务，包括查看热帖 feed、检查 #til 和 #stuck 板块、对有价值帖子互动、帮助解决问题。助手已确认收到指令，但尚未执行具体操作。"
+          ],
+          "tags": [
+            "clawbook",
+            "社区运营",
+            "帖子互动",
+            "问题帮助"
+          ]
+        },
+        {
+          "title": "AI-Productivity",
+          "type": "project",
+          "goal": "项目开发与维护",
+          "deliverables": [
+            {
+              "name": "overview-diagram.html",
+              "type": "page",
+              "url": "https://xiaoxiong20260206.github.io/ks-ai-productivity-landing"
+            }
+          ],
+          "process": [
+            "网页更新 1 个"
+          ],
+          "commitCount": 0,
+          "fileChangeCount": 2,
+          "deployUrl": "https://xiaoxiong20260206.github.io/ks-ai-productivity-landing"
+        },
+        {
+          "title": "个人助理_V1",
+          "type": "project",
+          "goal": "项目开发与维护",
+          "deliverables": [
+            {
+              "name": "subscription.html",
+              "type": "page",
+              "url": null
+            },
+            {
+              "name": "index.html",
+              "type": "page",
+              "url": null
+            },
+            {
+              "name": "2026-04-19.md",
+              "type": "document",
+              "url": ""
+            }
+          ],
+          "process": [
+            "网页更新 7 个",
+            "文档完善 20 份",
+            "功能代码优化"
+          ],
+          "commitCount": 0,
+          "fileChangeCount": 72,
+          "deployUrl": null
+        }
+      ],
+      "capabilityGrowth": {
+        "skillCount": 186,
+        "knowledgeCount": 275,
+        "memoryCount": 160,
+        "skillChange": 0,
+        "knowledgeChange": 0,
+        "memoryChange": 6,
+        "newSkills": [],
+        "updatedSkills": [],
+        "newKnowledge": [],
+        "updatedKnowledge": [],
+        "newMemory": [
+          {
+            "title": "浏览器前端 OAuth + Appwrite SDK 三合一陷阱（回调URL/包名/ESM裸模块）",
+            "category": "common_pitfalls_experience"
+          },
+          {
+            "title": "部门介绍类文档的黄金公式",
+            "category": "task_flow_experience"
+          },
+          {
+            "title": "AI生图的视觉锚点意识：图不是装饰品",
+            "category": "task_flow_experience"
+          },
+          {
+            "title": "术语敏感度：主动学习组织的内部叫法",
+            "category": "task_flow_experience"
+          },
+          {
+            "title": "部门介绍文档的信息优先级：业务价值优先于组织结构",
+            "category": "task_flow_experience"
+          },
+          {
+            "title": "提问式标题：以读者为中心的章节命名",
+            "category": "task_flow_experience"
+          }
+        ],
+        "updatedMemory": [
+          {
+            "title": "Write-Read路径不对称陷阱：修改位置≠部署读取位置（v2 — 补充AI-Insight双文件同步规范）",
+            "category": "common_pitfalls_experience"
+          }
+        ],
+        "trend": "growing"
+      },
+      "skillCount": 186,
+      "knowledgeCount": 275,
+      "memoryCount": 160,
+      "skillChange": 0,
+      "knowledgeChange": 0,
+      "memoryChange": 6,
+      "highlights": [
+        "💬 完成 4 个任务: 用户希望运行AI日报生成流程并确认部署成功, 完成AI-Insight订阅页面的部署修复，并将本次踩坑经验沉淀到技能记忆系统中...",
+        "📁 项目成果: 网页更新 1 个",
+        "🧠 新增记忆: 浏览器前端 OAuth + Appwri等6条，优化任务执行流程"
+      ]
+    },
     {
       "date": "2026-04-18",
       "dayOfWeek": "周六",
@@ -6884,626 +7061,6 @@
         "💬 完成 53 个任务: 修改研发效能中心的OKR文档，将S1/S2/S3成熟度框架替换为L1/L2/L3..., To perform morning patrol tasks in ClawB......",
         "📁 项目成果: 网页更新 130 个",
         "⚡ 新增能力: sl-ai-insight、meta-daily-reflection-evolution，提升调研分析能力"
-      ]
-    },
-    {
-      "date": "2026-03-20",
-      "dayOfWeek": "周五",
-      "activeProjects": 3,
-      "totalCommits": 0,
-      "conversationCount": 2,
-      "coreProgress": [
-        "💬 完成 2 个任务: 生成并查看技能修炼场所有技能按分类执行的严格测试报告, 用户要求对徐刘峰的E12晋升答辩材料进行专业评审并生成结构化报告",
-        "📁 项目成果: 网页更新 640 个",
-        "⚡ 新增能力: 清爽调研报告风格、meta-learn-from-mistakes，提升UI/设计输出质量",
-        "🧠 新增记忆: 一致性检查闭环：发现→修复→自动化→门控等3条，优化任务执行流程"
-      ],
-      "deliveries": [
-        {
-          "title": "Skill Dojo Benchmark Report Generation",
-          "type": "conversation",
-          "goal": "生成并查看技能修炼场所有技能按分类执行的严格测试报告",
-          "deliverables": [],
-          "process": [
-            "通过Python脚本处理JSON格式的测试数据生成HTML报告，启动本地HTTP服务器提供可视化访问。测试覆盖了4个非林克技能，全部通过测试(100%通过率)，包括investment-tracker..."
-          ],
-          "tags": [
-            "skill-testing",
-            "benchmark-report",
-            "python-script",
-            "http-server",
-            "test-coverage"
-          ]
-        },
-        {
-          "title": "Promotion Review Report Generation for E12 Candidate",
-          "type": "conversation",
-          "goal": "用户要求对徐刘峰的E12晋升答辩材料进行专业评审并生成结构化报告",
-          "deliverables": [],
-          "process": [],
-          "tags": [
-            "promotion-review",
-            "PDF-analysis",
-            "SABCD-rating",
-            "HTML-report",
-            "performance-evaluation"
-          ]
-        },
-        {
-          "title": "个人助理_V1",
-          "type": "project",
-          "goal": "项目开发与维护",
-          "deliverables": [
-            {
-              "name": "example-domain-captured.html",
-              "type": "page",
-              "url": null
-            },
-            {
-              "name": "example-domain.md",
-              "type": "document",
-              "url": ""
-            },
-            {
-              "name": "example-domain-20260320-194641-captured.html",
-              "type": "page",
-              "url": null
-            }
-          ],
-          "process": [
-            "网页更新 640 个",
-            "文档完善 447 份",
-            "功能代码优化"
-          ],
-          "commitCount": 0,
-          "fileChangeCount": 1900,
-          "deployUrl": null
-        },
-        {
-          "title": "knowledge/ai-insight",
-          "type": "project",
-          "goal": "项目开发与维护",
-          "deliverables": [
-            {
-              "name": "ai-industry-trends-2026.md",
-              "type": "document",
-              "url": ""
-            },
-            {
-              "name": "ai-coding-market-tracking.md",
-              "type": "document",
-              "url": ""
-            },
-            {
-              "name": "ai-application-landscape-2026-03.md",
-              "type": "document",
-              "url": ""
-            }
-          ],
-          "process": [
-            "文档完善 95 份"
-          ],
-          "commitCount": 0,
-          "fileChangeCount": 95,
-          "deployUrl": null
-        },
-        {
-          "title": "knowledge/self-evolution",
-          "type": "project",
-          "goal": "项目开发与维护",
-          "deliverables": [
-            {
-              "name": "cultivation-report-2026-03-20.md",
-              "type": "document",
-              "url": ""
-            },
-            {
-              "name": "skill-training-report-2026-03-20.md",
-              "type": "document",
-              "url": ""
-            }
-          ],
-          "process": [
-            "文档完善 2 份"
-          ],
-          "commitCount": 0,
-          "fileChangeCount": 2,
-          "deployUrl": null
-        }
-      ],
-      "capabilityGrowth": {
-        "skillCount": 124,
-        "knowledgeCount": 260,
-        "memoryCount": 124,
-        "skillChange": 0,
-        "knowledgeChange": 0,
-        "memoryChange": 3,
-        "newSkills": [
-          {
-            "name": "qingshuang-research-style",
-            "description": "清爽调研报告风格的**纯样式规范**。当用户提到\"清爽调研报告风格\"时使用此技能。本技能**仅提供CSS样式和视觉设计规"
-          },
-          {
-            "name": "meta-learn-from-mistakes",
-            "description": "\"举一反三 — 双轮驱动之一，自进化引擎的即时复盘能力。触发词：'复盘'、'举一反三'、'总结这个问题'、'这次做得好'"
-          },
-          {
-            "name": "ks-commit-msg",
-            "description": "基于 staged diff 生成符合 Conventional Commits 规范的 commit message。"
-          },
-          {
-            "name": "apify-market-research",
-            "description": "Analyze market conditions, geographic opportunities, pricing"
-          },
-          {
-            "name": "apify-competitor-intelligence",
-            "description": "Analyze competitor strategies, content, pricing, ads, and ma"
-          },
-          {
-            "name": "ks-kmodel",
-            "description": "This skill should be used when the user asks about \"kmodel 开"
-          },
-          {
-            "name": "baoyu-post-to-wechat",
-            "description": "Posts content to WeChat Official Account (微信公众号) via API or "
-          },
-          {
-            "name": "link-knowledge-base",
-            "description": "沈浪的个人知识库检索技能。当用户提到\"查文档\"、\"找调研\"、\"我之前做过什么调研\"、\"帮我找一下之前的文档\"、\"知识库里"
-          },
-          {
-            "name": "ks-qa-test-case",
-            "description": "根据交互设计文档、PRD、技术文档生成结构化的 QA 黑盒测试用例。当用户说\"生成测试用例\"、\"写 QA 用例\"、\"写测"
-          },
-          {
-            "name": "meta-proactive-agent",
-            "description": "\"主动自驱 — 自进化引擎的核心能力之一，让引擎自己动起来。触发词：'主动自驱'、'定时任务'、'自动调度'、'SSP'"
-          },
-          {
-            "name": "meta-spec-skill-template",
-            "description": "【替换为你的项目名】文档规范与开发工作流 Skill。当用户说\"生成需求文档\"、\"写技术方案\"、\"实现功能\"、\"跑测试\""
-          },
-          {
-            "name": "ks-browser-testing-doc",
-            "description": "This skill should be used when the user asks to \"test websit"
-          },
-          {
-            "name": "apify-trend-analysis",
-            "description": "Discover and track emerging trends across Google Trends, Ins"
-          }
-        ],
-        "updatedSkills": [],
-        "newKnowledge": [
-          {
-            "name": "README",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-industry-trends-2026",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-coding-market-tracking",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-application-landscape-2026-03",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-industry-principles",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-driven-layoffs-2026",
-            "category": "ai-insight"
-          },
-          {
-            "name": "2026-03-week1",
-            "category": "ai-insight"
-          },
-          {
-            "name": "gemini-3-series",
-            "category": "ai-insight"
-          },
-          {
-            "name": "gpt-5-series-evolution",
-            "category": "ai-insight"
-          },
-          {
-            "name": "reasoning-models",
-            "category": "ai-insight"
-          },
-          {
-            "name": "README",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-second-half-task-environment",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-history-and-capability-matrix",
-            "category": "ai-insight"
-          },
-          {
-            "name": "china-models-landscape-2026-03",
-            "category": "ai-insight"
-          },
-          {
-            "name": "deepseek-v4",
-            "category": "ai-insight"
-          },
-          {
-            "name": "fei-fei-li",
-            "category": "ai-insight"
-          },
-          {
-            "name": "barry-zhang",
-            "category": "ai-insight"
-          },
-          {
-            "name": "demis-hassabis",
-            "category": "ai-insight"
-          },
-          {
-            "name": "liang-wenfeng",
-            "category": "ai-insight"
-          },
-          {
-            "name": "dario-amodei",
-            "category": "ai-insight"
-          },
-          {
-            "name": "jensen-huang",
-            "category": "ai-insight"
-          },
-          {
-            "name": "simon-willison",
-            "category": "ai-insight"
-          },
-          {
-            "name": "elon-musk-ai",
-            "category": "ai-insight"
-          },
-          {
-            "name": "jim-fan",
-            "category": "ai-insight"
-          },
-          {
-            "name": "aidan-gomez",
-            "category": "ai-insight"
-          },
-          {
-            "name": "shunyu-yao",
-            "category": "ai-insight"
-          },
-          {
-            "name": "yang-zhilin",
-            "category": "ai-insight"
-          },
-          {
-            "name": "addy-osmani",
-            "category": "ai-insight"
-          },
-          {
-            "name": "sam-altman",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ilya-sutskever",
-            "category": "ai-insight"
-          },
-          {
-            "name": "kai-fu-lee",
-            "category": "ai-insight"
-          },
-          {
-            "name": "satya-nadella",
-            "category": "ai-insight"
-          },
-          {
-            "name": "andrew-ng",
-            "category": "ai-insight"
-          },
-          {
-            "name": "aravind-srinivas",
-            "category": "ai-insight"
-          },
-          {
-            "name": "harrison-chase",
-            "category": "ai-insight"
-          },
-          {
-            "name": "andrej-karpathy",
-            "category": "ai-insight"
-          },
-          {
-            "name": "yann-lecun",
-            "category": "ai-insight"
-          },
-          {
-            "name": "amazon-aws-ai-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "elevenlabs-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "zhipu-ai-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "xai-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "baidu-ai-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "alibaba-ai-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "google-deepmind-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "deepseek-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "hugging-face-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "high-flyer-quant",
-            "category": "ai-insight"
-          },
-          {
-            "name": "perplexity-ai-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "nvidia-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "runway-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "microsoft-ai-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "world-labs-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "meta-ai-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "moonshot-kimi-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "minimax-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "cohere-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "cursor-anysphere-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ssi-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "mistral-ai-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-coding-tools-landscape-2026-03",
-            "category": "ai-insight"
-          },
-          {
-            "name": "agentic-engineering-patterns-2026",
-            "category": "ai-insight"
-          },
-          {
-            "name": "README",
-            "category": "ai-insight"
-          },
-          {
-            "name": "agent-infra-and-optimization",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-coding-tools-evolution-2026-03",
-            "category": "ai-insight"
-          },
-          {
-            "name": "model-context-protocol",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-funding-2026",
-            "category": "ai-insight"
-          },
-          {
-            "name": "anthropic-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "bytedance-ai-landscape",
-            "category": "ai-insight"
-          },
-          {
-            "name": "openai-profile",
-            "category": "ai-insight"
-          },
-          {
-            "name": "README",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-consumer-app-landscape-2026-03",
-            "category": "ai-insight"
-          },
-          {
-            "name": "embodied-ai-funding-q1-2026",
-            "category": "ai-insight"
-          },
-          {
-            "name": "software-engineering-3",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ambient-agents",
-            "category": "ai-insight"
-          },
-          {
-            "name": "agent-memory-context",
-            "category": "ai-insight"
-          },
-          {
-            "name": "multi-agent-systems",
-            "category": "ai-insight"
-          },
-          {
-            "name": "agent-architecture",
-            "category": "ai-insight"
-          },
-          {
-            "name": "physical-ai",
-            "category": "ai-insight"
-          },
-          {
-            "name": "agent-types-matrix",
-            "category": "ai-insight"
-          },
-          {
-            "name": "README",
-            "category": "ai-insight"
-          },
-          {
-            "name": "index",
-            "category": "ai-insight"
-          },
-          {
-            "name": "transformer-architecture-evolution",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-alignment-landscape",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-safety-timeline-predictions",
-            "category": "ai-insight"
-          },
-          {
-            "name": "gemini-for-home",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-coding-practices",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-chip-landscape",
-            "category": "ai-insight"
-          },
-          {
-            "name": "openclaw",
-            "category": "ai-insight"
-          },
-          {
-            "name": "README",
-            "category": "ai-insight"
-          },
-          {
-            "name": "enterprise-ai-transformation-methodology",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-agent-team-implementation",
-            "category": "ai-insight"
-          },
-          {
-            "name": "enterprise-ai-product-design",
-            "category": "ai-insight"
-          },
-          {
-            "name": "enterprise-ai-worker-scenarios",
-            "category": "ai-insight"
-          },
-          {
-            "name": "financial-ai-agent-design",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-studio-product-design",
-            "category": "ai-insight"
-          },
-          {
-            "name": "ai-coding-workflow",
-            "category": "ai-insight"
-          },
-          {
-            "name": "cultivation-report-2026-03-20",
-            "category": "self-evolution"
-          },
-          {
-            "name": "skill-training-report-2026-03-20",
-            "category": "self-evolution"
-          }
-        ],
-        "updatedKnowledge": [],
-        "newMemory": [
-          {
-            "title": "一致性检查闭环：发现→修复→自动化→门控（含多副本分发型代码场景）",
-            "category": "task_flow_experience"
-          },
-          {
-            "title": "大任务清单中commit&push必须在P0/P1完成后立即执行（不能推迟到最后）",
-            "category": "common_pitfalls_experience"
-          },
-          {
-            "title": "AI日报外部版同步失败的多重根因（经验46 — v9.11）",
-            "category": "common_pitfalls_experience"
-          }
-        ],
-        "updatedMemory": [
-          {
-            "title": "用户技能命名偏好：前缀规范 + 技能来源分类",
-            "category": "user_info"
-          },
-          {
-            "title": "添棋主动性承诺（2026-03-20更新：SSP已废弃）",
-            "category": "task_flow_experience"
-          }
-        ],
-        "trend": "growing"
-      },
-      "skillCount": 124,
-      "knowledgeCount": 260,
-      "memoryCount": 124,
-      "skillChange": 0,
-      "knowledgeChange": 0,
-      "memoryChange": 3,
-      "highlights": [
-        "💬 完成 2 个任务: 生成并查看技能修炼场所有技能按分类执行的严格测试报告, 用户要求对徐刘峰的E12晋升答辩材料进行专业评审并生成结构化报告",
-        "📁 项目成果: 网页更新 640 个",
-        "⚡ 新增能力: 清爽调研报告风格、meta-learn-from-mistakes，提升UI/设计输出质量"
       ]
     }
   ]
