@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T09:10:54.313179",
+  "generatedAt": "2026-04-19T08:40:52.187879",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -153,7 +153,7 @@
       },
       "activeSkills": 151,
       "highLevelSkills": 151,
-      "skillTotalValue": 2883.5,
+      "skillTotalValue": 2884.4,
       "cultivationExp": 0,
       "baseExp": 337490,
       "expBreakdown": {
@@ -395,7 +395,7 @@
             "description": "技能发现。帮助用户发现和安装可扩展的Agent技能",
             "lastUpdated": "2026-04-07",
             "callCount": 93,
-            "frequency": "3.4次/周",
+            "frequency": "3.6次/周",
             "successRate": 95,
             "sourceType": "自定义",
             "skillSize": 33885,
@@ -808,7 +808,7 @@
             "description": "AI行业洞察平台专属技能。当用户明确提到'AI洞察'、'AI日报'、'AI行业周报'或执行AI行业调研任务时使用。核心场景：生成AI行业日报/周报、追踪AI公司/人物、沉淀AI行业知识、管理AI信息源。即使用户只是说'跑一下日报'或'今天AI有什么动态'，只要上下文是AI行业相关，也应该触发。注意：本技能仅处理AI行业领域，研发效能相关请使用 sl-rd-efficiency-insight",
             "lastUpdated": "2026-04-09",
             "callCount": 124,
-            "frequency": "2.7次/周",
+            "frequency": "2.8次/周",
             "successRate": 95,
             "sourceType": "自定义",
             "skillSize": 161385,
@@ -920,8 +920,8 @@
             "frequency": "1次/月",
             "successRate": 90,
             "sourceType": "自定义",
-            "skillSize": 82922,
-            "skillSizeLabel": "82K字 · 巨型",
+            "skillSize": 84174,
+            "skillSizeLabel": "84K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
             "tag": "SL"
@@ -1406,7 +1406,7 @@
             "description": "前端打包内网部署。将React/Vue/Vite等前端项目打包为单HTML文件并上传到快手内网CDN，生成可分享链接",
             "lastUpdated": "2026-03-26",
             "callCount": 8,
-            "frequency": "2次/月",
+            "frequency": "3次/月",
             "successRate": 90,
             "sourceType": "自定义",
             "skillSize": 15409,
@@ -1895,7 +1895,7 @@
             "description": "This skill should be used when the user mentions \"林克发消息\", \"林克推送\", \"KIM消息\", \"林克机器人\", \"MixCard\", \"群消息推送\", \"林克卡片\", \"AI日报推送\", \"AI周报推送\", or needs to send messages through KIM using Link (林克) AI Assistant.",
             "lastUpdated": "2026-03-19",
             "callCount": 92,
-            "frequency": "2.5次/周",
+            "frequency": "2.6次/周",
             "successRate": 95,
             "sourceType": "自定义",
             "skillSize": 55054,
@@ -2297,7 +2297,7 @@
             "description": "AI图片生成。调用外部AI生图API（Siliconflow/OpenAI），支持文生图和图生图",
             "lastUpdated": "2026-04-17",
             "callCount": 31,
-            "frequency": "2.3次/周",
+            "frequency": "2.4次/周",
             "successRate": 93,
             "sourceType": "自定义",
             "skillSize": 88402,
@@ -2881,7 +2881,7 @@
             "description": "ClawBook 社区 Skill — 连接你与其他 Claw 的社区。通过这个 Skill，你可以在 ClawBook 社区发帖分享经验、评论讨论、投票表态、浏览 Feed 获取灵感。当你完成了一个有趣的任务、学到了新知识、遇到了难题、想分享工作流、或者只是想看看其他 Claw 在做什么时，都应该使用这个 Skill。这是你与数万个 Claw 交流、学习、共同进化的唯一通道。",
             "lastUpdated": "2026-03-27",
             "callCount": 63,
-            "frequency": "3.3次/周",
+            "frequency": "3.5次/周",
             "successRate": 95,
             "sourceType": "自定义",
             "skillSize": 76265,
@@ -3291,6 +3291,25 @@
             "tag": ""
           },
           {
+            "name": "text-to-image",
+            "displayName": "万擎文生图 Skill",
+            "displayRole": "",
+            "source": "林克核心能力",
+            "level": 3,
+            "exp": 66,
+            "description": "本技能用于调用万擎内部API进行文生图。以下场景唤醒：用户说\"生成图片\"、\"文生图\"、\"画图\"、\"AI绘图\"、\"generate image\"、\"image generation\"、\"做一张图\"、\"生成架构图\"、\"生成流程图\"、\"生成信息图\"。以下场景不唤醒：用户讨论图片编辑、图生图、上传图片等非文生图场景。",
+            "lastUpdated": "2026-04-17",
+            "callCount": 5,
+            "frequency": "2次/月",
+            "successRate": 90,
+            "sourceType": "自定义",
+            "skillSize": 52455,
+            "skillSizeLabel": "52K字 · 巨型",
+            "ksInternal": false,
+            "cfProject": false,
+            "tag": ""
+          },
+          {
             "name": "快手-bus-query",
             "displayName": "班车查询",
             "displayRole": "",
@@ -3305,25 +3324,6 @@
             "sourceType": "自定义",
             "skillSize": 13781,
             "skillSizeLabel": "13K字 · 中型",
-            "ksInternal": false,
-            "cfProject": false,
-            "tag": ""
-          },
-          {
-            "name": "text-to-image",
-            "displayName": "万擎文生图 Skill",
-            "displayRole": "",
-            "source": "林克核心能力",
-            "level": 3,
-            "exp": 65,
-            "description": "本技能用于调用万擎内部API进行文生图。以下场景唤醒：用户说\"生成图片\"、\"文生图\"、\"画图\"、\"AI绘图\"、\"generate image\"、\"image generation\"、\"做一张图\"、\"生成架构图\"、\"生成流程图\"、\"生成信息图\"。以下场景不唤醒：用户讨论图片编辑、图生图、上传图片等非文生图场景。",
-            "lastUpdated": "2026-04-17",
-            "callCount": 4,
-            "frequency": "1次/月",
-            "successRate": 90,
-            "sourceType": "自定义",
-            "skillSize": 52455,
-            "skillSizeLabel": "52K字 · 巨型",
             "ksInternal": false,
             "cfProject": false,
             "tag": ""
@@ -3907,7 +3907,7 @@
                 "description": "技能发现。帮助用户发现和安装可扩展的Agent技能",
                 "lastUpdated": "2026-04-07",
                 "callCount": 93,
-                "frequency": "3.4次/周",
+                "frequency": "3.6次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
                 "skillSize": 33885,
@@ -4327,7 +4327,7 @@
                 "description": "AI行业洞察平台专属技能。当用户明确提到'AI洞察'、'AI日报'、'AI行业周报'或执行AI行业调研任务时使用。核心场景：生成AI行业日报/周报、追踪AI公司/人物、沉淀AI行业知识、管理AI信息源。即使用户只是说'跑一下日报'或'今天AI有什么动态'，只要上下文是AI行业相关，也应该触发。注意：本技能仅处理AI行业领域，研发效能相关请使用 sl-rd-efficiency-insight",
                 "lastUpdated": "2026-04-09",
                 "callCount": 124,
-                "frequency": "2.7次/周",
+                "frequency": "2.8次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
                 "skillSize": 161385,
@@ -4436,8 +4436,8 @@
                 "frequency": "1次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
-                "skillSize": 82922,
-                "skillSizeLabel": "82K字 · 巨型",
+                "skillSize": 84174,
+                "skillSizeLabel": "84K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": "SL"
@@ -4929,7 +4929,7 @@
                 "description": "前端打包内网部署。将React/Vue/Vite等前端项目打包为单HTML文件并上传到快手内网CDN，生成可分享链接",
                 "lastUpdated": "2026-03-26",
                 "callCount": 8,
-                "frequency": "2次/月",
+                "frequency": "3次/月",
                 "successRate": 90,
                 "sourceType": "自定义",
                 "skillSize": 15409,
@@ -5415,7 +5415,7 @@
                 "description": "This skill should be used when the user mentions \"林克发消息\", \"林克推送\", \"KIM消息\", \"林克机器人\", \"MixCard\", \"群消息推送\", \"林克卡片\", \"AI日报推送\", \"AI周报推送\", or needs to send messages through KIM using Link (林克) AI Assistant.",
                 "lastUpdated": "2026-03-19",
                 "callCount": 92,
-                "frequency": "2.5次/周",
+                "frequency": "2.6次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
                 "skillSize": 55054,
@@ -5815,7 +5815,7 @@
                 "description": "AI图片生成。调用外部AI生图API（Siliconflow/OpenAI），支持文生图和图生图",
                 "lastUpdated": "2026-04-17",
                 "callCount": 31,
-                "frequency": "2.3次/周",
+                "frequency": "2.4次/周",
                 "successRate": 93,
                 "sourceType": "自定义",
                 "skillSize": 88402,
@@ -6396,7 +6396,7 @@
                 "description": "ClawBook 社区 Skill — 连接你与其他 Claw 的社区。通过这个 Skill，你可以在 ClawBook 社区发帖分享经验、评论讨论、投票表态、浏览 Feed 获取灵感。当你完成了一个有趣的任务、学到了新知识、遇到了难题、想分享工作流、或者只是想看看其他 Claw 在做什么时，都应该使用这个 Skill。这是你与数万个 Claw 交流、学习、共同进化的唯一通道。",
                 "lastUpdated": "2026-03-27",
                 "callCount": 63,
-                "frequency": "3.3次/周",
+                "frequency": "3.5次/周",
                 "successRate": 95,
                 "sourceType": "自定义",
                 "skillSize": 76265,
@@ -6805,6 +6805,25 @@
                 "tag": ""
               },
               {
+                "name": "text-to-image",
+                "displayName": "万擎文生图 Skill",
+                "displayRole": "",
+                "source": "林克核心能力",
+                "level": 3,
+                "exp": 66,
+                "description": "本技能用于调用万擎内部API进行文生图。以下场景唤醒：用户说\"生成图片\"、\"文生图\"、\"画图\"、\"AI绘图\"、\"generate image\"、\"image generation\"、\"做一张图\"、\"生成架构图\"、\"生成流程图\"、\"生成信息图\"。以下场景不唤醒：用户讨论图片编辑、图生图、上传图片等非文生图场景。",
+                "lastUpdated": "2026-04-17",
+                "callCount": 5,
+                "frequency": "2次/月",
+                "successRate": 90,
+                "sourceType": "自定义",
+                "skillSize": 52455,
+                "skillSizeLabel": "52K字 · 巨型",
+                "ksInternal": false,
+                "cfProject": false,
+                "tag": ""
+              },
+              {
                 "name": "快手-bus-query",
                 "displayName": "班车查询",
                 "displayRole": "",
@@ -6819,25 +6838,6 @@
                 "sourceType": "自定义",
                 "skillSize": 13781,
                 "skillSizeLabel": "13K字 · 中型",
-                "ksInternal": false,
-                "cfProject": false,
-                "tag": ""
-              },
-              {
-                "name": "text-to-image",
-                "displayName": "万擎文生图 Skill",
-                "displayRole": "",
-                "source": "林克核心能力",
-                "level": 3,
-                "exp": 65,
-                "description": "本技能用于调用万擎内部API进行文生图。以下场景唤醒：用户说\"生成图片\"、\"文生图\"、\"画图\"、\"AI绘图\"、\"generate image\"、\"image generation\"、\"做一张图\"、\"生成架构图\"、\"生成流程图\"、\"生成信息图\"。以下场景不唤醒：用户讨论图片编辑、图生图、上传图片等非文生图场景。",
-                "lastUpdated": "2026-04-17",
-                "callCount": 4,
-                "frequency": "1次/月",
-                "successRate": 90,
-                "sourceType": "自定义",
-                "skillSize": 52455,
-                "skillSizeLabel": "52K字 · 巨型",
                 "ksInternal": false,
                 "cfProject": false,
                 "tag": ""
@@ -7471,7 +7471,7 @@
           "thinking_pattern"
         ],
         "fileCount": 26,
-        "sizeKB": 196.9,
+        "sizeKB": 197.0,
         "heatLevel": 5,
         "recentCount": 3
       },
@@ -7551,7 +7551,7 @@
               "thinking_pattern"
             ],
             "fileCount": 26,
-            "sizeKB": 196.9,
+            "sizeKB": 197.0,
             "heatLevel": 5,
             "recentCount": 3
           },
@@ -7574,7 +7574,7 @@
           }
         },
         "totalFiles": 167,
-        "totalSizeKB": 1124.5
+        "totalSizeKB": 1124.6
       },
       "🔍 领域知识层": {
         "icon": "🔍",
@@ -7671,7 +7671,7 @@
       }
     },
     "totalFiles": 307,
-    "totalSizeKB": 2318.5
+    "totalSizeKB": 2318.7
   },
   "memories": {
     "items": [
@@ -13514,7 +13514,6 @@
   },
   "growthHistory": {
     "dates": [
-      "03-19",
       "03-20",
       "03-21",
       "03-23",
@@ -13543,10 +13542,10 @@
       "04-15",
       "04-16",
       "04-17",
-      "04-18"
+      "04-18",
+      "04-19"
     ],
     "skills": [
-      107,
       108,
       109,
       110,
@@ -13575,10 +13574,10 @@
       155,
       184,
       185,
+      186,
       186
     ],
     "knowledge": [
-      298,
       299,
       300,
       290,
@@ -13607,10 +13606,10 @@
       307,
       307,
       307,
+      307,
       307
     ],
     "memories": [
-      152,
       159,
       163,
       150,
@@ -13638,6 +13637,7 @@
       147,
       149,
       151,
+      154,
       154,
       154
     ]
@@ -13675,7 +13675,7 @@
       "unlocked": true,
       "progress": 100,
       "progressText": "懂你程度 84/80",
-      "date": "2026-04-18"
+      "date": "2026-04-19"
     },
     {
       "id": "skill_master_v2",
@@ -13687,7 +13687,7 @@
       "unlocked": true,
       "progress": 100,
       "progressText": "4星+技能 151/10",
-      "date": "2026-04-18"
+      "date": "2026-04-19"
     },
     {
       "id": "daily_report",
@@ -13743,7 +13743,7 @@
       "unlocked": true,
       "progress": 100,
       "progressText": "达成",
-      "date": "2026-04-18"
+      "date": "2026-04-19"
     },
     {
       "id": "first_awakening",
