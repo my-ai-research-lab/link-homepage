@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T07:50:13.140641",
+  "generatedAt": "2026-04-20T07:53:01.692512",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -7563,6 +7563,25 @@
         "source": "用户显式记录"
       },
       {
+        "title": "技能加载不触发 meta-execution 启动协议（经验#80）",
+        "category": "common_pitfalls_experience",
+        "categoryLabel": "前端开发",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "🎨",
+        "color": "#f472b6",
+        "description": "问题（2026-04-20 W16周报执行） 执行AI周报时，虽然 sl-ai-insight 已加载，但没有触发 meta-execution 的...",
+        "keywords": [
+          "技能加载",
+          "meta-execution",
+          "启动协议",
+          "自举悖论",
+          "requires"
+        ],
+        "importance": 5,
+        "updatedAt": "2026-04-19",
+        "source": "用户显式记录"
+      },
+      {
         "title": "本轮会话技能白名单（系统优先 + manage-skills.sh + data-agent）",
         "category": "development_practice_specification",
         "categoryLabel": "文档处理",
@@ -10313,7 +10332,7 @@
         "source": "项目记忆"
       }
     ],
-    "total": 145,
+    "total": 146,
     "byCategory": {
       "development_code_specification": {
         "count": 10,
@@ -10358,7 +10377,7 @@
         "description": "执行框架：怎么做，保障做事质量"
       },
       "common_pitfalls_experience": {
-        "count": 83,
+        "count": 84,
         "label": "发布部署",
         "icon": "🚀",
         "color": "#4ade80",
@@ -11103,6 +11122,25 @@
                 ],
                 "importance": 5,
                 "updatedAt": "2026-04-15",
+                "source": "用户显式记录"
+              },
+              {
+                "title": "技能加载不触发 meta-execution 启动协议（经验#80）",
+                "category": "common_pitfalls_experience",
+                "categoryLabel": "前端开发",
+                "layer": "🛠️ 实践记忆层",
+                "icon": "🎨",
+                "color": "#f472b6",
+                "description": "问题（2026-04-20 W16周报执行） 执行AI周报时，虽然 sl-ai-insight 已加载，但没有触发 meta-execution 的...",
+                "keywords": [
+                  "技能加载",
+                  "meta-execution",
+                  "启动协议",
+                  "自举悖论",
+                  "requires"
+                ],
+                "importance": 5,
+                "updatedAt": "2026-04-19",
                 "source": "用户显式记录"
               },
               {
@@ -11999,7 +12037,7 @@
                 "source": "项目记忆"
               }
             ],
-            "count": 52
+            "count": 53
           },
           "发布部署": {
             "icon": "🚀",
@@ -13245,7 +13283,7 @@
             "count": 4
           }
         },
-        "count": 115
+        "count": 116
       }
     }
   },
@@ -13376,7 +13414,7 @@
       154,
       154,
       154,
-      156
+      157
     ]
   },
   "achievements": [
