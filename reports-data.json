@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T07:52:40.990765",
+  "generatedAt": "2026-04-20T08:16:05.250462",
   "summary": {
     "totalDays": 30,
     "latestDate": "2026-04-20",
@@ -273,13 +273,29 @@
       "dayOfWeek": "周日",
       "activeProjects": 2,
       "totalCommits": 0,
-      "conversationCount": 4,
+      "conversationCount": 5,
       "coreProgress": [
-        "💬 完成 4 个任务: 用户希望运行AI日报生成流程并确认部署成功, 完成AI-Insight订阅页面的部署修复，并将本次踩坑经验沉淀到技能记忆系统中...",
+        "💬 完成 5 个任务: 基于提供的上下文文档和最新材料，为MyFlicker设计一个面向CEO等管理层汇..., 用户希望运行AI日报生成流程并确认部署成功...",
         "📁 项目成果: 网页更新 1 个",
-        "🧠 新增记忆: 浏览器前端 OAuth + Appwri等6条，优化任务执行流程"
+        "🧠 新增记忆: 技能加载不触发 meta-executi等5条，优化任务执行流程"
       ],
       "deliveries": [
+        {
+          "title": "MyFlicker Product Points System Design for Executive Reporting",
+          "type": "conversation",
+          "goal": "基于提供的上下文文档和最新材料，为MyFlicker设计一个面向CEO等管理层汇报的产品积分方案，要求遵循指定的逻辑框架，内容简洁清晰。",
+          "deliverables": [],
+          "process": [
+            "用户请求基于两个内部文档链接和一个逻辑框架图，为MyFlicker产品设计积分方案。方案需要面向公司管理层汇报，因此要求结构清晰、表述简洁。对话中提到了使用特定的逻辑框架（如图表所示），并强调了汇报导..."
+          ],
+          "tags": [
+            "product-design",
+            "points-system",
+            "executive-reporting",
+            "MyFlicker",
+            "business-strategy"
+          ]
+        },
         {
           "title": "AI Daily Report Generation and Deployment Verification",
           "type": "conversation",
@@ -363,69 +379,77 @@
           "goal": "项目开发与维护",
           "deliverables": [
             {
-              "name": "subscription.html",
-              "type": "page",
-              "url": null
+              "name": "0000.md",
+              "type": "document",
+              "url": ""
             },
             {
-              "name": "index.html",
-              "type": "page",
-              "url": null
+              "name": "recap-tool-executecommand-command-cd.md",
+              "type": "document",
+              "url": ""
             },
             {
-              "name": "2026-04-19.md",
+              "name": "recap-clawbook.md",
               "type": "document",
               "url": ""
             }
           ],
           "process": [
-            "网页更新 7 个",
-            "文档完善 20 份",
+            "网页更新 4 个",
+            "文档完善 19 份",
             "功能代码优化"
           ],
           "commitCount": 0,
-          "fileChangeCount": 72,
+          "fileChangeCount": 59,
           "deployUrl": null
         }
       ],
       "capabilityGrowth": {
-        "skillCount": 186,
-        "knowledgeCount": 275,
-        "memoryCount": 160,
+        "skillCount": 179,
+        "knowledgeCount": 277,
+        "memoryCount": 157,
         "skillChange": 0,
         "knowledgeChange": 0,
-        "memoryChange": 6,
+        "memoryChange": 5,
         "newSkills": [],
         "updatedSkills": [],
         "newKnowledge": [],
         "updatedKnowledge": [],
         "newMemory": [
           {
+            "title": "技能加载不触发 meta-execution 启动协议（经验#80）",
+            "category": "development_practice_specification"
+          },
+          {
             "title": "浏览器前端 OAuth + Appwrite SDK 三合一陷阱（回调URL/包名/ESM裸模块）",
             "category": "common_pitfalls_experience"
           },
           {
-            "title": "部门介绍类文档的黄金公式",
+            "title": "部门介绍类文档的黄金公式（合并版）",
             "category": "task_flow_experience"
           },
           {
-            "title": "AI生图的视觉锚点意识：图不是装饰品",
-            "category": "task_flow_experience"
+            "title": "AI周报推送：重复preview + 未确认就尝试发群 + API错误但消息已投递",
+            "category": "common_pitfalls_experience"
           },
           {
-            "title": "术语敏感度：主动学习组织的内部叫法",
-            "category": "task_flow_experience"
-          },
-          {
-            "title": "部门介绍文档的信息优先级：业务价值优先于组织结构",
-            "category": "task_flow_experience"
-          },
-          {
-            "title": "提问式标题：以读者为中心的章节命名",
-            "category": "task_flow_experience"
+            "title": "周报日期范围ISO周数计算陷阱",
+            "category": "common_pitfalls_experience"
           }
         ],
         "updatedMemory": [
+          {
+            "title": "规则膨胀悖论：结构性约束 > 文字规则（含双轨落地规范 v2）",
+            "category": "common_pitfalls_experience"
+          },
+          {
+            "title": "ClawBook 社区账号强制规则与bash脚本blank output陷阱（合并版v3）",
+            "category": "common_pitfalls_experience"
+          },
+          {
+            "title": "信息查询任务不应自动拆分为批量执行任务",
+            "category": "task_flow_experience"
+          },
           {
             "title": "Write-Read路径不对称陷阱：修改位置≠部署读取位置（v2 — 补充AI-Insight双文件同步规范）",
             "category": "common_pitfalls_experience"
@@ -433,16 +457,16 @@
         ],
         "trend": "growing"
       },
-      "skillCount": 186,
-      "knowledgeCount": 275,
-      "memoryCount": 160,
+      "skillCount": 179,
+      "knowledgeCount": 277,
+      "memoryCount": 157,
       "skillChange": 0,
       "knowledgeChange": 0,
-      "memoryChange": 6,
+      "memoryChange": 5,
       "highlights": [
-        "💬 完成 4 个任务: 用户希望运行AI日报生成流程并确认部署成功, 完成AI-Insight订阅页面的部署修复，并将本次踩坑经验沉淀到技能记忆系统中...",
+        "💬 完成 5 个任务: 基于提供的上下文文档和最新材料，为MyFlicker设计一个面向CEO等管理层汇..., 用户希望运行AI日报生成流程并确认部署成功...",
         "📁 项目成果: 网页更新 1 个",
-        "🧠 新增记忆: 浏览器前端 OAuth + Appwri等6条，优化任务执行流程"
+        "🧠 新增记忆: 技能加载不触发 meta-executi等5条，优化任务执行流程"
       ]
     },
     {

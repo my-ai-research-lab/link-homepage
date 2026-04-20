@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T07:53:01.692512",
+  "generatedAt": "2026-04-20T08:16:11.524383",
   "character": {
     "name": "LINK",
     "title": "AI数字分身",
@@ -132,12 +132,12 @@
         "desc": "知道的越来越多"
       }
     ],
-    "totalExp": 347690,
-    "expProgress": 93.3,
+    "totalExp": 347790,
+    "expProgress": 93.6,
     "currentThreshold": 320393,
     "nextThreshold": 349649,
     "stats": {
-      "understanding": 83.7,
+      "understanding": 83.8,
       "execution": 62.8,
       "skillDepth": 85.3,
       "thinkingDepth": 38.0,
@@ -155,9 +155,9 @@
       "highLevelSkills": 144,
       "skillTotalValue": 3048.0,
       "cultivationExp": 0,
-      "baseExp": 347690,
+      "baseExp": 347790,
       "expBreakdown": {
-        "understanding": 83700,
+        "understanding": 83800,
         "execution": 62800,
         "skill": 127950,
         "thinking": 30400,
@@ -7564,7 +7564,7 @@
       },
       {
         "title": "技能加载不触发 meta-execution 启动协议（经验#80）",
-        "category": "common_pitfalls_experience",
+        "category": "development_practice_specification",
         "categoryLabel": "前端开发",
         "layer": "🛠️ 实践记忆层",
         "icon": "🎨",
@@ -7578,7 +7578,7 @@
           "requires"
         ],
         "importance": 5,
-        "updatedAt": "2026-04-19",
+        "updatedAt": "2026-04-20",
         "source": "用户显式记录"
       },
       {
@@ -8760,6 +8760,25 @@
         "source": "用户显式记录"
       },
       {
+        "title": "信息查询任务不应自动拆分为批量执行任务",
+        "category": "task_flow_experience",
+        "categoryLabel": "通用踩坑",
+        "layer": "🛠️ 实践记忆层",
+        "icon": "⚠️",
+        "color": "#ef4444",
+        "description": "信息查询任务不应自动拆分为批量执行任务 问题场景 当用户询问\"有什么/列举/分类/包含哪些\"类问题时，Agent可能误判为需要逐一执行的批量...",
+        "keywords": [
+          "任务分类",
+          "信息查询",
+          "批量执行",
+          "任务规划",
+          "误判"
+        ],
+        "importance": 4,
+        "updatedAt": "2026-04-19",
+        "source": "项目记忆"
+      },
+      {
         "title": "修复问题时的精确打击原则（防止过度删除）v4 — 含「静态资源同步完整性门控」",
         "category": "common_pitfalls_experience",
         "categoryLabel": "前端开发",
@@ -9900,25 +9919,6 @@
         "source": "项目记忆"
       },
       {
-        "title": "信息查询任务不应自动拆分为批量执行任务",
-        "category": "common_pitfalls_experience",
-        "categoryLabel": "通用踩坑",
-        "layer": "🛠️ 实践记忆层",
-        "icon": "⚠️",
-        "color": "#ef4444",
-        "description": "信息查询任务不应自动拆分为批量执行任务 问题场景 当用户询问\"有什么/列举/分类/包含哪些\"类问题时，Agent可能误判为需要逐一执行的批量...",
-        "keywords": [
-          "任务分类",
-          "信息查询",
-          "批量执行",
-          "任务规划",
-          "误判"
-        ],
-        "importance": 3,
-        "updatedAt": "2026-04-05",
-        "source": "项目记忆"
-      },
-      {
         "title": "创作类任务的前置确认原则",
         "category": "user_communication",
         "categoryLabel": "用户偏好",
@@ -10356,7 +10356,7 @@
         "description": "沟通风格、做事偏好、兴趣爱好"
       },
       "task_flow_experience": {
-        "count": 20,
+        "count": 21,
         "label": "通用踩坑",
         "icon": "⚠️",
         "color": "#ef4444",
@@ -10370,14 +10370,14 @@
         "description": "保密规则、禁止事项、必须遵守的约束"
       },
       "development_practice_specification": {
-        "count": 21,
+        "count": 22,
         "label": "做事方法",
         "icon": "⚙️",
         "color": "#5ec4d4",
         "description": "执行框架：怎么做，保障做事质量"
       },
       "common_pitfalls_experience": {
-        "count": 84,
+        "count": 82,
         "label": "发布部署",
         "icon": "🚀",
         "color": "#4ade80",
@@ -11126,7 +11126,7 @@
               },
               {
                 "title": "技能加载不触发 meta-execution 启动协议（经验#80）",
-                "category": "common_pitfalls_experience",
+                "category": "development_practice_specification",
                 "categoryLabel": "前端开发",
                 "layer": "🛠️ 实践记忆层",
                 "icon": "🎨",
@@ -11140,7 +11140,7 @@
                   "requires"
                 ],
                 "importance": 5,
-                "updatedAt": "2026-04-19",
+                "updatedAt": "2026-04-20",
                 "source": "用户显式记录"
               },
               {
@@ -12913,7 +12913,7 @@
               },
               {
                 "title": "信息查询任务不应自动拆分为批量执行任务",
-                "category": "common_pitfalls_experience",
+                "category": "task_flow_experience",
                 "categoryLabel": "通用踩坑",
                 "layer": "🛠️ 实践记忆层",
                 "icon": "⚠️",
@@ -12926,8 +12926,8 @@
                   "任务规划",
                   "误判"
                 ],
-                "importance": 3,
-                "updatedAt": "2026-04-05",
+                "importance": 4,
+                "updatedAt": "2026-04-19",
                 "source": "项目记忆"
               },
               {
